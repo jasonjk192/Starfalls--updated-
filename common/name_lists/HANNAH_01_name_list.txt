@@ -6,11 +6,11 @@ Hannah = {
 
 		generic = { }
 
-		corvette = { "Armed Probe Unit" }
+		corvette = { HANNAH_ArmedProbeUnit }
 		
-		destroyer = { "Ship Hunter" }
+		destroyer = { HANNAH_ShipHunter }
 		
-		cruiser = { "Escort Cruiser"}
+		cruiser = { HANNAH_EscortCruiser }
 
 		# StrikeCruiser = {  "Hannah A-456735" "Hannah B-001432" "Hannah C-423563" "Hannah D-101001" "Hannah F-015342" "Hannah G-244352"
 		# 		"Hannah I-894503" "Hannah H-733468" "Hannah J-334889" "Hannah K-665748" "Hannah L-758493" "Hannah Z-432258"
@@ -102,20 +102,9 @@ Hannah = {
 		# 		"Hannah E-764003" "Hannah R-000002" "Hannah T-000001" "Hannah Y-463890" "Hannah U-663980" "Hannah I-698703"
 		# 		"Hannah O-356803" "Hannah P-368909" "Hannah A-376098" "Hannah S-500525" "Hannah D-000043" "Hannah G-000004" }
 		
-		battleship = {"Hannah A-456735" "Hannah B-001432" "Hannah C-423563" "Hannah D-101001" "Hannah F-015342" "Hannah G-244352"
-				"Hannah I-894503" "Hannah H-733468" "Hannah J-334889" "Hannah K-665748" "Hannah L-758493" "Hannah Z-432258"
-				"Hannah X-468795" "Hannah C-024856" "Hannah V-122587" "Hannah B-366654" "Hannah N-778249" "Hannah M-025794"
-				"Hannah Q-468577" "Hannah W-435374" "Hannah E-658465" "Hannah R-684765" "Hannah T-354735" "Hannah Y-354987"
-				"Hannah U-349085" "Hannah I-529503" "Hannah O-198403" "Hannah P-875923" "Hannah A-154964" "Hannah S-687652"
-				"Hannah D-687321" "Hannah F-419816" "Hannah G-168762" "Hannah H-223554" "Hannah J-868732" "Hannah K-818099"
-				"Hannah L-303551" "Hannah Z-336634" "Hannah X-784576" "Hannah C-809385" "Hannah V-470636" "Hannah B-070053"
-				"Hannah N-162664" "Hannah M-000024" "Hannah Q-764003" "Hannah W-000002" "Hannah E-000001" "Hannah R-463890"	
-				"Hannah T-663980" "Hannah Y-698703" "Hannah U-356803" "Hannah I-368909" "Hannah O-376098" "Hannah P-500525"
-				"Hannah A-000043" "Hannah S-000004" "Hannah D-154964" "Hannah F-687652" "Hannah G-687321" "Hannah H-419816"
-				"Hannah J-168762" "Hannah K-223554" "Hannah L-868732" "Hannah Z-818099" "Hannah X-303551" "Hannah C-336634"
-				"Hannah V-784576" "Hannah B-809385" "Hannah N-470636" "Hannah M-070053" "Hannah Q-162664" "Hannah W-000024"
-				"Hannah E-764003" "Hannah R-000002" "Hannah T-000001" "Hannah Y-463890" "Hannah U-663980" "Hannah I-698703"
-				"Hannah O-356803" "Hannah P-368909" "Hannah A-376098" "Hannah S-500525" "Hannah D-000043" "Hannah G-000004" }
+		battleship = {
+			HANNAH_HannahA-456735 HANNAH_HannahB-001432 HANNAH_HannahC-423563 HANNAH_HannahD-101001 HANNAH_HannahF-015342 HANNAH_HannahG-244352 HANNAH_HannahI-894503 HANNAH_HannahH-733468 HANNAH_HannahJ-334889 HANNAH_HannahK-665748 HANNAH_HannahL-758493 HANNAH_HannahZ-432258 HANNAH_HannahX-468795 HANNAH_HannahC-024856 HANNAH_HannahV-122587 HANNAH_HannahB-366654 HANNAH_HannahN-778249 HANNAH_HannahM-025794 HANNAH_HannahQ-468577 HANNAH_HannahW-435374 HANNAH_HannahE-658465 HANNAH_HannahR-684765 HANNAH_HannahT-354735 HANNAH_HannahY-354987 HANNAH_HannahU-349085 HANNAH_HannahI-529503 HANNAH_HannahO-198403 HANNAH_HannahP-875923 HANNAH_HannahA-154964 HANNAH_HannahS-687652 HANNAH_HannahD-687321 HANNAH_HannahF-419816 HANNAH_HannahG-168762 HANNAH_HannahH-223554 HANNAH_HannahJ-868732 HANNAH_HannahK-818099 HANNAH_HannahL-303551 HANNAH_HannahZ-336634 HANNAH_HannahX-784576 HANNAH_HannahC-809385 HANNAH_HannahV-470636 HANNAH_HannahB-070053 HANNAH_HannahN-162664 HANNAH_HannahM-000024 HANNAH_HannahQ-764003 HANNAH_HannahW-000002 HANNAH_HannahE-000001 HANNAH_HannahR-463890 HANNAH_HannahT-663980 HANNAH_HannahY-698703 HANNAH_HannahU-356803 HANNAH_HannahI-368909 HANNAH_HannahO-376098 HANNAH_HannahP-500525 HANNAH_HannahA-000043 HANNAH_HannahS-000004 HANNAH_HannahD-154964 HANNAH_HannahF-687652 HANNAH_HannahG-687321 HANNAH_HannahH-419816 HANNAH_HannahJ-168762 HANNAH_HannahK-223554 HANNAH_HannahL-868732 HANNAH_HannahZ-818099 HANNAH_HannahX-303551 HANNAH_HannahC-336634 HANNAH_HannahV-784576 HANNAH_HannahB-809385 HANNAH_HannahN-470636 HANNAH_HannahM-070053 HANNAH_HannahQ-162664 HANNAH_HannahW-000024 HANNAH_HannahE-764003 HANNAH_HannahR-000002 HANNAH_HannahT-000001 HANNAH_HannahY-463890 HANNAH_HannahU-663980 HANNAH_HannahI-698703 HANNAH_HannahO-356803 HANNAH_HannahP-368909 HANNAH_HannahA-376098 HANNAH_HannahS-500525 HANNAH_HannahD-000043 HANNAH_HannahG-000004
+		}
 
 		# Carrier = { "Hannah A-456735" "Hannah B-001432" "Hannah C-423563" "Hannah D-101001" "Hannah F-015342" "Hannah G-244352"
 		# 		"Hannah I-894503" "Hannah H-733468" "Hannah J-334889" "Hannah K-665748" "Hannah L-758493" "Hannah Z-432258"
@@ -154,7 +143,7 @@ Hannah = {
 
 		#Flagship = { "Main Body's Flagship" "Main Unit" "Cerebral Ship" Hive Home "Hive Mind's Ship" }
 		
-		titan = { "Reconbinator" "Gatherer" "Deconstructor" "Collector" }
+		titan = { HANNAH_Reconbinator HANNAH_Gatherer HANNAH_Deconstructor HANNAH_Collector }
 				
 		#leviathan = { "Cerebral Ship" "Hive Unit" Hive }
 				
@@ -179,13 +168,13 @@ Hannah = {
 		# 		"Hannah E-764003" "Hannah R-000002" "Hannah T-000001" "Hannah Y-463890" "Hannah U-663980" "Hannah I-698703"
 		# 		"Hannah O-356803" "Hannah P-368909" "Hannah A-376098" "Hannah S-500525" "Hannah D-000043" "Hannah G-000004" }
 		
-		science = { "Mobile Laboratory" }
+		science = { HANNAH_MobileLaboratory }
 
 		#ScienceCruiser = { "Mobile Laboratory" }
 		
-		colonizer = { "Portable Lab Ship"  }
+		colonizer = { HANNAH_PortableLabShip }
 		
-		constructor = { "Construction Unit" }
+		constructor = { HANNAH_ConstructionUnit }
 
 		#ConstructionCruiser = { "Construction Unit" }
 		
@@ -212,7 +201,7 @@ Hannah = {
 
 		# PowerStation = { "Power Station 1" "Power Station 2" "Power Station 3" "Power Station 4" "Power Station 5" "Power Station 6" "Power Station 7" "Power Station 8" }
 
-		transport = { "Transport Ship" }
+		transport = { HANNAH_TransportShip }
 
 		# SensorStation = { "Sensor Station 1" "Sensor Station 2" "Sensor Station 3" "Sensor Station 4" "Sensor Station 5" "Sensor Station 6" "Sensor Station 7" "Sensor Station 8" 
 		# 		"Sensor Station 9" "Sensor Station 10" "Sensor Station 11" "Sensor Station 12" "Sensor Station 13" "Sensor Station 14" "Sensor Station 15" 
@@ -226,7 +215,7 @@ Hannah = {
 		
 		military_station_medium = { sequential_name = HANNAH_Basexx_SEQ }
 		
-		military_station_large = { "Main Defence Station" }
+		military_station_large = { HANNAH_MainDefenceStation }
 
 		# military_station_xlarge = { "Starbase 1" "Starbase 2" "Starbase 3" "Starbase 4" "Starbase 5" "Starbase 6" "Starbase 7" "Starbase 8" 
 		# 		"Starbase 9" "Starbase 10" "Starbase 11" "Starbase 12" "Starbase 13" "Starbase 14" "Starbase 15" 
@@ -237,33 +226,33 @@ Hannah = {
 		# 		"Starbase 44" "Starbase 45" "Starbase 46" "Starbase 47" "Starbase 48" "Starbase 49" "Starbase 50" }
 	}
 
-	fleet_names = { sequential_name = "%O% Swarm Unit" }
+	fleet_names = { sequential_name = HANNAH_xxSwarmUnit_ORD }
 	
 	army_names = {
 	
-		defense_army = { sequential_name = "%O% Security Squadron" }
+		defense_army = { sequential_name = HANNAH_xxSecuritySquadron_ORD }
 
-		assault_army = { sequential_name = "%O% Takeover Squadron" }
+		assault_army = { sequential_name = HANNAH_xxTakeoverSquadron_ORD }
 		
-		slave_army = { sequential_name = "%O% Armed Test Subjects Regimen" }
+		slave_army = { sequential_name = HANNAH_xxArmedTestSubjectsRegimen_ORD }
 		
-		clone_army = { sequential_name = "%O% Clone Squadron" }
+		clone_army = { sequential_name = HANNAH_xxCloneSquadron_ORD }
 		
-		robotic_army = { sequential_name = "%O% Offensive Robotic Squadron" }
+		robotic_army = { sequential_name = HANNAH_xxOffensiveRoboticSquadron_ORD }
 		
-		robotic_defense_army = { sequential_name = "%O% Defensive Robotic Squadron" }
+		robotic_defense_army = { sequential_name = HANNAH_xxDefensiveRoboticSquadron_ORD }
 		
 		#android_army = { sequential_name = "%O% Advanced Synthetic Rangers Squadron" }
 		
 		#android_defense_army = { sequential_name = "%O% Advanced Synthetic Sentinel Squadron" }
 		
-		psionic_army = { sequential_name = "%O% Psi Augmented Squadron" }
+		psionic_army = { sequential_name = HANNAH_xxPsiAugmentedSquadron_ORD }
 		
-		xenomorph_army = { sequential_name = "%O% Bio-Warfare Division" }
+		xenomorph_army = { sequential_name = HANNAH_xxBio-WarfareDivision_ORD }
 		
 		gene_warrior_army = {
 			random_names = {}
-			sequential_name = "%O% Bio-Augmented Squadron"
+			sequential_name = HANNAH_xxBio-AugmentedSquadron_ORD
 		}
 	}
 
@@ -271,73 +260,67 @@ Hannah = {
 
 		generic = {
 			names = {
-				"Laboratory 295817" "Laboratory 048271" "Laboratory 829574" "Laboratory 987632" "Laboratory 102974" 
-				"Laboratory 927503" "Laboratory 000009" "Laboratory 948637" "Laboratory 947382" "Laboratory 206841"
-				"Laboratory 305918" "Laboratory 495860" "Laboratory 592674" "Laboratory 632785" "Laboratory 783726"
-				"Laboratory 823651" "Laboratory 105948" "Laboratory 029684" "Laboratory 984763" "Laboratory 382756"
-				"Laboratory 576847" "Laboratory 574635" "Laboratory 785746" "Laboratory 574839" "Laboratory 163079"
-				"Laboratory 060606" "Laboratory 420420" "Laboratory 192837" "Laboratory 098765" "Laboratory 849165"
-				"Laboratory 847632" "Laboratory 167854" "Laboratory 386719" "Laboratory 028467" "Laboratory 258369"
+				HANNAH_Laboratory295817 HANNAH_Laboratory048271 HANNAH_Laboratory829574 HANNAH_Laboratory987632 HANNAH_Laboratory102974 HANNAH_Laboratory927503 HANNAH_Laboratory000009 HANNAH_Laboratory948637 HANNAH_Laboratory947382 HANNAH_Laboratory206841 HANNAH_Laboratory305918 HANNAH_Laboratory495860 HANNAH_Laboratory592674 HANNAH_Laboratory632785 HANNAH_Laboratory783726 HANNAH_Laboratory823651 HANNAH_Laboratory105948 HANNAH_Laboratory029684 HANNAH_Laboratory984763 HANNAH_Laboratory382756 HANNAH_Laboratory576847 HANNAH_Laboratory574635 HANNAH_Laboratory785746 HANNAH_Laboratory574839 HANNAH_Laboratory163079 HANNAH_Laboratory060606 HANNAH_Laboratory420420 HANNAH_Laboratory192837 HANNAH_Laboratory098765 HANNAH_Laboratory849165 HANNAH_Laboratory847632 HANNAH_Laboratory167854 HANNAH_Laboratory386719 HANNAH_Laboratory028467 HANNAH_Laboratory258369
 			}
 		}
 		
 		pc_desert = {
 			names = {
-				"Laboratory 090821" 
+				HANNAH_Laboratory090821
 			}
 		}
 		
 		pc_arid = {
 			names = {
-				"Laboratory 938601"
+				HANNAH_Laboratory938601
 			}
 		}
 		
 		pc_savannah = {
 			names = {
-				 "Laboratory 839685"
+				HANNAH_Laboratory839685
 			}
 		}
 		
 		pc_tropical = {
 			names = {
-				"Laboratory 182967"
+				HANNAH_Laboratory182967
 			}
 		}
 		
 		pc_continental = {
 			names = {
-				"Laboratory 984021"
+				HANNAH_Laboratory984021
 			}
 		}
 		
 		pc_gaia = {
 			names = {
-				"Quarantine Zone" "Hannah's Paradise" "The Father's burial" "Experimental Zone" "Laboratory Zero"
+				HANNAH_QuarantineZone HANNAH_HannahsParadise HANNAH_TheFathersburial HANNAH_ExperimentalZone HANNAH_LaboratoryZero
 			}
 		}
 		
 		pc_ocean = {
 			names = {
-				"Laboratory 333333" 
+				HANNAH_Laboratory333333
 			}
 		}
 		
 		pc_tundra = {
 			names = {
-				"Laboratory 136027"
+				HANNAH_Laboratory136027
 			}
 		}
 		
 		pc_arctic = {
 			names = {
-				"Laboratory 876543"
+				HANNAH_Laboratory876543
 			}
 		}
 		
 		pc_alpine = {
 			names = {
-				"Laboratory 287956" 
+				HANNAH_Laboratory287956
 			}
 		}
 	}
@@ -350,20 +333,7 @@ Hannah = {
 			weight = 100
 			# A complete name
 			full_names = {
-				"Hannah A-456735" "Hannah B-001432" "Hannah C-423563" "Hannah D-101001" "Hannah F-015342" "Hannah G-244352"
-				"Hannah I-894503" "Hannah H-733468" "Hannah J-334889" "Hannah K-665748" "Hannah L-758493" "Hannah Z-432258"
-				"Hannah X-468795" "Hannah C-024856" "Hannah V-122587" "Hannah B-366654" "Hannah N-778249" "Hannah M-025794"
-				"Hannah Q-468577" "Hannah W-435374" "Hannah E-658465" "Hannah R-684765" "Hannah T-354735" "Hannah Y-354987"
-				"Hannah U-349085" "Hannah I-529503" "Hannah O-198403" "Hannah P-875923" "Hannah A-154964" "Hannah S-687652"
-				"Hannah D-687321" "Hannah F-419816" "Hannah G-168762" "Hannah H-223554" "Hannah J-868732" "Hannah K-818099"
-				"Hannah L-303551" "Hannah Z-336634" "Hannah X-784576" "Hannah C-809385" "Hannah V-470636" "Hannah B-070053"
-				"Hannah N-162664" "Hannah M-000024" "Hannah Q-764003" "Hannah W-000002" "Hannah E-000001" "Hannah R-463890"	
-				"Hannah T-663980" "Hannah Y-698703" "Hannah U-356803" "Hannah I-368909" "Hannah O-376098" "Hannah P-500525"
-				"Hannah A-000043" "Hannah S-000004" "Hannah D-154964" "Hannah F-687652" "Hannah G-687321" "Hannah H-419816"
-				"Hannah J-168762" "Hannah K-223554" "Hannah L-868732" "Hannah Z-818099" "Hannah X-303551" "Hannah C-336634"
-				"Hannah V-784576" "Hannah B-809385" "Hannah N-470636" "Hannah M-070053" "Hannah Q-162664" "Hannah W-000024"
-				"Hannah E-764003" "Hannah R-000002" "Hannah T-000001" "Hannah Y-463890" "Hannah U-663980" "Hannah I-698703"
-				"Hannah O-356803" "Hannah P-368909" "Hannah A-376098" "Hannah S-500525" "Hannah D-000043" "Hannah G-000004"
+				HANNAH_HannahA-456735 HANNAH_HannahB-001432 HANNAH_HannahC-423563 HANNAH_HannahD-101001 HANNAH_HannahF-015342 HANNAH_HannahG-244352 HANNAH_HannahI-894503 HANNAH_HannahH-733468 HANNAH_HannahJ-334889 HANNAH_HannahK-665748 HANNAH_HannahL-758493 HANNAH_HannahZ-432258 HANNAH_HannahX-468795 HANNAH_HannahC-024856 HANNAH_HannahV-122587 HANNAH_HannahB-366654 HANNAH_HannahN-778249 HANNAH_HannahM-025794 HANNAH_HannahQ-468577 HANNAH_HannahW-435374 HANNAH_HannahE-658465 HANNAH_HannahR-684765 HANNAH_HannahT-354735 HANNAH_HannahY-354987 HANNAH_HannahU-349085 HANNAH_HannahI-529503 HANNAH_HannahO-198403 HANNAH_HannahP-875923 HANNAH_HannahA-154964 HANNAH_HannahS-687652 HANNAH_HannahD-687321 HANNAH_HannahF-419816 HANNAH_HannahG-168762 HANNAH_HannahH-223554 HANNAH_HannahJ-868732 HANNAH_HannahK-818099 HANNAH_HannahL-303551 HANNAH_HannahZ-336634 HANNAH_HannahX-784576 HANNAH_HannahC-809385 HANNAH_HannahV-470636 HANNAH_HannahB-070053 HANNAH_HannahN-162664 HANNAH_HannahM-000024 HANNAH_HannahQ-764003 HANNAH_HannahW-000002 HANNAH_HannahE-000001 HANNAH_HannahR-463890 HANNAH_HannahT-663980 HANNAH_HannahY-698703 HANNAH_HannahU-356803 HANNAH_HannahI-368909 HANNAH_HannahO-376098 HANNAH_HannahP-500525 HANNAH_HannahA-000043 HANNAH_HannahS-000004 HANNAH_HannahD-154964 HANNAH_HannahF-687652 HANNAH_HannahG-687321 HANNAH_HannahH-419816 HANNAH_HannahJ-168762 HANNAH_HannahK-223554 HANNAH_HannahL-868732 HANNAH_HannahZ-818099 HANNAH_HannahX-303551 HANNAH_HannahC-336634 HANNAH_HannahV-784576 HANNAH_HannahB-809385 HANNAH_HannahN-470636 HANNAH_HannahM-070053 HANNAH_HannahQ-162664 HANNAH_HannahW-000024 HANNAH_HannahE-764003 HANNAH_HannahR-000002 HANNAH_HannahT-000001 HANNAH_HannahY-463890 HANNAH_HannahU-663980 HANNAH_HannahI-698703 HANNAH_HannahO-356803 HANNAH_HannahP-368909 HANNAH_HannahA-376098 HANNAH_HannahS-500525 HANNAH_HannahD-000043 HANNAH_HannahG-000004
 			}
 		}
 	}

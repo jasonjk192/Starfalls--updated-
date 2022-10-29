@@ -1,8 +1,275 @@
 ﻿l_english:
 
+### corvette ###
+
+HANNAH_ArmedProbeUnit:0 "Armed Probe Unit"
+
+### destroyer ###
+
+HANNAH_ShipHunter:0 "Ship Hunter"
+
+### cruiser ###
+
+HANNAH_EscortCruiser:0 "Escort Cruiser"
+
+### # StrikeCruiser ###
+
+HANNAH_HannahA-456735:0 "Hannah A-456735"
+HANNAH_HannahB-001432:0 "Hannah B-001432"
+HANNAH_HannahC-423563:0 "Hannah C-423563"
+HANNAH_HannahD-101001:0 "Hannah D-101001"
+HANNAH_HannahF-015342:0 "Hannah F-015342"
+HANNAH_HannahG-244352:0 "Hannah G-244352"
+HANNAH_HannahI-894503:0 "Hannah I-894503"
+HANNAH_HannahH-733468:0 "Hannah H-733468"
+HANNAH_HannahJ-334889:0 "Hannah J-334889"
+HANNAH_HannahK-665748:0 "Hannah K-665748"
+HANNAH_HannahL-758493:0 "Hannah L-758493"
+HANNAH_HannahZ-432258:0 "Hannah Z-432258"
+HANNAH_HannahX-468795:0 "Hannah X-468795"
+HANNAH_HannahC-024856:0 "Hannah C-024856"
+HANNAH_HannahV-122587:0 "Hannah V-122587"
+HANNAH_HannahB-366654:0 "Hannah B-366654"
+HANNAH_HannahN-778249:0 "Hannah N-778249"
+HANNAH_HannahM-025794:0 "Hannah M-025794"
+HANNAH_HannahQ-468577:0 "Hannah Q-468577"
+HANNAH_HannahW-435374:0 "Hannah W-435374"
+HANNAH_HannahE-658465:0 "Hannah E-658465"
+HANNAH_HannahR-684765:0 "Hannah R-684765"
+HANNAH_HannahT-354735:0 "Hannah T-354735"
+HANNAH_HannahY-354987:0 "Hannah Y-354987"
+HANNAH_HannahU-349085:0 "Hannah U-349085"
+HANNAH_HannahI-529503:0 "Hannah I-529503"
+HANNAH_HannahO-198403:0 "Hannah O-198403"
+HANNAH_HannahP-875923:0 "Hannah P-875923"
+HANNAH_HannahA-154964:0 "Hannah A-154964"
+HANNAH_HannahS-687652:0 "Hannah S-687652"
+HANNAH_HannahD-687321:0 "Hannah D-687321"
+HANNAH_HannahF-419816:0 "Hannah F-419816"
+HANNAH_HannahG-168762:0 "Hannah G-168762"
+HANNAH_HannahH-223554:0 "Hannah H-223554"
+HANNAH_HannahJ-868732:0 "Hannah J-868732"
+HANNAH_HannahK-818099:0 "Hannah K-818099"
+HANNAH_HannahL-303551:0 "Hannah L-303551"
+HANNAH_HannahZ-336634:0 "Hannah Z-336634"
+HANNAH_HannahX-784576:0 "Hannah X-784576"
+HANNAH_HannahC-809385:0 "Hannah C-809385"
+HANNAH_HannahV-470636:0 "Hannah V-470636"
+HANNAH_HannahB-070053:0 "Hannah B-070053"
+HANNAH_HannahN-162664:0 "Hannah N-162664"
+HANNAH_HannahM-000024:0 "Hannah M-000024"
+HANNAH_HannahQ-764003:0 "Hannah Q-764003"
+HANNAH_HannahW-000002:0 "Hannah W-000002"
+HANNAH_HannahE-000001:0 "Hannah E-000001"
+HANNAH_HannahR-463890:0 "Hannah R-463890"
+HANNAH_HannahT-663980:0 "Hannah T-663980"
+HANNAH_HannahY-698703:0 "Hannah Y-698703"
+HANNAH_HannahU-356803:0 "Hannah U-356803"
+HANNAH_HannahI-368909:0 "Hannah I-368909"
+HANNAH_HannahO-376098:0 "Hannah O-376098"
+HANNAH_HannahP-500525:0 "Hannah P-500525"
+HANNAH_HannahA-000043:0 "Hannah A-000043"
+HANNAH_HannahS-000004:0 "Hannah S-000004"
+HANNAH_HannahD-154964:0 "Hannah D-154964"
+HANNAH_HannahF-687652:0 "Hannah F-687652"
+HANNAH_HannahG-687321:0 "Hannah G-687321"
+HANNAH_HannahH-419816:0 "Hannah H-419816"
+HANNAH_HannahJ-168762:0 "Hannah J-168762"
+HANNAH_HannahK-223554:0 "Hannah K-223554"
+HANNAH_HannahL-868732:0 "Hannah L-868732"
+HANNAH_HannahZ-818099:0 "Hannah Z-818099"
+HANNAH_HannahX-303551:0 "Hannah X-303551"
+HANNAH_HannahC-336634:0 "Hannah C-336634"
+HANNAH_HannahV-784576:0 "Hannah V-784576"
+HANNAH_HannahB-809385:0 "Hannah B-809385"
+HANNAH_HannahN-470636:0 "Hannah N-470636"
+HANNAH_HannahM-070053:0 "Hannah M-070053"
+HANNAH_HannahQ-162664:0 "Hannah Q-162664"
+HANNAH_HannahW-000024:0 "Hannah W-000024"
+HANNAH_HannahE-764003:0 "Hannah E-764003"
+HANNAH_HannahR-000002:0 "Hannah R-000002"
+HANNAH_HannahT-000001:0 "Hannah T-000001"
+HANNAH_HannahY-463890:0 "Hannah Y-463890"
+HANNAH_HannahU-663980:0 "Hannah U-663980"
+HANNAH_HannahI-698703:0 "Hannah I-698703"
+HANNAH_HannahO-356803:0 "Hannah O-356803"
+HANNAH_HannahP-368909:0 "Hannah P-368909"
+HANNAH_HannahA-376098:0 "Hannah A-376098"
+HANNAH_HannahS-500525:0 "Hannah S-500525"
+HANNAH_HannahD-000043:0 "Hannah D-000043"
+HANNAH_HannahG-000004:0 "Hannah G-000004"
+
+### #rs_dreadnought ###
+
+HANNAH_AdvancedDreadnought:0 "Advanced Dreadnought"
+HANNAH_SwarmDreadnought:0 "Swarm Dreadnought"
+HANNAH_SwarmHomeship:0 "Swarm Homeship"
+HANNAH_TestSubjectsCollector:0 "Test Subject's Collector"
+HANNAH_SwarmCalibrator:0 "Swarm Calibrator"
+
+### #Superdreadnought ###
+
+HANNAH_SwarmCommandUnit:0 "Swarm Command Unit"
+HANNAH_SwarmBase:0 "Swarm Base"
+HANNAH_SwarmsSecondaryBrain:0 "Swarm's Secondary Brain"
+HANNAH_Gigadreadnought:0 "Gigadreadnought"
+
+### #Flagship ###
+
+HANNAH_MainBodysFlagship:0 "Main Body's Flagship"
+HANNAH_MainUnit:0 "Main Unit"
+HANNAH_CerebralShip:0 "Cerebral Ship"
+HANNAH_HiveMindsShip:0 "Hive Mind's Ship"
+HANNAH_Hive:0 "Hive"
+HANNAH_Home:0 "Home"
+
+### titan ###
+
+HANNAH_Reconbinator:0 "Reconbinator"
+HANNAH_Gatherer:0 "Gatherer"
+HANNAH_Deconstructor:0 "Deconstructor"
+HANNAH_Collector:0 "Collector"
+
+### #leviathan ###
+
+HANNAH_HiveUnit:0 "Hive Unit"
+
+### #erebus ###
+
+HANNAH_ArtificialSwarmPrototype:0 "Artificial Swarm Prototype"
+
+### #ragnarok ###
+
+HANNAH_UltimatePrototype:0 "Ultimate Prototype"
+
+### #avatar ###
+
+HANNAH_WorldReconbinator:0 "World Reconbinator"
+
+### science ###
+
+HANNAH_MobileLaboratory:0 "Mobile Laboratory"
+
+### colonizer ###
+
+HANNAH_PortableLabShip:0 "Portable Lab Ship"
+
+### constructor ###
+
+HANNAH_ConstructionUnit:0 "Construction Unit"
+
+### #sun_crusher ###
+
+HANNAH_PrototypeX:0 "Prototype X"
+
+### transport ###
+
+HANNAH_TransportShip:0 "Transport Ship"
+
+### military_station_large ###
+
+HANNAH_MainDefenceStation:0 "Main Defence Station"
+
+### random_names ###
+
+HANNAH_%O%Bio-AugmentedSquadron:0 "%O% Bio-Augmented Squadron"
+
+### names ###
+
+HANNAH_Laboratory295817:0 "Laboratory 295817"
+HANNAH_Laboratory048271:0 "Laboratory 048271"
+HANNAH_Laboratory829574:0 "Laboratory 829574"
+HANNAH_Laboratory987632:0 "Laboratory 987632"
+HANNAH_Laboratory102974:0 "Laboratory 102974"
+HANNAH_Laboratory927503:0 "Laboratory 927503"
+HANNAH_Laboratory000009:0 "Laboratory 000009"
+HANNAH_Laboratory948637:0 "Laboratory 948637"
+HANNAH_Laboratory947382:0 "Laboratory 947382"
+HANNAH_Laboratory206841:0 "Laboratory 206841"
+HANNAH_Laboratory305918:0 "Laboratory 305918"
+HANNAH_Laboratory495860:0 "Laboratory 495860"
+HANNAH_Laboratory592674:0 "Laboratory 592674"
+HANNAH_Laboratory632785:0 "Laboratory 632785"
+HANNAH_Laboratory783726:0 "Laboratory 783726"
+HANNAH_Laboratory823651:0 "Laboratory 823651"
+HANNAH_Laboratory105948:0 "Laboratory 105948"
+HANNAH_Laboratory029684:0 "Laboratory 029684"
+HANNAH_Laboratory984763:0 "Laboratory 984763"
+HANNAH_Laboratory382756:0 "Laboratory 382756"
+HANNAH_Laboratory576847:0 "Laboratory 576847"
+HANNAH_Laboratory574635:0 "Laboratory 574635"
+HANNAH_Laboratory785746:0 "Laboratory 785746"
+HANNAH_Laboratory574839:0 "Laboratory 574839"
+HANNAH_Laboratory163079:0 "Laboratory 163079"
+HANNAH_Laboratory060606:0 "Laboratory 060606"
+HANNAH_Laboratory420420:0 "Laboratory 420420"
+HANNAH_Laboratory192837:0 "Laboratory 192837"
+HANNAH_Laboratory098765:0 "Laboratory 098765"
+HANNAH_Laboratory849165:0 "Laboratory 849165"
+HANNAH_Laboratory847632:0 "Laboratory 847632"
+HANNAH_Laboratory167854:0 "Laboratory 167854"
+HANNAH_Laboratory386719:0 "Laboratory 386719"
+HANNAH_Laboratory028467:0 "Laboratory 028467"
+HANNAH_Laboratory258369:0 "Laboratory 258369"
+
+### names ###
+
+HANNAH_Laboratory090821:0 "Laboratory 090821"
+
+### names ###
+
+HANNAH_Laboratory938601:0 "Laboratory 938601"
+
+### names ###
+
+HANNAH_Laboratory839685:0 "Laboratory 839685"
+
+### names ###
+
+HANNAH_Laboratory182967:0 "Laboratory 182967"
+
+### names ###
+
+HANNAH_Laboratory984021:0 "Laboratory 984021"
+
+### names ###
+
+HANNAH_QuarantineZone:0 "Quarantine Zone"
+HANNAH_HannahsParadise:0 "Hannah's Paradise"
+HANNAH_TheFathersburial:0 "The Father's burial"
+HANNAH_ExperimentalZone:0 "Experimental Zone"
+HANNAH_LaboratoryZero:0 "Laboratory Zero"
+
+### names ###
+
+HANNAH_Laboratory333333:0 "Laboratory 333333"
+
+### names ###
+
+HANNAH_Laboratory136027:0 "Laboratory 136027"
+
+### names ###
+
+HANNAH_Laboratory876543:0 "Laboratory 876543"
+
+### names ###
+
+HANNAH_Laboratory287956:0 "Laboratory 287956"
+
 ### sequential names ###
 
 HANNAH_Outpostxx_SEQ:0 "Outpost $C$"
 HANNAH_Basexx_SEQ:0 "Base $C$"
 
-CPOE_xxCrusaderFleet_ORD:0 "%O% Crusader Fleet"
+HANNAH_xxSwarmUnit_ORD:0 "%O% Swarm Unit"
+HANNAH_xxSecuritySquadron_ORD:0 "%O% Security Squadron"
+HANNAH_xxTakeoverSquadron_ORD:0 "%O% Takeover Squadron"
+HANNAH_xxArmedTestSubjectsRegimen_ORD:0 "%O% Armed Test Subjects Regimen"
+HANNAH_xxCloneSquadron_ORD:0 "%O% Clone Squadron"
+HANNAH_xxOffensiveRoboticSquadron_ORD:0 "%O% Offensive Robotic Squadron"
+HANNAH_xxDefensiveRoboticSquadron_ORD:0 "%O% Defensive Robotic Squadron"
+HANNAH_xxAdvancedSyntheticRangersSquadron_ORD:0 "%O% Advanced Synthetic Rangers Squadron" 
+HANNAH_xxAdvancedSyntheticSentinelSquadron_ORD:0 "%O% Advanced Synthetic Sentinel Squadron"	
+HANNAH_xxPsiAugmentedSquadron_ORD:0 "%O% Psi Augmented Squadron"
+HANNAH_xxBio-WarfareDivision_ORD:0 "%O% Bio-Warfare Division"
+HANNAH_xxBio-AugmentedSquadron_ORD:0 "%O% Bio-Augmented Squadron"

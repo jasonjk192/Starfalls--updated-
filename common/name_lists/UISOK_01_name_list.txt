@@ -6,11 +6,13 @@ Krasian = {
 
 		generic = {}
 
-		corvette = { "Interceptor Unit" }
+		corvette = { UISOK_InterceptorUnit }
 		
-		destroyer = { "Devastator Unit" }
+		destroyer = { UISOK_DevastatorUnit }
 		
-		cruiser = { Guardian Protector Shield Guard Paladin Salvator Hero Knight Salvator Hoplite Defender Tank Hero Prince Guide Mesiah Father Mother Son Daughter Disruptor}
+		cruiser = { 
+			UISOK_Guardian UISOK_Protector UISOK_Shield UISOK_Guard UISOK_Paladin UISOK_Salvator UISOK_Hero UISOK_Knight UISOK_Salvator UISOK_Hoplite UISOK_Defender UISOK_Tank UISOK_Hero UISOK_Prince UISOK_Guide UISOK_Mesiah UISOK_Father UISOK_Mother UISOK_Son UISOK_Daughter UISOK_Disruptor
+		}
 
 		# StrikeCruiser = {  Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
 				
@@ -24,8 +26,9 @@ Krasian = {
 				
 		# rs_support_cruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
 		
-		battleship = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-			Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord  }
+		battleship = {
+			UISOK_DamnatorofWorlds UISOK_EmperorsJugdment UISOK_DarkFire UISOK_Worldbreaker UISOK_Worldeater UISOK_Annihilator UISOK_Hellfire UISOK_Damnation UISOK_Devastator UISOK_Destructor UISOK_Murderer UISOK_Firestorm UISOK_Eradicator UISOK_Tormentor UISOK_Legion UISOK_Reprisal UISOK_Aggressor UISOK_Assault UISOK_Eviscerator UISOK_Imperator UISOK_Excellence UISOK_Unrivalled UISOK_Warlord
+		}
 
 		# Carrier = { "War Bringer" "Guide of War" Pathmaker Guide Legion "Many Faces" "Thousand Sons" }
 				
@@ -61,8 +64,9 @@ Krasian = {
 
 		# Flagship = { "The Retribution" "Empress' Wrath" "Mighty Krasia" "Will of the People" "Imperial Jugfment" "Inmortal Defiance" }
 		
-		titan = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-			Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+		titan = {
+			UISOK_DamnatorofWorlds UISOK_EmperorsJugdment UISOK_DarkFire UISOK_Worldbreaker UISOK_Worldeater UISOK_Annihilator UISOK_Hellfire UISOK_Damnation UISOK_Devastator UISOK_Destructor UISOK_Murderer UISOK_Firestorm UISOK_Eradicator UISOK_Tormentor UISOK_Legion UISOK_Reprisal UISOK_Aggressor UISOK_Assault UISOK_Eviscerator UISOK_Imperator UISOK_Excellence UISOK_Unrivalled UISOK_Warlord
+		}
 				
 		# leviathan = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
 		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
@@ -78,13 +82,13 @@ Krasian = {
 
 		# Headquarters = { "Imperial Headquarters" }
 		
-		science = { "Explorer Unit" }
+		science = { UISOK_ExplorerUnit }
 
 		# ScienceCruiser = { "Explorer Unit" }
 		
-		colonizer = { "Claimer of Worlds"  }
+		colonizer = { UISOK_ClaimerofWorlds  }
 		
-		constructor = { "Builder Unit" }
+		constructor = { UISOK_BuilderUnit }
 
 		# ConstructionCruiser = { "Builder Unit" }
 		
@@ -111,14 +115,9 @@ Krasian = {
 
 		# PowerStation = { "Power Station 1" "Power Station 2" "Power Station 3" "Power Station 4" "Power Station 5" "Power Station 6" "Power Station 7" "Power Station 8" }
 
-		transport = { Dagger Venom Anelace Baselard Mace Celt Akhu Sickle Leaf Bolt Sabot
-				Flint Needle Dart Sting Limpet Cudgel Falcata War-Hammer Prasa
-				Talwar Xiphos Armlet Flanconade Kukri Hastarii Petard Spiculum Flail
-				Ndziga Tabar Cestus Balta Bard Yatagan Lunge Arabas Kurini Shail
-				Chamber Bayonet Tomahawk Serpentine Basilisk Bowie Guidon Sten
-				Zaghnal Bolo Bangalore Morningstar Musket Mause Spitfire Parrot
-				Thunderbolt Monitor Kopis Patu Lathi Naginata Rapier Skyraider
-				Skyrider Annellet Shakujo }
+		transport = {
+			UISOK_Dagger UISOK_Venom UISOK_Anelace UISOK_Baselard UISOK_Mace UISOK_Celt UISOK_Akhu UISOK_Sickle UISOK_Leaf UISOK_Bolt UISOK_Sabot UISOK_Flint UISOK_Needle UISOK_Dart UISOK_Sting UISOK_Limpet UISOK_Cudgel UISOK_Falcata UISOK_War-Hammer UISOK_Prasa UISOK_Talwar UISOK_Xiphos UISOK_Armlet UISOK_Flanconade UISOK_Kukri UISOK_Hastarii UISOK_Petard UISOK_Spiculum UISOK_Flail UISOK_Ndziga UISOK_Tabar UISOK_Cestus UISOK_Balta UISOK_Bard UISOK_Yatagan UISOK_Lunge UISOK_Arabas UISOK_Kurini UISOK_Shail UISOK_Chamber UISOK_Bayonet UISOK_Tomahawk UISOK_Serpentine UISOK_Basilisk UISOK_Bowie UISOK_Guidon UISOK_Sten UISOK_Zaghnal UISOK_Bolo UISOK_Bangalore UISOK_Morningstar UISOK_Musket UISOK_Mause UISOK_Spitfire UISOK_Parrot UISOK_Thunderbolt UISOK_Monitor UISOK_Kopis UISOK_Patu UISOK_Lathi UISOK_Naginata UISOK_Rapier UISOK_Skyraider UISOK_Skyrider UISOK_Annellet UISOK_Shakujo
+		}
 
 		# SensorStation = { "Sensor Station 1" "Sensor Station 2" "Sensor Station 3" "Sensor Station 4" "Sensor Station 5" "Sensor Station 6" "Sensor Station 7" "Sensor Station 8" 
 		# 		"Sensor Station 9" "Sensor Station 10" "Sensor Station 11" "Sensor Station 12" "Sensor Station 13" "Sensor Station 14" "Sensor Station 15" 
@@ -130,10 +129,11 @@ Krasian = {
 		
 		military_station_small = { sequential_name = UISOK_Outpostxx_SEQ }
 		
-		military_station_medium = { "Rayleonard Station" "Primarch Station" "Crisantan Station" "Laprazant Station" "Babylon Station" "Hiks Station" "Germanikas Station" "Wolfgard Station"
-				"Acheron Station" "Spitfire Station" "Halifax Station" "Victoria Station" "Chatham Station" "Anchorage Station" }
+		military_station_medium = {
+			UISOK_RayleonardStation UISOK_PrimarchStation UISOK_CrisantanStation UISOK_LaprazantStation UISOK_BabylonStation UISOK_HiksStation UISOK_GermanikasStation UISOK_WolfgardStation UISOK_AcheronStation UISOK_SpitfireStation UISOK_HalifaxStation UISOK_VictoriaStation UISOK_ChathamStation UISOK_AnchorageStation
+		}
 		
-		military_station_large = { "Imperial Station" }
+		military_station_large = { UISOK_ImperialStation }
 
 		# military_station_xlarge = { "Starbase 1" "Starbase 2" "Starbase 3" "Starbase 4" "Starbase 5" "Starbase 6" "Starbase 7" "Starbase 8" 
 		# 		"Starbase 9" "Starbase 10" "Starbase 11" "Starbase 12" "Starbase 13" "Starbase 14" "Starbase 15" 
@@ -146,41 +146,38 @@ Krasian = {
 
 	fleet_names = {
 		random_names = {
-			"The Rayleonard Warfleet" "The Glorious Warfleet" "The Mechanized Warfleet" "The Immortal Warfleet" "The Knight Warfleet" "The Supreme Warfleet" 
-			"The Cavalry Warfleet" "The Sacred Warfleet" "The Devastator Fleet" "The Reclamator Warfleet" "The Worldbreaker Warfleet" "The Killer Warfleet" 
-			"The Shatterer Warfleet" "The Unbreakable Warfleet"
+			UISOK_TheRayleonardWarfleet UISOK_TheGloriousWarfleet UISOK_TheMechanizedWarfleet UISOK_TheImmortalWarfleet UISOK_TheKnightWarfleet UISOK_TheSupremeWarfleet UISOK_TheCavalryWarfleet UISOK_TheSacredWarfleet UISOK_TheDevastatorFleet UISOK_TheReclamatorWarfleet UISOK_TheWorldbreakerWarfleet UISOK_TheKillerWarfleet UISOK_TheShattererWarfleet UISOK_TheUnbreakableWarfleet
 		}
-		sequential_name = "%O% Fleet"
+		sequential_name = UISOK_xxFleet_ORD
 	}
 	
 	army_names = {
 	
-		defense_army = { sequential_name = "%O% Homeland Army" }
+		defense_army = { sequential_name = UISOK_xxHomelandArmy_ORD }
 
-		assault_army = { sequential_name = "%O% Imperial Army" }
+		assault_army = { sequential_name = UISOK_xxImperialArmy_ORD }
 		
-		slave_army = { sequential_name = "%O% Scum Swords" }
+		slave_army = { sequential_name = UISOK_xxScumSwords_ORD }
 		
-		clone_army = { sequential_name = "%O% Clone Army" }
+		clone_army = { sequential_name = UISOK_xxCloneArmy_ORD }
 		
-		robotic_army = { sequential_name = "%O% Destroyer Mighty Mechanized Army" }
+		robotic_army = { sequential_name = UISOK_xxDestroyerMightyMechanizedArmy_ORD }
 		
-		robotic_defense_army = { sequential_name = "%O% Protective Mighty Mechanized Army" }
+		robotic_defense_army = { sequential_name = UISOK_xxProtectiveMightyMechanizedArmy_ORD }
 		
 		# android_army = { sequential_name = "%O% Destroyer Ascended Mechanus" }
 		
 		# android_defense_army = { sequential_name = "%O% Protector Ascended Mechanus" }
 		
-		psionic_army = { sequential_name = "%O% Psi Commando" }
+		psionic_army = { sequential_name = UISOK_xxPsiCommando_ORD }
 		
-		xenomorph_army = { sequential_name = "%O% Bio-Warfare Division" }
+		xenomorph_army = { sequential_name = UISOK_xxBio-WarfareDivision_ORD }
 		
 		gene_warrior_army = {
 			random_names = {
-				"SARC-A 'Gladiators'" "SARC-B 'Widowmakers'" "SARC-C 'Immortals'" "SARC-D 'Berserkers'" "SARC-E 'Assassins'"
-				"SARC-F 'Reapers'" "SARC-G 'Nighthawks'" "SARC-H 'Desperados'" "SARC-I 'Grey Knights'" "SARC-J 'Roughnecks'" 
+				UISOK_SARC-AGladiators UISOK_SARC-BWidowmakers UISOK_SARC-CImmortals UISOK_SARC-DBerserkers UISOK_SARC-EAssassins UISOK_SARC-FReapers UISOK_SARC-GNighthawks UISOK_SARC-HDesperados UISOK_SARC-IGreyKnights UISOK_SARC-JRoughnecks 
 			}
-			sequential_name = "%O% Bio-Engineered Squadron"
+			sequential_name = UISOK_xxBio-EngineeredSquadron_ORD
 		}
 	}
 
@@ -188,69 +185,67 @@ Krasian = {
 
 		generic = {
 			names = {
-				"Mighty Velacruz" "Sacred Leonel" "Supreme Riverand" "Glorious Melechus" "Mighty Titania" "Sacred Corldwull"
-				"Glorious Neo-Krasia" "Supreme Achian" "Supreme Rayleonard" "Mighty Neo-Velacruz" "Sacred Vulcan" "Inmortal Sparta"
-				"Inmortal Crotan" "Glorious Mechanica" "Emperor's State" "Imperial State"
+				UISOK_MightyVelacruz UISOK_SacredLeonel UISOK_SupremeRiverand UISOK_GloriousMelechus UISOK_MightyTitania UISOK_SacredCorldwull UISOK_GloriousNeo-Krasia UISOK_SupremeAchian UISOK_SupremeRayleonard UISOK_MightyNeo-Velacruz UISOK_SacredVulcan UISOK_InmortalSparta UISOK_InmortalCrotan UISOK_GloriousMechanica UISOK_EmperorsState UISOK_ImperialState
 			}
 		}
 		
 		pc_desert = {
 			names = {
-				"Glorious Arabia" 
+				UISOK_GloriousArabia
 			}
 		}
 		
 		pc_arid = {
 			names = {
-				"Mighty Bardenas"
+				UISOK_MightyBardenas
 			}
 		}
 		
 		pc_savannah = {
 			names = {
-				 "Glorious Solaria"
+				UISOK_GloriousSolaria
 			}
 		}
 		
 		pc_tropical = {
 			names = {
-				"Supreme Amazonia"
+				UISOK_SupremeAmazonia
 			}
 		}
 		
 		pc_continental = {
 			names = {
-				"Sacred Hallelujah"
+				UISOK_SacredHallelujah
 			}
 		}
 		
 		pc_gaia = {
 			names = {
-				Eden Elysium Cornucopia Utopia Shambhala Xanadu Shangri-La Eternia
+				UISOK_Eden UISOK_Elysium UISOK_Cornucopia UISOK_Utopia UISOK_Shambhala UISOK_Xanadu UISOK_Shangri-La UISOK_Eternia
 			}
 		}
 		
 		pc_ocean = {
 			names = {
-				"Forgotten Atlantis" "Mighty Velacruz"
+				UISOK_ForgottenAtlantis UISOK_MightyVelacruz
 			}
 		}
 		
 		pc_tundra = {
 			names = {
-				"Destroyer's End"
+				UISOK_DestroyersEnd
 			}
 		}
 		
 		pc_arctic = {
 			names = {
-				"Imperial Neo-Artica"
+				UISOK_ImperialNeo-Artica
 			}
 		}
 		
 		pc_alpine = {
 			names = {
-				"Glorious Valentia" 
+				UISOK_GloriousValentia
 			}
 		}
 	}
@@ -262,49 +257,22 @@ Krasian = {
 		uisok_01 = {
 			weight = 100
 			first_names_male = {
-				Marcus Hectus Krasus Titatus Joanus Malus Harkus Harmus Soulus Melcus Serus Janus Surracus Arcanus Mafalcus Xacsus Maxus 
-				Naxus Zarus Merus Cantus Larus Lazarus Hekerus Trivaterus Crasus Horkus Kresherus Mekoatus Luisus Joanus Hoakus Nemerus 
-				Hikus Hekus Nekus Grekus Crentus Melkiorus Gracianus Marianus Lerrakus Kartasus Spartacus Relebius Meltorius Crotaskus 
-				Octavious Abdiesus Acanthus Abundius Achaius Achatius Achelous Achilleus Adarius Adelphus Adeodatus Aeacus Aleksious 
-				Albanus Alalcomeneus Akillius Aigeus Ahrgus Agapitus Aesculapius Aeschylus Quindarius Quiantavius Quadus Pyrrhus Pyncus 
-				Pycardus Pudentius Quintus Maximus Elkiosus Markaus Radolus Maurus Mavus Maximilianus Markus Meletus Mercurius Krotus
+				UISOK_Marcus UISOK_Hectus UISOK_Krasus UISOK_Titatus UISOK_Joanus UISOK_Malus UISOK_Harkus UISOK_Harmus UISOK_Soulus UISOK_Melcus UISOK_Serus UISOK_Janus UISOK_Surracus UISOK_Arcanus UISOK_Mafalcus UISOK_Xacsus UISOK_Maxus UISOK_Naxus UISOK_Zarus UISOK_Merus UISOK_Cantus UISOK_Larus UISOK_Lazarus UISOK_Hekerus UISOK_Trivaterus UISOK_Crasus UISOK_Horkus UISOK_Kresherus UISOK_Mekoatus UISOK_Luisus UISOK_Joanus UISOK_Hoakus UISOK_Nemerus UISOK_Hikus UISOK_Hekus UISOK_Nekus UISOK_Grekus UISOK_Crentus UISOK_Melkiorus UISOK_Gracianus UISOK_Marianus UISOK_Lerrakus UISOK_Kartasus UISOK_Spartacus UISOK_Relebius UISOK_Meltorius UISOK_Crotaskus UISOK_Octavious UISOK_Abdiesus UISOK_Acanthus UISOK_Abundius UISOK_Achaius UISOK_Achatius UISOK_Achelous UISOK_Achilleus UISOK_Adarius UISOK_Adelphus UISOK_Adeodatus UISOK_Aeacus UISOK_Aleksious UISOK_Albanus UISOK_Alalcomeneus UISOK_Akillius UISOK_Aigeus UISOK_Ahrgus UISOK_Agapitus UISOK_Aesculapius UISOK_Aeschylus UISOK_Quindarius UISOK_Quiantavius UISOK_Quadus UISOK_Pyrrhus UISOK_Pyncus UISOK_Pycardus UISOK_Pudentius UISOK_Quintus UISOK_Maximus UISOK_Elkiosus UISOK_Markaus UISOK_Radolus UISOK_Maurus UISOK_Mavus UISOK_Maximilianus UISOK_Markus UISOK_Meletus UISOK_Mercurius UISOK_Krotus
 			}
 			first_names_female = {
-				Aliza Delizia Marialize Ameriza Ciliza Joseliza Carliza Eriza Yaliza Yaniza Amiza Naliza Meriza Janeliza Eliza Catheliza
-				Ameliza Kraliza Jonaliza Monaliza Arraliza Martiza Aiza Aziza Briza Chariza Condoliza Deliza Diza Elliza Faaiza Faiza Feiza
-				Feliza Geliza Adeliza Aleiza Amiza Ariza Audriza Iza Luiza Luyiza Maiza Maliza Mariza Martiza Mauriza Meliza Raiza Riza Tiza 
-				Yaiza Giza Kuniza Kiza Liza Louiza Luiza Margariza Teniza Angeliza Heriza Piza Niza Fiza Diza Siza Dazisa D'eliza Ayiza 
-				Mergeiza 
+				UISOK_Aliza UISOK_Delizia UISOK_Marialize UISOK_Ameriza UISOK_Ciliza UISOK_Joseliza UISOK_Carliza UISOK_Eriza UISOK_Yaliza UISOK_Yaniza UISOK_Amiza UISOK_Naliza UISOK_Meriza UISOK_Janeliza UISOK_Eliza UISOK_Catheliza UISOK_Ameliza UISOK_Kraliza UISOK_Jonaliza UISOK_Monaliza UISOK_Arraliza UISOK_Martiza UISOK_Aiza UISOK_Aziza UISOK_Briza UISOK_Chariza UISOK_Condoliza UISOK_Deliza UISOK_Diza UISOK_Elliza UISOK_Faaiza UISOK_Faiza UISOK_Feiza UISOK_Feliza UISOK_Geliza UISOK_Adeliza UISOK_Aleiza UISOK_Amiza UISOK_Ariza UISOK_Audriza UISOK_Iza UISOK_Luiza UISOK_Luyiza UISOK_Maiza UISOK_Maliza UISOK_Mariza UISOK_Martiza UISOK_Mauriza UISOK_Meliza UISOK_Raiza UISOK_Riza UISOK_Tiza UISOK_Yaiza UISOK_Giza UISOK_Kuniza UISOK_Kiza UISOK_Liza UISOK_Louiza UISOK_Luiza UISOK_Margariza UISOK_Teniza UISOK_Angeliza UISOK_Heriza UISOK_Piza UISOK_Niza UISOK_Fiza UISOK_Diza UISOK_Siza UISOK_Dazisa UISOK_Deliza UISOK_Ayiza UISOK_Mergeiza
 			}
 			second_names = {
-				Primarch Crisantan Laprazant Ugraisard Aurelious Hakken Hallelujah Sarrano Mercan Keroard Marcant Tasarian Rayleonard  
-				Errikard Keroard Wolfgard Jeonis Geonis Crushnik Melks Hiks Germanikas Selmen Tisaron  Carrasquero  
-				Sandoval Santisima Trinidad Monseyiori Mangate Titan Titania North Masterson Mayfield McCall
-				Hansen Harrington Hart Hendricks Holmes Higgins Hoffman Hood Hutchinson Hyland Knight Kirk King Kenway Kennedy Kelly
-				Kane Nathanson Jennings Jacobs Jefferies Irwin Gilbert Glass Glover Goldberg Goldstein Goodman Goodwin Graham Grant Graves
-				Gray Greenberg Gorney Griffin Halley Hunter Holloway Hoover Hutchins Hill Hines Holden Harvey Handler Cohen Collins Conrad
-				Conroy Cook Conley Compton Cody Crouch Crosby Curtis Fields Farrell Felton Fisher Fleming Forrest Foster Fox Freeman
+				UISOK_Primarch UISOK_Crisantan UISOK_Laprazant UISOK_Ugraisard UISOK_Aurelious UISOK_Hakken UISOK_Hallelujah UISOK_Sarrano UISOK_Mercan UISOK_Keroard UISOK_Marcant UISOK_Tasarian UISOK_Rayleonard UISOK_Errikard UISOK_Keroard UISOK_Wolfgard UISOK_Jeonis UISOK_Geonis UISOK_Crushnik UISOK_Melks UISOK_Hiks UISOK_Germanikas UISOK_Selmen UISOK_Tisaron UISOK_Carrasquero UISOK_Sandoval UISOK_Santisima UISOK_Trinidad UISOK_Monseyiori UISOK_Mangate UISOK_Titan UISOK_Titania UISOK_North UISOK_Masterson UISOK_Mayfield UISOK_McCall UISOK_Hansen UISOK_Harrington UISOK_Hart UISOK_Hendricks UISOK_Holmes UISOK_Higgins UISOK_Hoffman UISOK_Hood UISOK_Hutchinson UISOK_Hyland UISOK_Knight UISOK_Kirk UISOK_King UISOK_Kenway UISOK_Kennedy UISOK_Kelly UISOK_Kane UISOK_Nathanson UISOK_Jennings UISOK_Jacobs UISOK_Jefferies UISOK_Irwin UISOK_Gilbert UISOK_Glass UISOK_Glover UISOK_Goldberg UISOK_Goldstein UISOK_Goodman UISOK_Goodwin UISOK_Graham UISOK_Grant UISOK_Graves UISOK_Gray UISOK_Greenberg UISOK_Gorney UISOK_Griffin UISOK_Halley UISOK_Hunter UISOK_Holloway UISOK_Hoover UISOK_Hutchins UISOK_Hill UISOK_Hines UISOK_Holden UISOK_Harvey UISOK_Handler UISOK_Cohen UISOK_Collins UISOK_Conrad UISOK_Conroy UISOK_Cook UISOK_Conley UISOK_Compton UISOK_Cody UISOK_Crouch UISOK_Crosby UISOK_Curtis UISOK_Fields UISOK_Farrell UISOK_Felton UISOK_Fisher UISOK_Fleming UISOK_Forrest UISOK_Foster UISOK_Fox UISOK_Freeman
 			}
-		
-			
 			regnal_first_names_male = {
-				Marcus Hectus Krasus Titatus Joanus Malus Harkus Harmus Soulus Melcus Serus Janus Surracus Arcanus Mafalcus Xacsus Maxus 
-				Naxus Zarus Merus Cantus Larus Lazarus Hekerus Trivaterus Crasus Horkus Kresherus Mekoatus Luisus Joanus Hoakus Nemerus 
-				Hikus Hekus Nekus Grekus Crentus Melkiorus Gracianus Marianus Lerrakus Kartasus Spartacus Relebius Meltorius Crotaskus 
-				Octavious Abdiesus Acanthus Abundius Achaius Achatius Achelous Achilleus Adarius Adelphus Adeodatus Aeacus Aleksious 
-				Albanus Alalcomeneus Akillius Aigeus Ahrgus Agapitus Aesculapius Aeschylus Quindarius Quiantavius Quadus Pyrrhus Pyncus 
-				Pycardus Pudentius Quintus Maximus Elkiosus Markaus Radolus Maurus Mavus Maximilianus Markus Meletus Mercurius Krotus
+				UISOK_Marcus UISOK_Hectus UISOK_Krasus UISOK_Titatus UISOK_Joanus UISOK_Malus UISOK_Harkus UISOK_Harmus UISOK_Soulus UISOK_Melcus UISOK_Serus UISOK_Janus UISOK_Surracus UISOK_Arcanus UISOK_Mafalcus UISOK_Xacsus UISOK_Maxus UISOK_Naxus UISOK_Zarus UISOK_Merus UISOK_Cantus UISOK_Larus UISOK_Lazarus UISOK_Hekerus UISOK_Trivaterus UISOK_Crasus UISOK_Horkus UISOK_Kresherus UISOK_Mekoatus UISOK_Luisus UISOK_Joanus UISOK_Hoakus UISOK_Nemerus UISOK_Hikus UISOK_Hekus UISOK_Nekus UISOK_Grekus UISOK_Crentus UISOK_Melkiorus UISOK_Gracianus UISOK_Marianus UISOK_Lerrakus UISOK_Kartasus UISOK_Spartacus UISOK_Relebius UISOK_Meltorius UISOK_Crotaskus UISOK_Octavious UISOK_Abdiesus UISOK_Acanthus UISOK_Abundius UISOK_Achaius UISOK_Achatius UISOK_Achelous UISOK_Achilleus UISOK_Adarius UISOK_Adelphus UISOK_Adeodatus UISOK_Aeacus UISOK_Aleksious UISOK_Albanus UISOK_Alalcomeneus UISOK_Akillius UISOK_Aigeus UISOK_Ahrgus UISOK_Agapitus UISOK_Aesculapius UISOK_Aeschylus UISOK_Quindarius UISOK_Quiantavius UISOK_Quadus UISOK_Pyrrhus UISOK_Pyncus UISOK_Pycardus UISOK_Pudentius UISOK_Quintus UISOK_Maximus UISOK_Elkiosus UISOK_Markaus UISOK_Radolus UISOK_Maurus UISOK_Mavus UISOK_Maximilianus UISOK_Markus UISOK_Meletus UISOK_Mercurius UISOK_Krotus
 			}
 			regnal_first_names_female = {
-				Aliza Delizia Marialize Ameriza Ciliza Joseliza Carliza Eriza Yaliza Yaniza Amiza Naliza Meriza Janeliza Eliza Catheliza
-				Ameliza Kraliza Jonaliza Monaliza Arraliza Martiza Aiza Aziza Briza Chariza Condoliza Deliza Diza Elliza Faaiza Faiza Feiza
-				Feliza Geliza Adeliza Aleiza Amiza Ariza Audriza Iza Luiza Luyiza Maiza Maliza Mariza Martiza Mauriza Meliza Raiza Riza Tiza 
-				Yaiza Giza Kuniza Kiza Liza Louiza Luiza Margariza Teniza Angeliza Heriza Piza Niza Fiza Diza Siza Dazisa D'eliza Ayiza 
-				Mergeiza 
+				UISOK_Aliza UISOK_Delizia UISOK_Marialize UISOK_Ameriza UISOK_Ciliza UISOK_Joseliza UISOK_Carliza UISOK_Eriza UISOK_Yaliza UISOK_Yaniza UISOK_Amiza UISOK_Naliza UISOK_Meriza UISOK_Janeliza UISOK_Eliza UISOK_Catheliza UISOK_Ameliza UISOK_Kraliza UISOK_Jonaliza UISOK_Monaliza UISOK_Arraliza UISOK_Martiza UISOK_Aiza UISOK_Aziza UISOK_Briza UISOK_Chariza UISOK_Condoliza UISOK_Deliza UISOK_Diza UISOK_Elliza UISOK_Faaiza UISOK_Faiza UISOK_Feiza UISOK_Feliza UISOK_Geliza UISOK_Adeliza UISOK_Aleiza UISOK_Amiza UISOK_Ariza UISOK_Audriza UISOK_Iza UISOK_Luiza UISOK_Luyiza UISOK_Maiza UISOK_Maliza UISOK_Mariza UISOK_Martiza UISOK_Mauriza UISOK_Meliza UISOK_Raiza UISOK_Riza UISOK_Tiza UISOK_Yaiza UISOK_Giza UISOK_Kuniza UISOK_Kiza UISOK_Liza UISOK_Louiza UISOK_Luiza UISOK_Margariza UISOK_Teniza UISOK_Angeliza UISOK_Heriza UISOK_Piza UISOK_Niza UISOK_Fiza UISOK_Diza UISOK_Siza UISOK_Dazisa UISOK_Deliza UISOK_Ayiza UISOK_Mergeiza 
 			}
 			regnal_second_names = {
-				Primarch Crisantan Laprazant Ugraisard Aurelious Hakken Hallelujah Sarrano Mercan Keroard Marcant Tasarian Rayleonard  
-				Errikard Keroard Wolfgard Jeonis Geonis Crushnik Melks Hiks Germanikas
+				UISOK_Primarch UISOK_Crisantan UISOK_Laprazant UISOK_Ugraisard UISOK_Aurelious UISOK_Hakken UISOK_Hallelujah UISOK_Sarrano UISOK_Mercan UISOK_Keroard UISOK_Marcant UISOK_Tasarian UISOK_Rayleonard UISOK_Errikard UISOK_Keroard UISOK_Wolfgard UISOK_Jeonis UISOK_Geonis UISOK_Crushnik UISOK_Melks UISOK_Hiks UISOK_Germanikas
 			}
 		}
 	}

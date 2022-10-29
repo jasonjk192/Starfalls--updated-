@@ -4,4 +4,6 @@ tags={
 	"Graphics"
 	"Spaceships"
 }
+picture="thumbnail.png"
 supported_version="3.5.*"
+remote_file_id="2881560779"

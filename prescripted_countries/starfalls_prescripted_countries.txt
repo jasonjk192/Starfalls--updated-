@@ -1,7 +1,7 @@
 UISOK1 = {
 	#key="Unified Imperial States Of Krasia"
 	name="Unified Imperial States Of Krasia"
-	adjective="U.I.S.O.K"
+	adjective= "UISOK"
 	spawn_enabled=yes
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
