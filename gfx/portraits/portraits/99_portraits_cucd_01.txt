@@ -11,32 +11,32 @@
 portraits = {
 
 	# CUCD
-	cucd_01_hybrid_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "cucd_01_female_clothes_01" hair_selector = "cucd_01_hybrid_female_hair_01"		greeting_sound = "human_female_greetings_03"
+	cucd_01_hybrid_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "cucd_01_female_clothes_01" attachment_selector = "cucd_01_hybrid_female_hair_01"		greeting_sound = "human_female_greetings_03"
 				character_textures = {
 							"gfx/models/portraits/cucd_01/hybrid/cucd_01_female_hybrid_body_01.dds"
 							"gfx/models/portraits/cucd_01/hybrid/cucd_01_female_hybrid_body_02.dds"
 							"gfx/models/portraits/cucd_01/hybrid/cucd_01_female_hybrid_body_03.dds"	
 						}
 						}
-	cucd_01_hybrid_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "cucd_01_male_clothes_01" hair_selector = "cucd_01_hybrid_male_hair_01"		greeting_sound = "human_male_greetings_03"
+	cucd_01_hybrid_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "cucd_01_male_clothes_01" attachment_selector = "cucd_01_hybrid_male_hair_01"		greeting_sound = "human_male_greetings_03"
 				character_textures = {
 							"gfx/models/portraits/cucd_01/hybrid/cucd_01_male_hybrid_body_01.dds"
 							"gfx/models/portraits/cucd_01/hybrid/cucd_01_male_hybrid_body_02.dds"
 							"gfx/models/portraits/cucd_01/hybrid/cucd_01_male_hybrid_body_03.dds"	
 						}
 						}
-	cucd_01_original_female_01 = {	entity = "portrait_arthropoid_15_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"
+	cucd_01_original_female_01 = {	entity = "portrait_arthropoid_15_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/cucd_01/original/cucd_01_female_original_body_01.dds"
 						}
 						}
-	cucd_01_original_male_01 = {	entity = "portrait_arthropoid_15_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"
+	cucd_01_original_male_01 = {	entity = "portrait_arthropoid_15_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/cucd_01/original/cucd_01_male_original_body_01.dds"
 						}
 						}
 						
-	cucd_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+	cucd_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "event_ai_started" 
 			character_textures = {
 					"gfx/models/portraits/Extras/Robot/sphere_robot_cucd_01.dds"	
 					"gfx/models/portraits/Extras/Robot/sphere_robot_cucd_02.dds"	

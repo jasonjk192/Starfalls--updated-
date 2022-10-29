@@ -81,6 +81,6 @@ hannah_01_female_hair_01 = {
 	ruler = {
 	default = "gfx/models/portraits/hannah_01/hannah_01_female_hair_01.dds"
 	
-		"gfx/models/portraits/hannah_01/hannah_01_female_hair_01.dds"= { owner = { has_government = military_dictatorship } }
+		"gfx/models/portraits/hannah_01/hannah_01_female_hair_01.dds"= { owner = { has_government = gov_military_dictatorship } }
 	}
 }

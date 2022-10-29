@@ -11,17 +11,17 @@
 portraits = {
 
 	# CPOE
-	cpoe_01_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "cpoe_01_female_clothes_01" hair_selector = "cpoe_01_female_hair_01"		greeting_sound = "human_female_greetings_03"
+	cpoe_01_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "cpoe_01_female_clothes_01" attachment_selector = "cpoe_01_female_hair_01"		greeting_sound = "human_female_greetings_03"
 		character_textures = { 	"gfx/models/portraits/cpoe_01/cpoe_female_body_01.dds"
 			}
 			}
 	
-	cpoe_01_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "cpoe_01_male_clothes_01" 	hair_selector = "cpoe_01_male_hair_01"			greeting_sound = "human_male_greetings_03" 
+	cpoe_01_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "cpoe_01_male_clothes_01" 	attachment_selector = "cpoe_01_male_hair_01"			greeting_sound = "human_male_greetings_03" 
 		character_textures = { 	"gfx/models/portraits/cpoe_01/cpoe_male_body_01.dds"
 			}
 			}
 			
-	cpoe_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+	cpoe_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "event_ai_started" 
 			character_textures = {
 					"gfx/models/portraits/Extras/Robot/sphere_robot_cpoe_01.dds"	
 					"gfx/models/portraits/Extras/Robot/sphere_robot_cpoe_02.dds"	

@@ -21,7 +21,7 @@ cpoe_system = {
 	change_orbit = 50
 	
 	planet = {
-		name = "Teras'ol"
+		name = CPOE_Terasol
 		class = "pc_molten"
 		size = 7
 		orbit_distance = { min = 0 max = 1 }
@@ -32,7 +32,7 @@ cpoe_system = {
 	change_orbit = 10
 	
 	planet = {
-		name = "Namasia'ol"
+		name = CPOE_Namasiaol
 		class = "pc_molten"
 		size = 14
 		orbit_distance = { min = 0 max = 10 }
@@ -43,7 +43,7 @@ cpoe_system = {
 	change_orbit = 20
 	
 	planet = {
-		name = "Tero'ol"
+		name = CPOE_Terool
 		class = "pc_barren"
 		size = 10
 		orbit_distance = { min = 0 max = 10 }
@@ -54,7 +54,7 @@ cpoe_system = {
 	change_orbit = 40
 	
 	planet = {
-		name = "Koera'ol"
+		name = CPOE_Koeraol
 		class = "pc_gas_giant"
 		orbit_distance = { min = 0 max = 10 }
 		orbit_angle = random
@@ -65,7 +65,7 @@ cpoe_system = {
 		modifiers = none
 		
 		moon = {
-			name = "Sarin'ol"
+			name = CPOE_Sarinol
 			class = "pc_barren_cold"
 			size = 7
 			orbit_distance = 9
@@ -73,7 +73,7 @@ cpoe_system = {
 			has_ring = no
 		}	
 		moon = {
-			name = "Mayes'ol"
+			name = CPOE_Mayesol
 			class = "pc_frozen"
 			size = 5
 			orbit_distance = 3
@@ -81,7 +81,7 @@ cpoe_system = {
 			has_ring = yes
 		}	
 		moon = {
-			name = "Ceves'ol"
+			name = CPOE_Cevesol
 			class = "pc_barren_cold"
 			size = 3
 			orbit_distance = 5
@@ -89,7 +89,7 @@ cpoe_system = {
 			has_ring = no
 		}	
 		moon = {
-			name = "Caos'ol"
+			name = CPOE_Caosol
 			class = "pc_frozen"
 			size = 8
 			orbit_distance = 7
@@ -97,7 +97,7 @@ cpoe_system = {
 			has_ring = yes
 		}	
 		moon = {
-			name = "Layuna'ol"
+			name = CPOE_Layunaol
 			class = "pc_barren_cold"
 			size = 12
 			orbit_distance = 11
@@ -105,7 +105,7 @@ cpoe_system = {
 			has_ring = no
 		}	
 		moon = {
-			name = "Perila'ol"
+			name = CPOE_Perilaol
 			class = "pc_frozen"
 			size = 7
 			orbit_distance = 13
@@ -161,7 +161,7 @@ cpoe_system = {
 	change_orbit = 25
 	
 	planet = {
-		name = "Miran'ol"
+		name = CPOE_Miranol
 		class = "pc_gas_giant"
 		orbit_distance = { min = 0 max = 10 }
 		orbit_angle = random
@@ -175,7 +175,7 @@ cpoe_system = {
 	change_orbit = 25
 	
 	planet = {
-		name = "Miran'ol"
+		name = CPOE_Miranol
 		class = "pc_frozen"
 		size = 15
 		orbit_distance = { min = 0 max = 10 }

@@ -154,7 +154,7 @@ Hannah = {
 
 		#Flagship = { "Main Body's Flagship" "Main Unit" "Cerebral Ship" Hive Home "Hive Mind's Ship" }
 		
-		titan = { Reconbinator Gatherer Deconstructor Collector }
+		titan = { "Reconbinator" "Gatherer" "Deconstructor" "Collector" }
 				
 		#leviathan = { "Cerebral Ship" "Hive Unit" Hive }
 				
@@ -222,14 +222,9 @@ Hannah = {
 		# 		"Sensor Station 37" "Sensor Station 38" "Sensor Station 39" "Sensor Station 40" "Sensor Station 41" "Sensor Station 42" "Sensor Station 43" 
 		# 		"Sensor Station 44" "Sensor Station 45" "Sensor Station 46" "Sensor Station 47" "Sensor Station 48" "Sensor Station 49" "Sensor Station 50" }
 		
-		military_station_small = { "Outpost 1" "Outpost 2" "Outpost 3" "Outpost 4" "Outpost 5" "Outpost 6" "Outpost 7" "Outpost 8" "Outpost 9" "Outpost 10" "Outpost 11" "Outpost 12"
-				"Outpost 13" "Outpost 14" "Outpost 15" "Outpost 16" "Outpost 17" "Outpost 18" "Outpost 19" "Outpost 20" "Outpost 21" "Outpost 22" "Outpost 23"
-				"Outpost 24" "Outpost 25" "Outpost 26" "Outpost 27" "Outpost 28" "Outpost 29" "Outpost 30" "Outpost 31" "Outpost 32" "Outpost 33" "Outpost 34"
-				"Outpost 35" "Outpost 36" "Outpost 37" "Outpost 38" "Outpost 39" "Outpost 40" "Outpost 41" "Outpost 42" "Outpost 43" "Outpost 44" "Outpost 45"
-				"Outpost 46" "Outpost 47" "Outpost 48" "Outpost 49" "Outpost 50" }
+		military_station_small = { sequential_name = HANNAH_Outpostxx_SEQ }
 		
-		military_station_medium = { "Base 1" "Base 2" "Base 3" "Base 4" "Base 5" "Base 6" "Base 7" "Base 8" "Base 9" "Base 10" "Base 11" "Base 12" "Base 13" "Base 14" "Base 15"
-				"Base 16" "Base 17" "Base 18" "Base 19" "Base 20" "Base  21" "Base 22" "Base 23" "Base 24" "Base 25" "Base 26" "Base 27" "Base 28" "Base 29" "Base 30"   }
+		military_station_medium = { sequential_name = HANNAH_Basexx_SEQ }
 		
 		military_station_large = { "Main Defence Station" }
 
