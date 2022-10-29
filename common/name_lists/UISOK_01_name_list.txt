@@ -1,0 +1,315 @@
+﻿### Unified Imperial States of Krasia
+Krasian = {
+	selectable = { always = yes }
+
+	ship_names = {
+
+		generic = {}
+
+		corvette = { "Interceptor Unit" }
+		
+		destroyer = { "Devastator Unit" }
+		
+		cruiser = { Guardian Protector Shield Guard Paladin Salvator Hero Knight Salvator Hoplite Defender Tank Hero Prince Guide Mesiah Father Mother Son Daughter Disruptor}
+
+		# StrikeCruiser = {  Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# rs_ea_cruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+
+		# Battlecruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# rs_battlecruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+
+		# LightCarrier = { "War Bringer" "Guide of War" Pathmaker Guide Legion "Many Faces" "Thousand Sons"  }
+				
+		# rs_support_cruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+		
+		battleship = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+			Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord  }
+
+		# Carrier = { "War Bringer" "Guide of War" Pathmaker Guide Legion "Many Faces" "Thousand Sons" }
+				
+		# rs_dreadnought = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# rs_heavy_dreadnought_type_a = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# rs_heavy_dreadnought_type_b = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# rs_heavy_dreadnought_type_c = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# rs_heavy_dreadnought_type_d = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# rs_heavy_dreadnought_type_e = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# rs_heavy_dreadnought_type_f = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# rs_heavy_dreadnought_type_g = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+
+		# Dreadnought = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+		
+		# Superdreadnought = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+
+		# Flagship = { "The Retribution" "Empress' Wrath" "Mighty Krasia" "Will of the People" "Imperial Jugfment" "Inmortal Defiance" }
+		
+		titan = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+			Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# leviathan = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# erebus = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# ragnarok = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+				
+		# avatar = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }		
+
+		# Headquarters = { "Imperial Headquarters" }
+		
+		science = { "Explorer Unit" }
+
+		# ScienceCruiser = { "Explorer Unit" }
+		
+		colonizer = { "Claimer of Worlds"  }
+		
+		constructor = { "Builder Unit" }
+
+		# ConstructionCruiser = { "Builder Unit" }
+		
+		# sun_crusher = { Jugdment }
+		
+		mining_station = { }
+		research_station = { }
+		# wormhole_station = { }
+		observation_station = { }
+
+		# outpost_station = { "Outpost 1" "Outpost 2" "Outpost 3" "Outpost 4" "Outpost 5" "Outpost 6" "Outpost 7" "Outpost 8" "Outpost 9" "Outpost 10" "Outpost 11" "Outpost 12"
+		# 		"Outpost 13" "Outpost 14" "Outpost 15" "Outpost 16" "Outpost 17" "Outpost 18" "Outpost 19" "Outpost 20" "Outpost 21" "Outpost 22" "Outpost 23"
+		# 		"Outpost 24" "Outpost 25" "Outpost 26" "Outpost 27" "Outpost 28" "Outpost 29" "Outpost 30" "Outpost 31" "Outpost 32" "Outpost 33" "Outpost 34"
+		# 		"Outpost 35" "Outpost 36" "Outpost 37" "Outpost 38" "Outpost 39" "Outpost 40" "Outpost 41" "Outpost 42" "Outpost 43" "Outpost 44" "Outpost 45"
+		# 		"Outpost 46" "Outpost 47" "Outpost 48" "Outpost 49" "Outpost 50"}
+		
+		# Drydock = { "Drydock 1" "Drydock 2" "Drydock 3" "Drydock 4" "Drydock 5" "Drydock 6" "Drydock 7" "Drydock 8" "Drydock 9" "Drydock 10" "Drydock 11" "Drydock 12"
+		# 		"Drydock 13" "Drydock 14" "Drydock 15" "Drydock 16" "Drydock 17" "Drydock 18" "Drydock 19" "Drydock 20" "Drydock 21" "Drydock 22" "Drydock 23"
+		# 		"Drydock 24" "Drydock 25" "Drydock 26" "Drydock 27" "Drydock 28" "Drydock 29" "Drydock 30" "Drydock 31" "Drydock 32" "Drydock 33" "Drydock 34"
+		# 		"Drydock 35" "Drydock 36" "Drydock 37" "Drydock 38" "Drydock 39" "Drydock 40" "Drydock 41" "Drydock 42" "Drydock 43" "Drydock 44" "Drydock 45"
+		# 		"Drydock 46" "Drydock 47" "Drydock 48" "Drydock 49" "Drydock 50"}
+
+		# MiningBase = { "Mining Base 1" "Mining Base 2" "Mining Base 3" "Mining Base 4" "Mining Base 5" "Mining Base 6" "Mining Base 7" "Mining Base 8" }
+
+		# PowerStation = { "Power Station 1" "Power Station 2" "Power Station 3" "Power Station 4" "Power Station 5" "Power Station 6" "Power Station 7" "Power Station 8" }
+
+		transport = { Dagger Venom Anelace Baselard Mace Celt Akhu Sickle Leaf Bolt Sabot
+				Flint Needle Dart Sting Limpet Cudgel Falcata War-Hammer Prasa
+				Talwar Xiphos Armlet Flanconade Kukri Hastarii Petard Spiculum Flail
+				Ndziga Tabar Cestus Balta Bard Yatagan Lunge Arabas Kurini Shail
+				Chamber Bayonet Tomahawk Serpentine Basilisk Bowie Guidon Sten
+				Zaghnal Bolo Bangalore Morningstar Musket Mause Spitfire Parrot
+				Thunderbolt Monitor Kopis Patu Lathi Naginata Rapier Skyraider
+				Skyrider Annellet Shakujo }
+
+		# SensorStation = { "Sensor Station 1" "Sensor Station 2" "Sensor Station 3" "Sensor Station 4" "Sensor Station 5" "Sensor Station 6" "Sensor Station 7" "Sensor Station 8" 
+		# 		"Sensor Station 9" "Sensor Station 10" "Sensor Station 11" "Sensor Station 12" "Sensor Station 13" "Sensor Station 14" "Sensor Station 15" 
+		# 		"Sensor Station 16" "Sensor Station 17" "Sensor Station 18" "Sensor Station 19" "Sensor Station 20" "Sensor Station 21" "Sensor Station 22" 
+		# 		"Sensor Station 23" "Sensor Station 24" "Sensor Station 25" "Sensor Station 26" "Sensor Station 27" "Sensor Station 28" "Sensor Station 29" 
+		# 		"Sensor Station 30" "Sensor Station 31" "Sensor Station 32" "Sensor Station 33" "Sensor Station 34" "Sensor Station 35" "Sensor Station 36" 
+		# 		"Sensor Station 37" "Sensor Station 38" "Sensor Station 39" "Sensor Station 40" "Sensor Station 41" "Sensor Station 42" "Sensor Station 43" 
+		# 		"Sensor Station 44" "Sensor Station 45" "Sensor Station 46" "Sensor Station 47" "Sensor Station 48" "Sensor Station 49" "Sensor Station 50" }
+		
+		military_station_small = { "Outpost 1" "Outpost 2" "Outpost 3" "Outpost 4" "Outpost 5" "Outpost 6" "Outpost 7" "Outpost 8" "Outpost 9" "Outpost 10" "Outpost 11" "Outpost 12"
+				"Outpost 13" "Outpost 14" "Outpost 15" "Outpost 16" "Outpost 17" "Outpost 18" "Outpost 19" "Outpost 20" "Outpost 21" "Outpost 22" "Outpost 23"
+				"Outpost 24" "Outpost 25" "Outpost 26" "Outpost 27" "Outpost 28" "Outpost 29" "Outpost 30" "Outpost 31" "Outpost 32" "Outpost 33" "Outpost 34"
+				"Outpost 35" "Outpost 36" "Outpost 37" "Outpost 38" "Outpost 39" "Outpost 40" "Outpost 41" "Outpost 42" "Outpost 43" "Outpost 44" "Outpost 45"
+				"Outpost 46" "Outpost 47" "Outpost 48" "Outpost 49" "Outpost 50"}
+		
+		military_station_medium = { "Rayleonard Station" "Primarch Station" "Crisantan Station" "Laprazant Station" "Babylon Station" "Hiks Station" "Germanikas Station" "Wolfgard Station"
+				"Acheron Station" "Spitfire Station" "Halifax Station" "Victoria Station" "Chatham Station" "Anchorage Station" }
+		
+		military_station_large = { "Imperial Station" }
+
+		# military_station_xlarge = { "Starbase 1" "Starbase 2" "Starbase 3" "Starbase 4" "Starbase 5" "Starbase 6" "Starbase 7" "Starbase 8" 
+		# 		"Starbase 9" "Starbase 10" "Starbase 11" "Starbase 12" "Starbase 13" "Starbase 14" "Starbase 15" 
+		# 		"Starbase 16" "Starbase 17" "Starbase 18" "Starbase 19" "Starbase 20" "Starbase 21" "Starbase 22" 
+		# 		"Starbase 23" "Starbase 24" "Starbase 25" "Starbase 26" "Starbase 27" "Starbase 28" "Starbase 29" 
+		# 		"Starbase 30" "Starbase 31" "Starbase 32" "Starbase 33" "Starbase 34" "Starbase 35" "Starbase 36" 
+		# 		"Starbase 37" "Starbase 38" "Starbase 39" "Starbase 40" "Starbase 41" "Starbase 42" "Starbase 43" 
+		# 		"Starbase 44" "Starbase 45" "Starbase 46" "Starbase 47" "Starbase 48" "Starbase 49" "Starbase 50" }
+	}
+
+	fleet_names = {
+		random_names = {
+			"The Rayleonard Warfleet" "The Glorious Warfleet" "The Mechanized Warfleet" "The Immortal Warfleet" "The Knight Warfleet" "The Supreme Warfleet" 
+			"The Cavalry Warfleet" "The Sacred Warfleet" "The Devastator Fleet" "The Reclamator Warfleet" "The Worldbreaker Warfleet" "The Killer Warfleet" 
+			"The Shatterer Warfleet" "The Unbreakable Warfleet"
+		}
+		sequential_name = "%O% Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = { sequential_name = "%O% Homeland Army" }
+
+		assault_army = { sequential_name = "%O% Imperial Army" }
+		
+		slave_army = { sequential_name = "%O% Scum Swords" }
+		
+		clone_army = { sequential_name = "%O% Clone Army" }
+		
+		robotic_army = { sequential_name = "%O% Destroyer Mighty Mechanized Army" }
+		
+		robotic_defense_army = { sequential_name = "%O% Protective Mighty Mechanized Army" }
+		
+		# android_army = { sequential_name = "%O% Destroyer Ascended Mechanus" }
+		
+		# android_defense_army = { sequential_name = "%O% Protector Ascended Mechanus" }
+		
+		psionic_army = { sequential_name = "%O% Psi Commando" }
+		
+		xenomorph_army = { sequential_name = "%O% Bio-Warfare Division" }
+		
+		gene_warrior_army = {
+			random_names = {
+				"SARC-A 'Gladiators'" "SARC-B 'Widowmakers'" "SARC-C 'Immortals'" "SARC-D 'Berserkers'" "SARC-E 'Assassins'"
+				"SARC-F 'Reapers'" "SARC-G 'Nighthawks'" "SARC-H 'Desperados'" "SARC-I 'Grey Knights'" "SARC-J 'Roughnecks'" 
+			}
+			sequential_name = "%O% Bio-Engineered Squadron"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Mighty Velacruz" "Sacred Leonel" "Supreme Riverand" "Glorious Melechus" "Mighty Titania" "Sacred Corldwull"
+				"Glorious Neo-Krasia" "Supreme Achian" "Supreme Rayleonard" "Mighty Neo-Velacruz" "Sacred Vulcan" "Inmortal Sparta"
+				"Inmortal Crotan" "Glorious Mechanica" "Emperor's State" "Imperial State"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				"Glorious Arabia" 
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				"Mighty Bardenas"
+			}
+		}
+		
+		pc_savannah = {
+			names = {
+				 "Glorious Solaria"
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				"Supreme Amazonia"
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				"Sacred Hallelujah"
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				Eden Elysium Cornucopia Utopia Shambhala Xanadu Shangri-La Eternia
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				"Forgotten Atlantis" "Mighty Velacruz"
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				"Destroyer's End"
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				"Imperial Neo-Artica"
+			}
+		}
+		
+		pc_alpine = {
+			names = {
+				"Glorious Valentia" 
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+		uisok_01 = {
+			weight = 100
+			first_names_male = {
+				Marcus Hectus Krasus Titatus Joanus Malus Harkus Harmus Soulus Melcus Serus Janus Surracus Arcanus Mafalcus Xacsus Maxus 
+				Naxus Zarus Merus Cantus Larus Lazarus Hekerus Trivaterus Crasus Horkus Kresherus Mekoatus Luisus Joanus Hoakus Nemerus 
+				Hikus Hekus Nekus Grekus Crentus Melkiorus Gracianus Marianus Lerrakus Kartasus Spartacus Relebius Meltorius Crotaskus 
+				Octavious Abdiesus Acanthus Abundius Achaius Achatius Achelous Achilleus Adarius Adelphus Adeodatus Aeacus Aleksious 
+				Albanus Alalcomeneus Akillius Aigeus Ahrgus Agapitus Aesculapius Aeschylus Quindarius Quiantavius Quadus Pyrrhus Pyncus 
+				Pycardus Pudentius Quintus Maximus Elkiosus Markaus Radolus Maurus Mavus Maximilianus Markus Meletus Mercurius Krotus
+			}
+			first_names_female = {
+				Aliza Delizia Marialize Ameriza Ciliza Joseliza Carliza Eriza Yaliza Yaniza Amiza Naliza Meriza Janeliza Eliza Catheliza
+				Ameliza Kraliza Jonaliza Monaliza Arraliza Martiza Aiza Aziza Briza Chariza Condoliza Deliza Diza Elliza Faaiza Faiza Feiza
+				Feliza Geliza Adeliza Aleiza Amiza Ariza Audriza Iza Luiza Luyiza Maiza Maliza Mariza Martiza Mauriza Meliza Raiza Riza Tiza 
+				Yaiza Giza Kuniza Kiza Liza Louiza Luiza Margariza Teniza Angeliza Heriza Piza Niza Fiza Diza Siza Dazisa D'eliza Ayiza 
+				Mergeiza 
+			}
+			second_names = {
+				Primarch Crisantan Laprazant Ugraisard Aurelious Hakken Hallelujah Sarrano Mercan Keroard Marcant Tasarian Rayleonard  
+				Errikard Keroard Wolfgard Jeonis Geonis Crushnik Melks Hiks Germanikas Selmen Tisaron  Carrasquero  
+				Sandoval Santisima Trinidad Monseyiori Mangate Titan Titania North Masterson Mayfield McCall
+				Hansen Harrington Hart Hendricks Holmes Higgins Hoffman Hood Hutchinson Hyland Knight Kirk King Kenway Kennedy Kelly
+				Kane Nathanson Jennings Jacobs Jefferies Irwin Gilbert Glass Glover Goldberg Goldstein Goodman Goodwin Graham Grant Graves
+				Gray Greenberg Gorney Griffin Halley Hunter Holloway Hoover Hutchins Hill Hines Holden Harvey Handler Cohen Collins Conrad
+				Conroy Cook Conley Compton Cody Crouch Crosby Curtis Fields Farrell Felton Fisher Fleming Forrest Foster Fox Freeman
+			}
+		
+			
+			regnal_first_names_male = {
+				Marcus Hectus Krasus Titatus Joanus Malus Harkus Harmus Soulus Melcus Serus Janus Surracus Arcanus Mafalcus Xacsus Maxus 
+				Naxus Zarus Merus Cantus Larus Lazarus Hekerus Trivaterus Crasus Horkus Kresherus Mekoatus Luisus Joanus Hoakus Nemerus 
+				Hikus Hekus Nekus Grekus Crentus Melkiorus Gracianus Marianus Lerrakus Kartasus Spartacus Relebius Meltorius Crotaskus 
+				Octavious Abdiesus Acanthus Abundius Achaius Achatius Achelous Achilleus Adarius Adelphus Adeodatus Aeacus Aleksious 
+				Albanus Alalcomeneus Akillius Aigeus Ahrgus Agapitus Aesculapius Aeschylus Quindarius Quiantavius Quadus Pyrrhus Pyncus 
+				Pycardus Pudentius Quintus Maximus Elkiosus Markaus Radolus Maurus Mavus Maximilianus Markus Meletus Mercurius Krotus
+			}
+			regnal_first_names_female = {
+				Aliza Delizia Marialize Ameriza Ciliza Joseliza Carliza Eriza Yaliza Yaniza Amiza Naliza Meriza Janeliza Eliza Catheliza
+				Ameliza Kraliza Jonaliza Monaliza Arraliza Martiza Aiza Aziza Briza Chariza Condoliza Deliza Diza Elliza Faaiza Faiza Feiza
+				Feliza Geliza Adeliza Aleiza Amiza Ariza Audriza Iza Luiza Luyiza Maiza Maliza Mariza Martiza Mauriza Meliza Raiza Riza Tiza 
+				Yaiza Giza Kuniza Kiza Liza Louiza Luiza Margariza Teniza Angeliza Heriza Piza Niza Fiza Diza Siza Dazisa D'eliza Ayiza 
+				Mergeiza 
+			}
+			regnal_second_names = {
+				Primarch Crisantan Laprazant Ugraisard Aurelious Hakken Hallelujah Sarrano Mercan Keroard Marcant Tasarian Rayleonard  
+				Errikard Keroard Wolfgard Jeonis Geonis Crushnik Melks Hiks Germanikas
+			}
+		}
+	}
+}

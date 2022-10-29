@@ -1,0 +1,548 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	
+	aquan_01_female_01 	= {	entity = "humanoid_04_female_01_entity"	clothes_selector = "aquan_01_clothes_01" hair_selector = "no_texture"	greeting_sound = "human_female_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/aquan_01/aquan_01_female_01.dds"
+			"gfx/models/portraits/aquan_01/aquan_01_female_02.dds"
+			"gfx/models/portraits/aquan_01/aquan_01_female_03.dds"
+			"gfx/models/portraits/aquan_01/aquan_01_female_04.dds"
+			"gfx/models/portraits/aquan_01/aquan_01_female_05.dds"
+		}
+	}	
+	aquan_01_male_01 	= {	entity = "humanoid_04_male_01_entity"	clothes_selector = "aquan_01_clothes_01" hair_selector = "no_texture"	greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/aquan_01/aquan_01_male_01.dds"
+			"gfx/models/portraits/aquan_01/aquan_01_male_02.dds"
+			"gfx/models/portraits/aquan_01/aquan_01_male_03.dds"
+			"gfx/models/portraits/aquan_01/aquan_01_male_04.dds"
+			"gfx/models/portraits/aquan_01/aquan_01_male_05.dds"
+		}
+	}
+
+	kioden_female_01 	= {	entity = "humanoid_04_female_01_entity"	clothes_selector = "kioden_clothes_01" hair_selector = "no_texture"	greeting_sound = "human_female_greetings_01" 
+		character_textures = {
+				"gfx/models/portraits/kioden/kioden_female_01.dds"
+				"gfx/models/portraits/kioden/kioden_female_02.dds"
+				"gfx/models/portraits/kioden/kioden_female_03.dds"
+				"gfx/models/portraits/kioden/kioden_female_04.dds"
+		}
+	}	
+	kioden_male_01 	= {	entity = "humanoid_04_male_01_entity"	clothes_selector = "kioden_clothes_01" hair_selector = "no_texture"	greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+				"gfx/models/portraits/kioden/kioden_male_01.dds"
+				"gfx/models/portraits/kioden/kioden_male_02.dds"
+				"gfx/models/portraits/kioden/kioden_male_03.dds"
+				"gfx/models/portraits/kioden/kioden_male_04.dds"
+		}
+	}
+
+	kioden_noble_female_01 	= {	entity = "humanoid_04_female_01_entity"	clothes_selector = "kioden_clothes_01" hair_selector = "no_texture"	greeting_sound = "human_female_greetings_01" 
+		character_textures = {
+				"gfx/models/portraits/kioden/kioden_female_01_albino.dds"
+				"gfx/models/portraits/kioden/kioden_female_01_royal.dds"
+				"gfx/models/portraits/kioden/kioden_female_02_royal.dds"
+				"gfx/models/portraits/kioden/kioden_female_03_royal.dds"
+				"gfx/models/portraits/kioden/kioden_female_04_royal.dds"
+		}
+	}	
+	kioden_noble_male_01 	= {	entity = "humanoid_04_male_01_entity"	clothes_selector = "kioden_clothes_01" hair_selector = "no_texture"	greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+				"gfx/models/portraits/kioden/kioden_male_01_albino.dds"
+				"gfx/models/portraits/kioden/kioden_male_01_royal.dds"
+				"gfx/models/portraits/kioden/kioden_male_02_royal.dds"
+				"gfx/models/portraits/kioden/kioden_male_03_royal.dds"
+				"gfx/models/portraits/kioden/kioden_male_04_royal.dds"
+		}
+	}
+	copon_female_01 	= {	entity = "portrait_mammalian_13_entity"	clothes_selector = "copon_clothes_01" hair_selector = "no_texture"	greeting_sound = "avian_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/copon/copon_female_body_01.dds"
+			"gfx/models/portraits/copon/copon_female_body_02.dds"
+			"gfx/models/portraits/copon/copon_female_body_03.dds"
+			"gfx/models/portraits/copon/copon_female_body_04.dds"
+			"gfx/models/portraits/copon/copon_female_body_05.dds"
+			"gfx/models/portraits/copon/copon_female_body_06.dds"
+		}
+	}	
+	copon_male_01 	= {	entity = "portrait_mammalian_13_entity"	clothes_selector = "copon_clothes_01" hair_selector = "no_texture"	greeting_sound = "avian_01_greetings" 
+	character_textures = {
+			"gfx/models/portraits/copon/copon_male_body_01.dds"
+			"gfx/models/portraits/copon/copon_male_body_02.dds"
+			"gfx/models/portraits/copon/copon_male_body_03.dds"
+			"gfx/models/portraits/copon/copon_male_body_04.dds"
+			"gfx/models/portraits/copon/copon_male_body_05.dds"
+			"gfx/models/portraits/copon/copon_male_body_06.dds"
+		}
+	}
+
+	iena_female_01	= {	entity = "humanoid_05_female_01_entity"	clothes_selector = "iena_female_clothes_01" hair_selector = "iena_female_hair_01"		greeting_sound = "human_female_greetings_04" 
+	character_textures = {
+			"gfx/models/portraits/iena/iena_female_body_01.dds"
+			"gfx/models/portraits/iena/iena_female_body_02.dds"
+			"gfx/models/portraits/iena/iena_female_body_03.dds"
+			"gfx/models/portraits/iena/iena_female_body_04.dds"
+			"gfx/models/portraits/iena/iena_female_body_05.dds"
+			"gfx/models/portraits/iena/iena_female_body_06.dds"
+			"gfx/models/portraits/iena/iena_female_body_07.dds"
+		}
+	}
+
+	iena_male_01	= {	entity = "humanoid_05_male_01_entity"	clothes_selector = "iena_male_clothes_01" hair_selector = "iena_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+	character_textures = {
+			"gfx/models/portraits/iena/iena_male_body_01.dds"
+			"gfx/models/portraits/iena/iena_male_body_02.dds"
+			"gfx/models/portraits/iena/iena_male_body_03.dds"
+			"gfx/models/portraits/iena/iena_male_body_04.dds"
+			"gfx/models/portraits/iena/iena_male_body_05.dds"
+		}	
+	}
+	
+	aquan_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Extras/Robot/sphere_robot_aquan_01.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_aquan_02.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_aquan_03.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_aquan_04.dds"
+			
+			}
+		}
+}	
+	
+portrait_groups = {
+	aquan_01 = {
+		default = aquan_01_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					aquan_01_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					aquan_01_female_01
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					aquan_01_female_01
+					aquan_01_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					aquan_01_female_01
+					aquan_01_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					aquan_01_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					aquan_01_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					aquan_01_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					aquan_01_male_01
+				}
+			}
+		}
+	}
+
+	copon = {
+		default = copon_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					copon_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					copon_female_01
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					copon_female_01
+					copon_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					copon_female_01
+					copon_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					copon_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					copon_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					copon_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					copon_male_01
+				}
+			}
+		}
+	}
+
+	
+	iena = {
+		default = iena_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					iena_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					iena_female_01
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					iena_female_01
+					iena_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					iena_female_01
+					iena_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					iena_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					iena_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					iena_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					iena_male_01
+				}
+			}
+		}
+	}
+	sphere_robot_aquan_01 = {
+		default = aquan_01_sphere_robot
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					aquan_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					aquan_01_sphere_robot
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					aquan_01_sphere_robot
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					aquan_01_sphere_robot
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					aquan_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					aquan_01_sphere_robot
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					aquan_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					aquan_01_sphere_robot
+				}
+			}
+		}
+	}
+	kioden = {
+		default = kioden_female_01 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					kioden_noble_male_01 
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					kioden_noble_female_01 
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					kioden_noble_male_01
+					kioden_noble_female_01
+					kioden_female_01
+					kioden_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					kioden_female_01
+					kioden_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					kioden_female_01
+					kioden_noble_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					kioden_male_01
+					kioden_noble_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					kioden_noble_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					kioden_noble_male_01
+				}
+			}
+		}
+	}
+}

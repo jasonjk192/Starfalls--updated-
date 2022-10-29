@@ -1,0 +1,190 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# HANNAH
+	hannah_01_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "hannah_01_female_clothes_01" hair_selector = "hannah_01_female_hair_01"		greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/hannah_01/hannah_01_female_body_01.dds"
+		}
+	}
+
+	hannah_01_admiral_01 = {	entity = "portrait_swarm_01_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"		greeting_sound = "event_swarm"
+		character_textures = {
+			"gfx/models/portraits/hannah_01/hannah_01_admiral_body_01.dds"
+		}
+	}
+	hannah_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Extras/Robot/sphere_robot_hannah_01.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_hannah_02.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_hannah_03.dds"	
+			
+			}
+		}
+}
+
+portrait_groups = {
+	hannah_01 = {
+		default = hannah_01_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, governor
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					hannah_01_admiral_01
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						leader_class = scientist
+						leader_class = general
+						leader_class = governor
+					}
+				}
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+		}
+	}	
+	sphere_robot_hannah_01 = {
+		default = hannah_01_sphere_robot
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					hannah_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					hannah_01_sphere_robot
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					hannah_01_sphere_robot
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					hannah_01_sphere_robot
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					hannah_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					hannah_01_sphere_robot
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					hannah_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					hannah_01_sphere_robot
+				}
+			}
+		}
+	}
+}

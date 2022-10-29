@@ -1,0 +1,90 @@
+objectTypes = {
+	
+#######################
+# LIGHTING - STANDARD #
+#######################
+	
+	
+	pdxparticle = {
+		name = "ship_light_uisok_cyan_effect"
+		type = "ship_light_uisok_cyan_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "ship_light_aquan_rose_effect"
+		type = "ship_light_aquan_rose_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "ship_light_cpoe_violet_effect"
+		type = "ship_light_cpoe_violet_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "ship_light_cucd_orange_effect"
+		type = "ship_light_cucd_orange_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "ship_light_hannah_yellow_effect"
+		type = "ship_light_hannah_yellow_effect"
+		
+		scale = 1.0
+	}
+
+	
+######################
+# LIGHTING - REGULAR #
+######################	
+	
+	
+	pdxparticle = {
+		name = "ship_light_uisok_cyan_regular_effect"
+		type = "ship_light_uisok_cyan_regular_effect"
+    
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "ship_light_aquan_rose_regular_effect"
+		type = "ship_light_aquan_rose_regular_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "ship_light_cpoe_violet_regular_effect"
+		type = "ship_light_cpoe_violet_regular_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "ship_light_hannah_yellow_regular_effect"
+		type = "ship_light_hannah_yellow_regular_effect"
+		
+		scale = 1.0
+	}
+	
+	
+######################
+# LIGHTING - ROLLING #
+######################	
+
+
+	pdxparticle = {
+		name = "ship_light_cpoe_violet_rolling_effect"
+		type = "ship_light_cpoe_violet_rolling_effect"
+		
+		scale = 1.0
+	}
+}
+	

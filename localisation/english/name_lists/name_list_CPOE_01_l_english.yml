@@ -1,0 +1,435 @@
+﻿l_english:
+
+### corvette ###
+
+CPOE_Angel:0 "Angel"
+
+### destroyer ###
+
+CPOE_Archangel:0 "Archangel"
+
+### cruiser ###
+
+CPOE_Paladin:0 "Paladin"
+
+### StrikeCruiser ###
+
+CPOE_Cupid:0 "Cupid"
+
+### rs_ea_cruiser ###
+
+CPOE_Prophet:0 "Prophet"
+
+### Battlecruiser ###
+
+CPOE_Templar:0 "Templar"
+
+### rs_battlecruiser ###
+
+CPOE_Daughter:0 "Daughter"
+
+### LightCarrier ###
+
+CPOE_Children:0 "Children"
+
+### rs_support_cruiser ###
+
+CPOE_Guide:0 "Guide"
+
+### battleship ###
+
+CPOE_Throne:0 "Throne"
+
+### Carrier ###
+
+CPOE_Legion:0 "Legion"
+
+### rs_dreadnought ###
+
+CPOE_Dominions:0 "Dominions"
+
+### Superdreadnought ###
+
+CPOE_Cherubim:0 "Cherubim"
+
+### Flagship ###
+
+CPOE_HandofGod:0 "Hand of God"
+CPOE_GodsPunishment:0 "God's Punishment"
+CPOE_TheSolution:0 "The Solution"
+CPOE_Crusade:0 "Crusade"
+
+### titan ###
+
+CPOE_Seraphim:0 "Seraphim"
+
+### erebus ###
+
+CPOE_DamnatorofWorlds:0 "Damnator of Worlds"
+CPOE_EmperorsJugdment:0 "Emperor's Jugdment"
+CPOE_DarkFire:0 "Dark Fire"
+CPOE_Worldbreaker:0 "Worldbreaker"
+CPOE_Worldeater:0 "Worldeater"
+CPOE_Annihilator:0 "Annihilator"
+CPOE_Hellfire:0 "Hellfire"
+CPOE_Damnation:0 "Damnation"
+CPOE_Devastator:0 "Devastator"
+CPOE_Destructor:0 "Destructor"
+CPOE_Murderer:0 "Murderer"
+CPOE_Firestorm:0 "Firestorm"
+CPOE_Eradicator:0 "Eradicator"
+CPOE_Tormentor:0 "Tormentor"
+CPOE_Reprisal:0 "Reprisal"
+CPOE_Aggressor:0 "Aggressor"
+CPOE_Assault:0 "Assault"
+CPOE_Eviscerator:0 "Eviscerator"
+CPOE_Imperator:0 "Imperator"
+CPOE_Excellence:0 "Excellence"
+CPOE_Unrivalled:0 "Unrivalled"
+CPOE_Warlord:0 "Warlord"
+
+### Headquarters ###
+
+CPOE_CathedraloftheGodoftheVoid:0 "Cathedral of the God of the Void"
+
+### science ###
+
+CPOE_ResearchersShip:0 "Researcher's Ship"
+
+### colonizer ###
+
+CPOE_ColonyTemple:0 "Colony Temple"
+
+### constructor ###
+
+CPOE_TasBuildingShip:0 "Ta's Building Ship"
+
+### sun_crusher ###
+
+CPOE_Jugdment:0 "Jugdment"
+
+### transport ###
+
+CPOE_Dagger:0 "Dagger"
+CPOE_Venom:0 "Venom"
+CPOE_Anelace:0 "Anelace"
+CPOE_Baselard:0 "Baselard"
+CPOE_Mace:0 "Mace"
+CPOE_Celt:0 "Celt"
+CPOE_Akhu:0 "Akhu"
+CPOE_Sickle:0 "Sickle"
+CPOE_Leaf:0 "Leaf"
+CPOE_Bolt:0 "Bolt"
+CPOE_Sabot:0 "Sabot"
+CPOE_Flint:0 "Flint"
+CPOE_Needle:0 "Needle"
+CPOE_Dart:0 "Dart"
+CPOE_Sting:0 "Sting"
+CPOE_Limpet:0 "Limpet"
+CPOE_Cudgel:0 "Cudgel"
+CPOE_Falcata:0 "Falcata"
+CPOE_War-Hammer:0 "War-Hammer"
+CPOE_Prasa:0 "Prasa"
+CPOE_Talwar:0 "Talwar"
+CPOE_Xiphos:0 "Xiphos"
+CPOE_Armlet:0 "Armlet"
+CPOE_Flanconade:0 "Flanconade"
+CPOE_Kukri:0 "Kukri"
+CPOE_Hastarii:0 "Hastarii"
+CPOE_Petard:0 "Petard"
+CPOE_Spiculum:0 "Spiculum"
+CPOE_Flail:0 "Flail"
+CPOE_Ndziga:0 "Ndziga"
+CPOE_Tabar:0 "Tabar"
+CPOE_Cestus:0 "Cestus"
+CPOE_Balta:0 "Balta"
+CPOE_Bard:0 "Bard"
+CPOE_Yatagan:0 "Yatagan"
+CPOE_Lunge:0 "Lunge"
+CPOE_Arabas:0 "Arabas"
+CPOE_Kurini:0 "Kurini"
+CPOE_Shail:0 "Shail"
+CPOE_Chamber:0 "Chamber"
+CPOE_Bayonet:0 "Bayonet"
+CPOE_Tomahawk:0 "Tomahawk"
+CPOE_Serpentine:0 "Serpentine"
+CPOE_Basilisk:0 "Basilisk"
+CPOE_Bowie:0 "Bowie"
+CPOE_Guidon:0 "Guidon"
+CPOE_Sten:0 "Sten"
+CPOE_Zaghnal:0 "Zaghnal"
+CPOE_Bolo:0 "Bolo"
+CPOE_Bangalore:0 "Bangalore"
+CPOE_Morningstar:0 "Morningstar"
+CPOE_Musket:0 "Musket"
+CPOE_Mause:0 "Mause"
+CPOE_Spitfire:0 "Spitfire"
+CPOE_Parrot:0 "Parrot"
+CPOE_Thunderbolt:0 "Thunderbolt"
+CPOE_Monitor:0 "Monitor"
+CPOE_Kopis:0 "Kopis"
+CPOE_Patu:0 "Patu"
+CPOE_Lathi:0 "Lathi"
+CPOE_Naginata:0 "Naginata"
+CPOE_Rapier:0 "Rapier"
+CPOE_Skyraider:0 "Skyraider"
+CPOE_Skyrider:0 "Skyrider"
+CPOE_Annellet:0 "Annellet"
+CPOE_Shakujo:0 "Shakujo"
+
+### military_station_medium ###
+
+CPOE_TashuTemple:0 "Tashu Temple"
+CPOE_FariTemple:0 "Fari Temple"
+CPOE_TeolaTemple:0 "Teola Temple"
+CPOE_FakarisTemple:0 "Fakaris Temple"
+CPOE_GlonTemple:0 "Glon Temple"
+
+### military_station_large ###
+
+CPOE_LargeTemple:0 "Large Temple"
+
+### random_names ###
+
+CPOE_TashuCrusaderFleet:0 "Tashu Crusader Fleet"
+CPOE_FariCrusaderFleet:0 "Fari Crusader Fleet"
+CPOE_PonganCrusaderFleet:0 "Pongan Crusader Fleet"
+CPOE_TeolaCrusaderFleet:0 "Teola Crusader Fleet"
+CPOE_FakarisCrusaderFleet:0 "Fakaris Crusader Fleet"
+CPOE_GlonCrusaderFleet:0 "Glon Crusader Fleet"
+CPOE_AmitarCrusaderFleet:0 "Amitar Crusader Fleet"
+CPOE_MerefarCrusaderfleet:0 "Merefar Crusader fleet"
+CPOE_PoanaCrusaderFleet:0 "Poana Crusader Fleet"
+
+###  ###
+
+CPOE_%O%CrusaderFleet:0 "%O% Crusader Fleet"
+
+### random_names ###
+
+CPOE_SARC-AGladiators:0 "SARC-A 'Gladiators'"
+CPOE_SARC-BWidowmakers:0 "SARC-B 'Widowmakers'"
+CPOE_SARC-CImmortals:0 "SARC-C 'Immortals'"
+CPOE_SARC-DBerserkers:0 "SARC-D 'Berserkers'"
+CPOE_SARC-EAssassins:0 "SARC-E 'Assassins'"
+CPOE_SARC-FReapers:0 "SARC-F 'Reapers'"
+CPOE_SARC-GNighthawks:0 "SARC-G 'Nighthawks'"
+CPOE_SARC-HDesperados:0 "SARC-H 'Desperados'"
+CPOE_SARC-IGreyKnights:0 "SARC-I 'Grey Knights'"
+CPOE_SARC-JRoughnecks:0 "SARC-J 'Roughnecks'"
+
+###  ###
+
+CPOE_%O%Bio-EngineeredSquadron:0 "%O% Bio-Engineered Squadron"
+
+### names ###
+
+CPOE_Eternia:0 "Eternia"
+CPOE_Labrediya:0 "Labrediya"
+CPOE_Apari:0 "Apari"
+CPOE_Meyoa:0 "Meyoa"
+CPOE_Mayai:0 "Mayai"
+CPOE_Kasaran:0 "Kasaran"
+CPOE_Keloc:0 "Keloc"
+CPOE_Vasi:0 "Vasi"
+CPOE_Mechencan:0 "Mechencan"
+CPOE_Sepuk:0 "Sepuk"
+CPOE_Miraocan:0 "Miraocan"
+CPOE_Lasura:0 "Lasura"
+CPOE_Cheyere:0 "Cheyere"
+CPOE_Charran:0 "Charran"
+CPOE_Goreka:0 "Goreka"
+CPOE_Sirravan:0 "Sirravan"
+CPOE_Sirrevan:0 "Sirrevan"
+CPOE_Lavan:0 "Lavan"
+CPOE_Crakasi:0 "Crakasi"
+CPOE_Perme:0 "Perme"
+CPOE_Terroazi:0 "Terroazi"
+
+### first_names_male ###
+
+CPOE_Maron:0 "Maron"
+CPOE_Karon:0 "Karon"
+CPOE_Coken:0 "Coken"
+CPOE_Coren:0 "Coren"
+CPOE_Seson:0 "Seson"
+CPOE_Sefon:0 "Sefon"
+CPOE_Lefon:0 "Lefon"
+CPOE_Queron:0 "Queron"
+CPOE_Sayon:0 "Sayon"
+CPOE_Liyon:0 "Liyon"
+CPOE_Layon:0 "Layon"
+CPOE_Pison:0 "Pison"
+CPOE_Xizon:0 "Xizon"
+CPOE_Genson:0 "Genson"
+CPOE_Leishon:0 "Leishon"
+CPOE_Crauson:0 "Crauson"
+CPOE_Railon:0 "Railon"
+CPOE_Yeron:0 "Yeron"
+CPOE_Nelon:0 "Nelon"
+CPOE_Vezon:0 "Vezon"
+CPOE_Tiaraon:0 "Tiaraon"
+CPOE_Asaon:0 "Asaon"
+CPOE_Asaron:0 "Asaron"
+CPOE_Laon:0 "Laon"
+CPOE_Yuon:0 "Yuon"
+CPOE_Won:0 "Won"
+CPOE_Eon:0 "Eon"
+CPOE_Qon:0 "Qon"
+CPOE_Leon:0 "Leon"
+CPOE_Peon:0 "Peon"
+CPOE_Ziaon:0 "Ziaon"
+CPOE_Fiaon:0 "Fiaon"
+CPOE_Liaon:0 "Liaon"
+CPOE_Siaon:0 "Siaon"
+CPOE_Diaon:0 "Diaon"
+CPOE_Eaon:0 "Eaon"
+CPOE_Qeaon:0 "Qeaon"
+CPOE_Vanon:0 "Vanon"
+CPOE_Lason:0 "Lason"
+CPOE_Paron:0 "Paron"
+CPOE_Eron:0 "Eron"
+CPOE_Tadron:0 "Tadron"
+CPOE_Laron:0 "Laron"
+CPOE_Mayon:0 "Mayon"
+CPOE_Salon:0 "Salon"
+CPOE_Piaron:0 "Piaron"
+CPOE_Zakron:0 "Zakron"
+CPOE_Seon:0 "Seon"
+CPOE_Senon:0 "Senon"
+CPOE_Lenion:0 "Lenion"
+CPOE_Xion:0 "Xion"
+CPOE_Xaon:0 "Xaon"
+CPOE_Xeon:0 "Xeon"
+CPOE_Xuon:0 "Xuon"
+CPOE_Eyon:0 "Eyon"
+CPOE_Panon:0 "Panon"
+CPOE_Jinon:0 "Jinon"
+CPOE_Koron:0 "Koron"
+CPOE_Kiron:0 "Kiron"
+CPOE_Lon:0 "Lon"
+CPOE_Loon:0 "Loon"
+CPOE_Wiojion:0 "Wiojion"
+CPOE_Jion:0 "Jion"
+CPOE_Hion:0 "Hion"
+CPOE_Fon:0 "Fon"
+CPOE_Son:0 "Son"
+CPOE_Con:0 "Con"
+CPOE_Von:0 "Von"
+CPOE_Bon:0 "Bon"
+CPOE_Non:0 "Non"
+CPOE_Yaron:0 "Yaron"
+CPOE_Uon:0 "Uon"
+CPOE_Qaon:0 "Qaon"
+CPOE_Ginon:0 "Ginon"
+CPOE_Dolon:0 "Dolon"
+CPOE_Ron:0 "Ron"
+CPOE_Tisaron:0 "Tisaron"
+CPOE_Marlon:0 "Marlon"
+CPOE_Enon:0 "Enon"
+CPOE_Echnon:0 "Echnon"
+CPOE_Mequon:0 "Mequon"
+CPOE_Soron:0 "Soron"
+CPOE_Leiron:0 "Leiron"
+CPOE_Auon:0 "Auon"
+CPOE_Ason:0 "Ason"
+CPOE_Avon:0 "Avon"
+CPOE_Acon:0 "Acon"
+CPOE_Axon:0 "Axon"
+CPOE_Azcon:0 "Azcon"
+
+### first_names_female ###
+
+CPOE_Yiniri:0 "Yiniri"
+CPOE_Liniri:0 "Liniri"
+CPOE_Iriyi:0 "Iriyi"
+CPOE_Siriyi:0 "Siriyi"
+CPOE_Miriyi:0 "Miriyi"
+CPOE_Liriyi:0 "Liriyi"
+CPOE_Quisiriyi:0 "Quisiriyi"
+CPOE_Quiriyi:0 "Quiriyi"
+CPOE_Piriyi:0 "Piriyi"
+CPOE_Wiriyi:0 "Wiriyi"
+CPOE_Tiriyi:0 "Tiriyi"
+CPOE_Firiyi:0 "Firiyi"
+CPOE_Giriyi:0 "Giriyi"
+CPOE_Hiriyi:0 "Hiriyi"
+CPOE_Jiriyi:0 "Jiriyi"
+CPOE_Kiriyi:0 "Kiriyi"
+CPOE_Ziriyi:0 "Ziriyi"
+CPOE_Xiriyi:0 "Xiriyi"
+CPOE_Ciriyi:0 "Ciriyi"
+CPOE_Viriyi:0 "Viriyi"
+CPOE_Biriyi:0 "Biriyi"
+CPOE_Niriyi:0 "Niriyi"
+CPOE_Yisiniri:0 "Yisiniri"
+CPOE_Lisiniri:0 "Lisiniri"
+CPOE_Sisiniri:0 "Sisiniri"
+CPOE_Misiriyi:0 "Misiriyi"
+CPOE_Pisiriyi:0 "Pisiriyi"
+CPOE_Tisiriyi:0 "Tisiriyi"
+CPOE_Fisiriyi:0 "Fisiriyi"
+CPOE_Jisiriyi:0 "Jisiriyi"
+CPOE_Kisiriyi:0 "Kisiriyi"
+CPOE_Xisiriyi:0 "Xisiriyi"
+CPOE_Cisiriyi:0 "Cisiriyi"
+CPOE_Visiriyi:0 "Visiriyi"
+CPOE_Bisiriyi:0 "Bisiriyi"
+CPOE_Nisiriyi:0 "Nisiriyi"
+
+### second_names ###
+
+CPOE_Lo:0 "Lo"
+CPOE_Yo:0 "Yo"
+CPOE_No:0 "No"
+CPOE_Mo:0 "Mo"
+CPOE_So:0 "So"
+CPOE_Wo:0 "Wo"
+CPOE_Co:0 "Co"
+CPOE_Qo:0 "Qo"
+CPOE_Do:0 "Do"
+CPOE_Fo:0 "Fo"
+CPOE_Go:0 "Go"
+CPOE_Ho:0 "Ho"
+CPOE_Jo:0 "Jo"
+CPOE_Ko:0 "Ko"
+CPOE_Zo:0 "Zo"
+CPOE_Xo:0 "Xo"
+CPOE_Vo:0 "Vo"
+CPOE_Bo:0 "Bo"
+
+CPOE_Sandria:0 "Sandria"
+CPOE_Larava:0 "Larava"
+CPOE_Planes:0 "Planes"
+CPOE_Vicico:0 "Vicico"
+CPOE_ArchangelsRest:0 "Archangel's Rest"
+
+CPOE_Vuruta:0 "Vuruta"
+CPOE_Pesifa:0 "Pesifa"
+CPOE_Eternia:0 "Eternia"
+CPOE_Labreda:0 "Labreda"
+CPOE_Palas:0 "Palas"
+CPOE_Sirayoa:0 "Sirayoa"
+CPOE_GodsGift:0 "God's Gift"
+CPOE_PerfectSon:0 "Perfect Son"
+CPOE_GodsSeat:0 "God's Seat"
+CPOE_FruitofGod:0 "Fruit of God"
+CPOE_GiftofGod:0 "Gift of God"
+CPOE_WisdomofGod:0 "Wisdom of God"
+
+### sequential names ###
+
+CPOE_Outpostxx_SEQ:0 "Outpost $C$"
+CPOE_SensorStationxx_SEQ:0 "Sensor Station $C$"
+CPOE_Starbasexx_SEQ:0 "Starbase $C$"
+
+CPOE_xxCrusaderFleet_ORD:0 "%O% Crusader Fleet"
+CPOE_xxGuardianSquadron_ORD:0 "%O% Guardian Squadron"
+CPOE_xxTemplarArmy_ORD:0 "%O% Templar Army" 
+CPOE_xxLowbornTroops_ORD:0 "%O% Lowborn Troops"
+CPOE_xxCreatedOnesArmy_ORD:0 "%O% Created Ones Army"
+CPOE_xxMetalArmy_ORD:0 "%O% Metal Army"
+CPOE_xxTin-CanArmy_ORD:0 "%O% Tin-Can Army"
+CPOE_xxMagesCorp_ORD:0 "%O% Mages Corp"
+CPOE_xxMutantsSquadron_ORD:0 "%O% Mutants Squadron"
+CPOE_xxBio-EngineeredSquadron_ORD:0 "%O% Bio-Engineered Squadron"

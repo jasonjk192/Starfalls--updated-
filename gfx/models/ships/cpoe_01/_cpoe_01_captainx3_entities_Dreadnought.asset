@@ -1,0 +1,537 @@
+@corvette_scale = 6.0
+@destroyer_scale = 7.0
+@cruiser_scale = 10.0
+@battleship_scale = 15.0
+@Battlecruiser_scale = 13.0
+@LightCarrier_scale = 15.0
+@Carrier_scale = 17.0
+@military_station_large = 20.0
+@Dreadnought_scale = 20.0
+@Superdreadnought_scale = 25.0
+@Flagship_scale = 30.0
+
+
+
+##################         	 DREADNOUGHT           ########################
+
+# FRAME
+entity = {
+	name = "cpoe_01_Dreadnought_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "part1" }
+	locator = { name = "part2" }
+	locator = { name = "part3" }
+	locator = { name = "part4" }
+	
+	locator = { name = "main"	position = { 0 0 0 } rotation = { 90 -90 0 } }
+	attach = { main = "cpoe_01_Dreadnought_main_entity" }
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	state = { name = "death" }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_main_entity"
+	pdxmesh = "cpoe_01_military_station_large_mesh"
+	scale = 2.5
+	
+	locator = { name = "origin"	position = { 0 0 0 } rotation = { 0 0 0 } }
+	attach = { origin = "cpoe_black_hole_large_entity" }
+	attach = { part3 = "cpoe_01_military_station_section_heavy_entity" }
+	attach = { part4 = "cpoe_01_military_station_section_heavy_entity" }
+	#attach = { part5 = "cpoe_01_military_station_section_heavy_entity" }
+	attach = { part6 = "cpoe_01_military_station_section_heavy_entity" }
+	attach = { part7 = "cpoe_01_military_station_section_heavy_entity" }
+	#attach = { part8 = "cpoe_01_military_station_section_heavy_entity" }
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		start_event = { trigger_once = yes sound = { soundeffect = "defense_station_idle_hum" } }
+	}
+	
+	state = { name = "death" state_time = 2 looping = no
+		event = { time = 0.0 node = "explosion_1" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 0.5 node = "explosion_2" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		event = { time = 1.5 node = "explosion_3" particle = "ship_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_small" } }
+		
+		event = { time = 1.9 particle = "medium_station_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "station_explosion_large" } }
+	}
+	
+	locator = { name = "explosion_1" 		position = { 5 0 2 } }
+	locator = { name = "explosion_2" 		position = { -7 -2 0 } }
+	locator = { name = "explosion_3" 		position = { -5.5 1.1 -7.5 } }
+		
+	game_data = {
+		size = @Dreadnought_scale
+	}
+}
+
+
+
+# BOW
+entity = {
+	name = "cpoe_01_Dreadnought_bow_L1M1S2_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_bow_L1S4_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_bow_L2_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_bow_M1S2SHB_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_bow_M2S4_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_bow_M3S2_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_bow_XL1_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "xl_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+#MID1
+entity = {
+	name = "cpoe_01_Dreadnought_mid1_L2S4_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid1_L1M4_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid1_L2M2_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid1_L3_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid1_M4SHB_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid1_S4LHB_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+#MID2
+entity = {
+	name = "cpoe_01_Dreadnought_mid2_L2S4_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid2_L1M4_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid2_L2M2_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid2_L3_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid2_M4SHB_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_mid2_S4LHB_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+# STERN
+
+entity = {
+	name = "cpoe_01_Dreadnought_stern_L1_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_stern_M1S2_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_stern_M2_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "cpoe_01_Dreadnought_stern_S4_entity"
+	pdxmesh = "starfalls_empty_mesh"
+	
+	locator = { name = "xl_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "strike_craft_locator_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+}

@@ -1,0 +1,21 @@
+objectTypes = {
+		
+	#######  Construction Ship  #######	
+		
+	pdxmesh = {
+		name = "hannah_01_sun_crusher_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_construction.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"						type = "arthropoid_01_construction_idle_animation" }
+		animation = { id = "working"					type = "arthropoid_01_construction_working_animation" }
+		animation = { id = "working_looping"			type = "arthropoid_01_construction_working_looping_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "hannah_01_construction_diffuse.dds"
+			texture_normal = "arthropoid_01_construction_normal.dds"
+			texture_specular = "arthropoid_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+}

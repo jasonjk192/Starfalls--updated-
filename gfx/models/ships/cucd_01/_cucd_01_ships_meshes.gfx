@@ -1,0 +1,488 @@
+objectTypes = {
+
+	
+	########################################################################
+	########														########
+	########					Test stuff							########
+	########														########
+	########################################################################
+	
+	
+	#######  Civilian Ships  #######
+	
+	pdxmesh = {
+		name = "cucd_01_science_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_science.mesh"
+		scale = 1.5
+		meshsettings = {
+			texture_diffuse = "cucd_01_science_diffuse.dds"
+			texture_normal = "reptilian_01_science_normal.dds"
+			texture_specular = "cucd_01_science_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+		
+	pdxmesh = {
+		name = "cucd_01_construction_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_construction_bot.mesh"
+		scale = 1.0
+		
+		#animation = { id = "idle"						type = "mammalian_01_construction_idle_animation" }
+		#animation = { id = "working"					type = "mammalian_01_construction_working_start_animation" }
+		#animation = { id = "working_looping"			type = "mammalian_01_construction_working_looping_animation" }
+
+		meshsettings = {
+			texture_diffuse = "cucd_01_construction_diffuse.dds"
+			texture_normal = "mammalian_01_construction_normal.dds"
+			texture_specular = "cucd_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "cucd_01_colony_mesh"
+		file = "gfx/models/ships/other/ark_ship.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"			type = "ark_ship_idle_animation" }
+		animation = { id = "death"			type = "ark_ship_death_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "cucd_01_construction_diffuse.dds"
+			texture_normal = "mammalian_01_construction_normal.dds"
+			texture_specular = "cucd_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+				
+	pdxmesh = {
+		name = "cucd_01_transport_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_transport.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_colony_diffuse.dds"
+			texture_normal = "ark_ship_textures_normal.dds"
+			texture_specular = "ark_ship_textures_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	
+	#######  escorts  ########
+	
+		pdxmesh = {
+			name = "cucd_01_bomber_mesh"
+			file = "gfx/models/ships/reptilian_01/reptilian_01_bomber.mesh"
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "cucd_01_escorts_diffuse.dds"
+				texture_normal = "reptilian_01_escorts_normal.dds"
+				texture_specular = "cucd_01_escorts_specular.dds"
+				shader = "PdxMeshShip"
+			}
+		}
+		pdxmesh = {
+			name = "cucd_01_fighter_mesh"
+			file = "gfx/models/ships/reptilian_01/reptilian_01_fighter.mesh"
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "cucd_01_escorts_diffuse.dds"
+				texture_normal = "reptilian_01_escorts_normal.dds"
+				texture_specular = "cucd_01_escorts_specular.dds"
+				shader = "PdxMeshShip"
+			}
+		}
+		pdxmesh = {
+			name = "cucd_01_droppod_mesh"
+			file = "gfx/models/ships/reptilian_01/reptilian_01_droppod.mesh"
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "cucd_01_escorts_diffuse.dds"
+				texture_normal = "reptilian_01_escorts_normal.dds"
+				texture_specular = "cucd_01_escorts_specular.dds"
+				shader = "PdxMeshShip"
+			}
+		}
+	
+	#######  corvette frame  #######
+	
+	pdxmesh = {
+		name = "cucd_01_mammalian_fighter_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_fighter.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_fighter_diffuse.dds"
+			texture_specular = "cucd_01_fighter_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  destroyer frame  #######
+	
+	pdxmesh = {
+		name = "cucd_01_destroyer_mesh"
+		file = "gfx/models/ships/pirate_01/pirate_01_corvette_M1S1.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_corvette_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  cruiser frame  #######	
+	
+	pdxmesh = {
+		name = "cucd_01_cruiser_mesh"
+		file = "gfx/models/ships/pirate_01/pirates_destroyer01_1l_2s.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_destroyer_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "cucd_01_battleship_mesh"
+		file = "gfx/models/ships/other/event_ship_04.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"			type = "molluscoid_01_corvette_frame_idle_animation" }
+		animation = { id = "death3"			type = "molluscoid_01_corvette_frame_death3_animation" }
+		
+		meshsettings = {
+			name = "lp6Shape"
+			index = 0
+			texture_diffuse = "cucd_01_battleship_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_carrier_mesh"
+		file = "gfx/models/ships/other/event_ship_04.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"			type = "molluscoid_01_corvette_frame_idle_animation" }
+		animation = { id = "death3"			type = "molluscoid_01_corvette_frame_death3_animation" }
+		
+		meshsettings = {
+			name = "lp6Shape"
+			index = 0
+			texture_diffuse = "cucd_01_carrier_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_dreadnought_mesh"
+		file = "gfx/models/ships/other/event_ship_04.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"			type = "molluscoid_01_corvette_frame_idle_animation" }
+		animation = { id = "death3"			type = "molluscoid_01_corvette_frame_death3_animation" }
+		
+		meshsettings = {
+			name = "lp6Shape"
+			index = 0
+			texture_diffuse = "cucd_01_dreadnought_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  Flagship frame & turret #######
+	
+	pdxmesh = {
+		name = "cucd_01_flagship_mesh"
+		file = "gfx/models/ships/guardians/dreadnought/npf_01_npc_warship_01.mesh"
+		scale = 1.0
+
+		animation = { id = "idle"		type = "pirate_01_galleon_idle_animation" }
+		animation = { id = "death"		type = "pirate_01_galleon_death_animation" }
+
+		meshsettings = {
+			name = "shipShape"
+			index = 0
+			texture_diffuse = "cucd_01_flagship_diffuse.dds"
+			texture_normal = "dreadnought_01_normal.dds"
+			texture_specular = "dreadnought_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_large_flagship_turret_mesh"
+		file = "gfx/models/ships/guardians/dreadnought/npf_01_large_turret.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface262Shape"
+			index = 0
+			texture_diffuse = "cucd_01_flagship_diffuse.dds"
+			texture_normal = "dreadnought_01_normal.dds"
+			texture_specular = "dreadnought_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_small_flagship_turret_mesh"
+		file = "gfx/models/ships/guardians/dreadnought/npf_01_turret_small.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "polySurface271Shape"
+			index = 0
+			texture_diffuse = "cucd_01_flagship_diffuse.dds"
+			texture_normal = "dreadnought_01_normal.dds"
+			texture_specular = "dreadnought_01_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	#######  Stations  #######	
+	
+	
+	pdxmesh = {
+		name = "cucd_01_science_station_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_science_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_mining_station_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_mining_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_terraforming_station_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_terraforming_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_military_station_large_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_large.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_military_station_medium_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_military_station_small_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_small.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "cucd_01_military_station_section_heavy_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_section_heavy.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "cucd_01_military_station_section_medium_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_section_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "cucd_01_military_station_section_light_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_section_light.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_orbital_station_frame_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_frame.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_orbital_station_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_orbital_station_science_section_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_science_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_orbital_station_assemblyyard_section_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_assemblyyard_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_orbital_station_hangar_section_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_hangar_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "cucd_01_orbital_station_refinery_section_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_refinery_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_orbital_station_habitat_section_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_habitat_section.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "module_bodyShape"
+			index = 0
+			texture_diffuse = "cucd_01_orbital_station_habitat_module_diffuse.dds"
+			texture_normal = "reptilian_01_orbital_station_habitat_module_normal.dds"
+			texture_specular = "reptilian_01_orbital_station_habitat_module_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "module_bodyShape"
+			index = 1
+			texture_diffuse = "cucd_01_orbital_station_habitat_module_diffuse.dds"
+			texture_normal = "reptilian_01_orbital_station_habitat_module_normal.dds"
+			texture_specular = "reptilian_01_orbital_station_habitat_module_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_military_station_small_test_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_small_test.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_military_station_medium_test_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_medium_test.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "cucd_01_military_station_large_test_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_large_test.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_stations_diffuse.dds"
+			texture_normal = "reptilian_01_stations_normal.dds"
+			texture_specular = "cucd_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+	

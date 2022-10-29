@@ -1,0 +1,57 @@
+﻿l_english:
+ ####################################
+ # Diplomacy text
+ ####################################
+ 
+ # Culture Names:
+ 
+ ILIUM: "Ilium"
+ 
+ HANNAH: "Hannah"
+ HANNAH_desc: " " 
+ 
+ UISOK:0 "Krasian"
+ UISOK_desc: " "
+ UISOK:1 "Krasian"
+ 
+ AQUAN: "Aquan"
+ AQUAN_desc: " "
+ 
+ CPOE: "Ascended"
+ CPOE_desc: " "
+ 
+ CUCD: "Chiujian"
+ CUCD_desc: " "
+ 
+ SPHERE: "Spherical Androids"
+ SPHERE_desc: " " 
+ 
+ name_list_Krasian: "Krasian Namelist"
+ name_list_Ascended: "Ascended Namelist"
+ name_list_Hannah: "Hannah Namelist"
+ 
+ uisok_system_NAME: "§RKrasian System§!"
+ uisok_system_DESC: "Home system of the U.I.S.O.K."
+ cpoe_system_NAME: "§RAscended System§!"
+ cpoe_system_DESC: "Home system of the C.P.O.E."
+ 
+ EMPIRE_DESIGN_uisok1: "Unified Imperial States Of Krasia"
+ EMPIRE_DESIGN_uisok1_desc: " "
+ 
+ EMPIRE_DESIGN_aquan1: "Aquan Alliance of Free Systems"
+ EMPIRE_DESIGN_aquan1_desc: " "
+ 
+ EMPIRE_DESIGN_cpoe1: "Colonial Principality of Eternia"
+ EMPIRE_DESIGN_cpoe1_desc: " "
+ 
+ EMPIRE_DESIGN_hannah1: "Hannah"
+ EMPIRE_DESIGN_hannah1_desc: " "
+ 
+ EMPIRE_DESIGN_pocon1: "Confederated Pocon Stars"
+ EMPIRE_DESIGN_pocon1_desc: " "
+ 
+ EMPIRE_DESIGN_iuna1: "Iuna Deberouche"
+ EMPIRE_DESIGN_iuna1_desc: " "
+ 
+ EMPIRE_DESIGN_kioden1: "Kioden Shogunate"
+ EMPIRE_DESIGN_kioden1_desc: " "

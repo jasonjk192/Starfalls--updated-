@@ -1,0 +1,129 @@
+objectTypes = {
+	
+	# SINGLE
+	
+	pdxparticle = {
+		name = "aquan_01_0_5_exhaust_idle_particle"
+		type = "aquan_01_ship_exhaust_idle_file"
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_1_0_exhaust_idle_particle"
+		type = "aquan_01_ship_exhaust_idle_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_1_5_exhaust_idle_particle"
+		type = "aquan_01_ship_exhaust_idle_file"
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_2_0_exhaust_idle_particle"
+		type = "aquan_01_ship_exhaust_idle_file"
+		scale = 2.0
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_2_5_exhaust_idle_particle"
+		type = "aquan_01_ship_exhaust_idle_file"
+		scale = 2.5
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_3_0_exhaust_idle_particle"
+		type = "aquan_01_ship_exhaust_idle_file"
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_5_0_exhaust_idle_particle"
+		type = "aquan_01_ship_exhaust_idle_file"
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_6_0_exhaust_idle_particle"
+		type = "aquan_01_ship_exhaust_idle_file"
+		scale = 6.0
+	}
+
+	# OBLONG
+	
+	pdxparticle = {
+		name = "aquan_01_1_5_exhaust_oblong_idle_particle"
+		type = "aquan_01_ship_exhaust_idle_large_file"
+		scale = 1.5
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	# SINGLE
+	
+	pdxparticle = {
+		name = "aquan_01_1_0_ship_exhaust_moving_particle"
+		type = "aquan_01_ship_exhaust_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_1_45_ship_exhaust_moving_particle"
+		type = "aquan_01_ship_exhaust_file"
+		scale = 1.45
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_1_5_ship_exhaust_moving_particle"
+		type = "aquan_01_ship_exhaust_file"
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_2_0_ship_exhaust_moving_particle"
+		type = "aquan_01_ship_exhaust_file"
+		scale = 2.0
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_2_5_ship_exhaust_moving_particle"
+		type = "aquan_01_ship_exhaust_file"
+		scale = 2.5
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_3_0_ship_exhaust_moving_particle"
+		type = "aquan_01_ship_exhaust_file"
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_5_0_ship_exhaust_moving_particle"
+		type = "aquan_01_ship_exhaust_file"
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_6_0_ship_exhaust_moving_particle"
+		type = "aquan_01_ship_exhaust_file"
+		scale = 6.0
+	}
+	
+	
+	# OBLONG
+	
+	pdxparticle = {
+		name = "aquan_01_1_5_ship_exhaust_oblong_moving_particle"
+		type = "aquan_01_ship_exhaust_oblong_file"
+		scale = 1.5
+	}
+		
+}

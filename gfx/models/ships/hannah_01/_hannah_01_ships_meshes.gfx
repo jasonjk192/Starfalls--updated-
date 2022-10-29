@@ -1,0 +1,997 @@
+objectTypes = {
+
+	
+	########################################################################
+	########														########
+	########					Test stuff							########
+	########														########
+	########################################################################
+	
+	pdxmesh = {
+		name = "hannah_01_bomber_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_bomber.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_bomber_diffuse.dds"
+			texture_normal = "arthropoid_01_bomber_normal.dds"
+			texture_specular = "arthropoid_01_bomber_specular.dds"
+			shader = "PdxMeshShip"
+		}		
+	}		
+	
+	pdxmesh = {
+		name = "hannah_01_fighter_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_fighter.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_fighter_diffuse.dds"
+			texture_normal = "arthropoid_01_fighter_normal.dds"
+			texture_specular = "arthropoid_01_fighter_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_launcher_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_launcher.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_dropship_diffuse.dds"
+			texture_normal = "arthropoid_01_dropship_normal.dds"
+			texture_specular = "arthropoid_01_dropship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+		
+	#pdxmesh = {
+	#	name = "hannah_01_missile_mesh"
+	#	file = "gfx/models/ships/arthropoid_01/arthropoid_01_missile_medium.mesh"
+	#	scale = 1
+	#	meshsettings = {
+	#		texture_diffuse = "hannah_01_missile_diffuse.dds"
+	#		texture_normal = "arthropoid_01_missile_normal.dds"
+	#		texture_specular = "arthropoid_01_missile_specular.dds"
+	#		shader = "PdxMeshShip"
+	#	}
+	#}
+		
+	#######  Turrets  #######	
+	
+	pdxmesh = {
+		name = "hannah_01_turret_projectile_large_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_turret_projectile_large.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_turret_projectile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_projectile_normal.dds"
+			texture_specular = "arthropoid_01_turret_projectile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_turret_projectile_medium_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_turret_projectile_medium.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_turret_projectile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_projectile_normal.dds"
+			texture_specular = "arthropoid_01_turret_projectile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_turret_projectile_small_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_turret_projectile_small.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_turret_projectile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_projectile_normal.dds"
+			texture_specular = "arthropoid_01_turret_projectile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_turret_missile_large_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_turret_missile_large.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface1Shape"
+			index = 0
+			texture_diffuse = "hannah_01_turret_projectile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_projectile_normal.dds"
+			texture_specular = "arthropoid_01_turret_projectile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface1Shape"
+			index = 1
+			texture_diffuse = "hannah_01_turret_missile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_missile_normal.dds"
+			texture_specular = "arthropoid_01_turret_missile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_turret_missile_medium_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_turret_missile_medium.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			name = "Series1TurretMedium:turretMedium:MeshShape"
+			texture_diffuse = "hannah_01_turret_projectile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_projectile_normal.dds"
+			texture_specular = "arthropoid_01_turret_projectile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pCylinderShape26"
+			texture_diffuse = "hannah_01_turret_missile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_missile_normal.dds"
+			texture_specular = "arthropoid_01_turret_missile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_turret_missile_small_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_turret_missile_small.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			name = "Series1TurretSmall:turretSmall:MeshShape"
+			texture_diffuse = "hannah_01_turret_projectile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_projectile_normal.dds"
+			texture_specular = "arthropoid_01_turret_projectile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pCylinder53Shape"
+			texture_diffuse = "hannah_01_turret_missile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_missile_normal.dds"
+			texture_specular = "arthropoid_01_turret_missile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_turret_point_defence_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_turret_point_defence.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_turret_projectile_diffuse.dds"
+			texture_normal = "arthropoid_01_turret_projectile_normal.dds"
+			texture_specular = "arthropoid_01_turret_projectile_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  corvette sections  #######	
+	
+	pdxmesh = {
+		name = "hannah_01_corvette_M1S1_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_corvette_M1S1.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_corvette_diffuse.dds"
+			texture_normal = "arthropoid_01_corvette_normal.dds"
+			texture_specular = "arthropoid_01_corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_corvette_S3_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_corvette_S3.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_corvette_diffuse.dds"
+			texture_normal = "arthropoid_01_corvette_normal.dds"
+			texture_specular = "arthropoid_01_corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+		
+	pdxmesh = {
+		name = "hannah_01_corvette_S1_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_corvette_S1.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_corvette_diffuse.dds"
+			texture_normal = "arthropoid_01_corvette_normal.dds"
+			texture_specular = "arthropoid_01_corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  destroyer bow sections  #######	
+	
+	pdxmesh = {
+		name = "hannah_01_destroyer_bow_L1_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_destroyer_bow_L1.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_destroyer_diffuse.dds"
+			texture_normal = "arthropoid_01_destroyer_normal.dds"
+			texture_specular = "arthropoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_destroyer_bow_M1S2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_destroyer_bow_M1S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_destroyer_diffuse.dds"
+			texture_normal = "arthropoid_01_destroyer_normal.dds"
+			texture_specular = "arthropoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_destroyer_bow_S3_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_destroyer_bow_S3.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_destroyer_diffuse.dds"
+			texture_normal = "arthropoid_01_destroyer_normal.dds"
+			texture_specular = "arthropoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  destroyer stern sections  #######	
+		
+	pdxmesh = {
+		name = "hannah_01_destroyer_stern_S2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_destroyer_stern_S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_destroyer_diffuse.dds"
+			texture_normal = "arthropoid_01_destroyer_normal.dds"
+			texture_specular = "arthropoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "hannah_01_destroyer_stern_M1_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_destroyer_stern_M1.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_destroyer_diffuse.dds"
+			texture_normal = "arthropoid_01_destroyer_normal.dds"
+			texture_specular = "arthropoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	
+	#######  cruiser frame  #######
+	
+	pdxmesh = {
+		name = "hannah_01_cruiser_frame_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_frame.mesh"
+				animation = { id = "idle"			type = "arthropoid_01_cruiser_frame_idle_animation" }
+				animation = { id = "death"			type = "arthropoid_01_cruiser_frame_death_animation" }
+				animation = { id = "death2"			type = "arthropoid_01_cruiser_frame_death2_animation" }
+				animation = { id = "death3"			type = "arthropoid_01_cruiser_frame_death3_animation" }
+				animation = { id = "attack"			type = "arthropoid_01_cruiser_frame_idle_animation" }				
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  cruiser bow sections  #######	
+	
+	pdxmesh = {
+		name = "hannah_01_cruiser_bow_L1_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_bow_L1.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_cruiser_bow_M1S2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_bow_M1S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_cruiser_bow_M2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_bow_M2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	#######  cruiser mid sections  #######			
+		
+	
+	pdxmesh = {
+		name = "hannah_01_cruiser_mid_S2HB_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_mid_S2HB.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "hannah_01_cruiser_mid_L1M1_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_mid_L1M1.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+				
+	pdxmesh = {
+		name = "hannah_01_cruiser_mid_M3_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_mid_m3.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}		
+	
+	pdxmesh = {
+		name = "hannah_01_cruiser_mid_M2S2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_mid_M2S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  cruiser stern sections  #######	
+		
+	pdxmesh = {
+		name = "hannah_01_cruiser_stern_M1_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_stern_M1.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "hannah_01_cruiser_stern_S2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_cruiser_stern_S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_cruiser_diffuse.dds"
+			texture_normal = "arthropoid_01_cruiser_normal.dds"
+			texture_specular = "arthropoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "hannah_01_battleship_frame_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_frame.mesh"
+				animation = { id = "idle"			type = "arthropoid_01_battleship_frame_idle_animation" }
+				animation = { id = "death"			type = "arthropoid_01_battleship_frame_death_animation" }
+				animation = { id = "death2"			type = "arthropoid_01_battleship_frame_death2_animation" }
+				animation = { id = "death3"			type = "arthropoid_01_battleship_frame_death3_animation" }
+				animation = { id = "attack"			type = "arthropoid_01_battleship_frame_idle_animation" }				
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  Battleship bow sections  #######	
+	
+	pdxmesh = {
+		name = "hannah_01_battleship_bow_L1M1S2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_bow_L1M1S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_bow_L1S4_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_bow_L1S4.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_bow_L2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_bow_L2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_bow_M1S2SHB_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_bow_M1S2SHB.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_bow_M2S4_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_bow_M2S4.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_bow_M3S2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_bow_M3S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+		
+	#######  Battleship mid sections  #######			
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_mid_L2S4_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_mid_L2S4.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_mid_L1M4_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_mid_L1M4.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_mid_L2M2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_mid_L2M2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_mid_L3_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_mid_L3.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_mid_M4SHB_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_mid_M4SHB.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_mid_S4LHB_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_mid_S4LHB.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+		
+	#######  Battleship stern sections  #######	
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_stern_L1_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_stern_L1.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "hannah_01_battleship_stern_M1S2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_stern_M1S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}		
+		
+	pdxmesh = {
+		name = "hannah_01_battleship_stern_M2_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_stern_M2.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_battleship_stern_S4.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_battleship_diffuse.dds"
+			texture_normal = "arthropoid_01_battleship_normal.dds"
+			texture_specular = "arthropoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	#######  Science Ship  #######	
+		
+	pdxmesh = {
+		name = "hannah_01_science_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_science.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_science_diffuse.dds"
+			texture_normal = "arthropoid_01_science_normal.dds"
+			texture_specular = "arthropoid_01_science_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+			
+	#######  Colony Ship  #######	
+		
+	pdxmesh = {
+		name = "hannah_01_colony_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_colony.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface47Shape"
+			texture_diffuse = "hannah_01_colony_diffuse.dds"
+			texture_normal = "arthropoid_01_colony_normal.dds"
+			texture_specular = "arthropoid_01_colony_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+		meshsettings = {
+			name = "polySurface59Shape"
+			texture_diffuse = "hannah_01_colony_diffuse.dds"
+			texture_normal = "arthropoid_01_colony_normal.dds"
+			texture_specular = "arthropoid_01_colony_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	
+			
+	#######  Construction Ship  #######	
+		
+	pdxmesh = {
+		name = "hannah_01_construction_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_construction.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"						type = "arthropoid_01_construction_idle_animation" }
+		animation = { id = "working"					type = "arthropoid_01_construction_working_animation" }
+		animation = { id = "working_looping"			type = "arthropoid_01_construction_working_looping_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "hannah_01_construction_diffuse.dds"
+			texture_normal = "arthropoid_01_construction_normal.dds"
+			texture_specular = "arthropoid_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+			
+	#######  Transport	Ship  #######	
+		
+	pdxmesh = {
+		name = "hannah_01_transport_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_transport.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_transport_diffuse.dds"
+			texture_normal = "arthropoid_01_transport_normal.dds"
+			texture_specular = "arthropoid_01_transport_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	
+	
+		
+	
+
+###################################################################################
+###																				###
+###									STATIONS									###
+###																				###
+###################################################################################
+
+	pdxmesh = {
+		name = "hannah_01_science_station_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_science_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_mining_station_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_mining_station.mesh"
+		
+		animation = { id = "idle"			type = "arthropoid_01_mining_station_idle_animation" }
+		animation = { id = "death"			type = "arthropoid_01_mining_station_death_animation" }
+		
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_terraforming_station_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_terraforming_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+
+
+	
+	pdxmesh = {
+		name = "hannah_01_orbital_station_frame_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_orbital_station_frame.mesh"
+		scale = 1.0
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_orbital_station_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_orbital_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "OrbitalNew:polySurfaceShape1"
+			index = 0
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "OrbitalNew:polySurfaceShape1"
+			index = 1
+			texture_diffuse = "hannah_01_construction_diffuse.dds"
+			texture_normal = "arthropoid_01_construction_normal.dds"
+			texture_specular = "arthropoid_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "hannah_01_orbital_station_assemblyyard_section_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_orbital_station_assemblyyard_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "OrbCons:OrbConsShape"
+			index = 1
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "OrbCons:OrbConsShape"
+			index = 0
+			texture_diffuse = "hannah_01_construction_diffuse.dds"
+			texture_normal = "arthropoid_01_construction_normal.dds"
+			texture_specular = "arthropoid_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_orbital_station_hangarbay_section_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_orbital_station_hangarbay_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_orbital_station_refinery_section_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_orbital_station_refinery_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "OrbRef:OrbRefShape"
+			index = 0
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "OrbRef:OrbRefShape"
+			index = 1
+			texture_diffuse = "hannah_01_construction_diffuse.dds"
+			texture_normal = "arthropoid_01_construction_normal.dds"
+			texture_specular = "arthropoid_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_orbital_station_science_section_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_orbital_station_science_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "OrbScience:OrbScienceShape"
+			index = 0
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "OrbScience:OrbScienceShape"
+			index = 1
+			texture_diffuse = "hannah_01_construction_diffuse.dds"
+			texture_normal = "arthropoid_01_construction_normal.dds"
+			texture_specular = "arthropoid_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "hannah_01_orbital_station_habitat_section_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_orbital_station_habitat_section.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "module_bodyShape"
+			index = 0
+			texture_diffuse = "hannah_01_habitat_module_diffuse.dds"
+			texture_normal = "arthropoid_01_habitat_module_normal.dds"
+			texture_specular = "arthropoid_01_habitat_module_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "module_bodyShape"
+			index = 1
+			texture_diffuse = "hannah_01_habitat_module_diffuse.dds"
+			texture_normal = "arthropoid_01_habitat_module_normal.dds"
+			texture_specular = "arthropoid_01_habitat_module_specular.dds"
+			shader = "PdxMeshTerraAlphaBlend"
+		}
+	}
+	
+	pdxmesh = {
+		name = "hannah_01_military_station_large_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_military_station_large.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_military_station_medium_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_military_station_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_military_station_small_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_military_station_small.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_military_station_section_heavy_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_military_station_section_heavy.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "arthropoid_01_military_station_section_heavy13:arthropoid_01_mi"
+			index = 0
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "arthropoid_01_military_station_section_heavy13:arthropoid_01_mi"
+			index = 1
+			texture_diffuse = "hannah_01_construction_diffuse.dds"
+			texture_normal = "arthropoid_01_construction_normal.dds"
+			texture_specular = "arthropoid_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hannah_01_military_station_section_medium_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_military_station_section_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "arthropoid_01_military_station_section_medium1:arthropoid_01_mi"
+			index = 0
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "arthropoid_01_military_station_section_medium1:arthropoid_01_mi"
+			index = 1
+			texture_diffuse = "hannah_01_construction_diffuse.dds"
+			texture_normal = "arthropoid_01_construction_normal.dds"
+			texture_specular = "arthropoid_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "hannah_01_military_station_section_light_mesh"
+		file = "gfx/models/ships/arthropoid_01/arthropoid_01_military_station_section_light.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "arthropoid_01_military_station_section_small:arthropoid_01_mili"
+			index = 0
+			texture_diffuse = "hannah_01_stations_diffuse.dds"
+			texture_normal = "arthropoid_01_stations_normal.dds"
+			texture_specular = "arthropoid_01_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "arthropoid_01_military_station_section_small:arthropoid_01_mili"
+			index = 1
+			texture_diffuse = "hannah_01_construction_diffuse.dds"
+			texture_normal = "arthropoid_01_construction_normal.dds"
+			texture_specular = "arthropoid_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+}

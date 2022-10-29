@@ -1,0 +1,1322 @@
+objectTypes = {
+
+	#######  Strike Craft  #######
+
+	pdxmesh = {
+		name = "uisok_01_bomber_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_bomber.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_fighter_bomber_droppod_diffuse.dds"
+		}	
+	}
+	
+	pdxmesh = {
+		name = "uisok_01_fighter_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_fighter.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_fighter_bomber_droppod_diffuse.dds"
+		}	
+	}	
+		
+	pdxmesh = {
+		name = "uisok_01_droppod_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_droppod.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_fighter_bomber_droppod_diffuse.dds"
+		}	
+	}
+		
+	#######  Turrets  #######	
+	
+	pdxmesh = {
+		name = "uisok_01_turret_projectile_large_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_turret_projectile_large.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_turrets_diffuse.dds"
+			shader = "PdxMeshShip"
+		}		
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_turret_projectile_medium_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_turret_projectile_medium.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		meshsettings = {
+			texture_diffuse = "uisok_01_turrets_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_turret_projectile_small_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_turret_projectile_small.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_turrets_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_turret_missile_large_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_turret_missile_large.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_turrets_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_turret_missile_medium_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_turret_missile_medium.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_turrets_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_turret_missile_small_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_turret_missile_small.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_turrets_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_turret_point_defence_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_turret_point_defence.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_turrets_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  destroyer bow sections  #######	
+	
+	pdxmesh = {
+		name = "uisok_01_destroyer_bow_L1_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_destroyer_bow_L1.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "pasted__polySurface679Shape"
+			index = 0
+			texture_diffuse = "uisok_01_destroyer_diffuse.dds"
+			texture_normal = "plantoid_01_destroyer_normal.dds"
+			texture_specular = "plantoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface668Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface668Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_destroyer_bow_M1S2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_destroyer_bow_M1S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape16"
+			index = 0
+			texture_diffuse = "uisok_01_destroyer_diffuse.dds"
+			texture_normal = "plantoid_01_destroyer_normal.dds"
+			texture_specular = "plantoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface599Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface599Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_destroyer_bow_S3_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_destroyer_bow_S3.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape22"
+			index = 0
+			texture_diffuse = "uisok_01_destroyer_diffuse.dds"
+			texture_normal = "plantoid_01_destroyer_normal.dds"
+			texture_specular = "plantoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface613Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface613Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+	
+	#######  destroyer stern sections  #######	
+		
+	pdxmesh = {
+		name = "uisok_01_destroyer_stern_S2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_destroyer_stern_S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface27Shape"
+			index = 0
+			texture_diffuse = "uisok_01_destroyer_diffuse.dds"
+			texture_normal = "plantoid_01_destroyer_normal.dds"
+			texture_specular = "plantoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface610Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface610Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+	
+	pdxmesh = {
+		name = "uisok_01_destroyer_stern_M1_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_destroyer_stern_M1.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape56"
+			index = 0
+			texture_diffuse = "uisok_01_destroyer_diffuse.dds"
+			texture_normal = "plantoid_01_destroyer_normal.dds"
+			texture_specular = "plantoid_01_destroyer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface678Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface678Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}	
+	
+	
+	#######  cruiser frame  #######
+	
+	pdxmesh = {
+		name = "uisok_01_cruiser_frame_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_frame.mesh"
+				animation = { id = "idle"			type = "plantoid_01_cruiser_frame_idle_animation" }
+				animation = { id = "death"			type = "plantoid_01_cruiser_frame_death_animation" }
+				animation = { id = "death2"			type = "plantoid_01_cruiser_frame_death2_animation" }
+				animation = { id = "death3"			type = "plantoid_01_cruiser_frame_death3_animation" }
+	#			animation = { id = "attack"			type = "plantoid_01_cruiser_frame_idle_animation" }				
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"	
+		}
+	}
+	
+	#######  cruiser bow sections  #######	
+
+	pdxmesh = {
+		name = "uisok_01_cruiser_bow_L1_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_bow_L1.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape107"
+			index = 0
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface225Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface225Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+
+	pdxmesh = {
+		name = "uisok_01_cruiser_bow_M1S2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_bow_M1S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape584"
+			index = 0
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface505Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface505Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+
+	pdxmesh = {
+		name = "uisok_01_cruiser_bow_M2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_bow_M2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape362"
+			index = 0
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface473Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface473Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+
+	#######  cruiser mid sections  #######			
+		
+	
+	pdxmesh = {
+		name = "uisok_01_cruiser_mid_S2HB_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_mid_S2HB.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape377"
+			index = 0
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface472Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface472Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+	
+	pdxmesh = {
+		name = "uisok_01_cruiser_mid_L1M1_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_mid_L1M1.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "sdfdsafwaShape"
+			index = 0
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "lySurface226Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "lySurface226Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+				
+	pdxmesh = {
+		name = "uisok_01_cruiser_mid_M3_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_mid_M3.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape119"
+			index = 0
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface525Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface525Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}		
+	pdxmesh = {
+		name = "uisok_01_cruiser_mid_M2S2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_mid_M2S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape583"
+			index = 0
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface504Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface504Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+	
+	#######  cruiser stern sections  #######	
+		
+	pdxmesh = {
+		name = "uisok_01_cruiser_stern_M1_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_stern_M1.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurfaceShape540"
+			index = 0
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface543Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface543Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+	
+	pdxmesh = {
+		name = "uisok_01_cruiser_stern_S2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_cruiser_stern_S2.mesh"
+		meshsettings = {
+			name = "polySurface132dsafShape"
+			index = 0
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface227safdShape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface227safdShape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "uisok_01_battleship_frame_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_frame.mesh"
+				animation = { id = "idle"			type = "plantoid_01_battleship_frame_idle_animation" }
+				animation = { id = "death"			type = "plantoid_01_battleship_frame_death_animation" }
+				animation = { id = "death2"			type = "plantoid_01_battleship_frame_death2_animation" }
+				animation = { id = "death3"			type = "plantoid_01_battleship_frame_death3_animation" }
+				animation = { id = "attack"			type = "plantoid_01_battleship_frame_idle_animation" }				
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  Battleship bow sections  #######	
+	
+	pdxmesh = {
+		name = "uisok_01_battleship_bow_L1M1S2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_bow_L1M1S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "pasted__polySurfae1210Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1296Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_bow_L1S4_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_bow_L1S4.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "plantoid_01_battleship_bow_L1S4_polySurface133Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1319Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_bow_L2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_bow_L2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface1142Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1290Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_bow_M1S2SHB_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_bow_M1S2SHB.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface1237Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1340Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_bow_M2S4_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_bow_M2S4.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "plantoid_01_battleship_bow_M2S4_pCube11Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1408Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_bow_M3S2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_bow_M3S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "plantoid_01_battleship_bow_M3S2_pCube22Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1405Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_battleship_bow_XL1_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_bow_XL1.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface1238Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "plantoid_01_battleship_bow_XL1|pasted__polySurface1319|pasted__"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}	
+		
+	#######  Battleship mid sections  #######			
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_mid_L2S4_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_mid_L2S4.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "pasted__pube126Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_mid_L1M4_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_mid_L1M4.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface203Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1282Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_mid_L2M2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_mid_L2M2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "plantoid_01_battleship_mid_L2M2_pCube14Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1287Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_mid_L3_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_mid_L3.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "plantoid_01_battleship_mid_L3_pasted__polySurface563Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1333Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_mid_M4SHB_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_mid_M4SHB.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "plantoid_01_battleship_mid_M4_polySurface173Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1323Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_mid_S4LHB_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_mid_S4LHB.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "plantoid_01_battleship_mid_S4_pasted__polySurface1100Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1315Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+		
+		
+	#######  Battleship stern sections  #######	
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_stern_L1_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_stern_L1.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "pasted__polySurface1279Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1311Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+	
+	pdxmesh = {
+		name = "uisok_01_battleship_stern_M1S2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_stern_M1S2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface234Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1305Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}		
+		
+	pdxmesh = {
+		name = "uisok_01_battleship_stern_M2_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_stern_M2.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polyrface144Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_battleship_stern_S4.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "pasted__pCylinder5Shape"
+			texture_diffuse = "uisok_01_battleship_diffuse.dds"
+			texture_normal = "plantoid_01_battleship_normal.dds"
+			texture_specular = "plantoid_01_battleship_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pasted__polySurface1328Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+
+			
+	#######  Colony Ship  #######	
+		
+	pdxmesh = {
+		name = "uisok_01_colony_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_colony.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface1048Shape"
+			index = 0
+			texture_diffuse = "uisok_01_orbital_station_dome_diffuse.dds"
+			texture_normal = "plantoid_01_orbital_station_dome_normal.dds"
+			texture_specular = "plantoid_01_orbital_station_dome_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+		meshsettings = {
+			name = "polySurface1048Shape"
+			index = 1
+			texture_diffuse = "uisok_01_colony_diffuse.dds"
+			texture_normal = "plantoid_01_colony_normal.dds"
+			texture_specular = "plantoid_01_colony_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface1048Shape"
+			index = 2
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface1048Shape"
+			index = 3
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+			
+	#######  Transport	Ship  #######	
+		
+	pdxmesh = {
+		name = "uisok_01_transport_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_transport.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "lowpoly1Shape"
+			texture_diffuse = "uisok_01_transport_diffuse.dds"
+			texture_normal = "plantoid_01_transport_normal.dds"
+			texture_specular = "plantoid_01_transport_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "pSphere15Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}
+
+###################################################################################
+###																				###
+###									STATIONS									###
+###																				###
+###################################################################################
+
+	pdxmesh = {
+		name = "uisok_01_science_station_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_science_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "lp2Shape"
+			texture_diffuse = "uisok_01_science_station_diffuse.dds"
+			texture_normal = "plantoid_01_science_station_normal.dds"
+			texture_specular = "plantoid_01_science_station_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface26Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}				
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_mining_station_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_mining_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "lpShape"
+			texture_diffuse = "uisok_01_mining_station_diffuse.dds"
+			texture_normal = "plantoid_01_mining_station_normal.dds"
+			texture_specular = "plantoid_01_mining_station_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface235Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}	
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_terraforming_station_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_terraforming_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "lpShape"
+			texture_diffuse = "uisok_01_terraforming_station_diffuse.dds"
+			texture_normal = "plantoid_01_terraforming_station_normal.dds"
+			texture_specular = "plantoid_01_terraforming_station_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface243Shape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}	
+
+
+	
+	pdxmesh = {
+		name = "uisok_01_orbital_station_frame_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_orbital_station_frame.mesh"
+		scale = 1.0
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_orbital_station_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_orbital_station.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface1Shape"
+			texture_diffuse = "uisok_01_orbital_station_diffuse.dds"
+			texture_normal = "plantoid_01_orbital_station_normal.dds"
+			texture_specular = "plantoid_01_orbital_station_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "polySurface4Shape"
+			index = 0
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+
+		meshsettings = {
+			name = "polySurface4Shape"
+			index = 1
+			texture_diffuse = "uisok_01_panels_large_diffuse.dds"
+			texture_normal = "plantoid_01_panels_large_normal.dds"
+			texture_specular = "plantoid_01_panels_large_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+		
+		meshsettings = {
+			name = "polySurface40Shape"
+			texture_diffuse = "uisok_01_orbital_station_dome_diffuse.dds"
+			texture_normal = "plantoid_01_orbital_station_dome_normal.dds"
+			texture_specular = "plantoid_01_orbital_station_dome_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+				animation = { id = "idle"			type = "plantoid_01_orbital_station_idle_animation" }
+				animation = { id = "death"			type = "plantoid_01_orbital_station_death_animation" }
+				animation = { id = "death2"			type = "plantoid_01_orbital_station_death2_animation" }
+	}
+	
+	pdxmesh = {
+		name = "uisok_01_orbital_station_assemblyyard_section_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_orbital_station_assemblyyard_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_orbital_station_diffuse.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_orbital_station_hangarbay_section_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_orbital_station_hangarbay_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_orbital_station_diffuse.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_orbital_station_refinery_section_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_orbital_station_refinery_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "baseShape"
+			texture_diffuse = "uisok_01_orbital_station_diffuse.dds"
+			texture_normal = "plantoid_01_orbital_station_normal.dds"
+			texture_specular = "plantoid_01_orbital_station_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "panelsShape"
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_orbital_station_science_section_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_orbital_station_science_section.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "uisok_01_orbital_station_diffuse.dds"
+		}
+		animation = { id = "idle"		type = "plantoid_01_orbital_station_science_section_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "uisok_01_orbital_station_habitat_section_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_orbital_station_habitat_section.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "module_habitat_lpShape"
+			index = 0
+			texture_diffuse = "uisok_01_orbital_station_habitat_module_diffuse.dds"
+			texture_normal = "plantoid_01_orbital_station_habitat_module_normal.dds"
+			shader = "AlphaBlend_00"
+		}
+
+		meshsettings = {
+			name = "module_habitat_lpShape"
+			index = 1
+			texture_diffuse = "uisok_01_orbital_station_habitat_module_diffuse.dds"
+			texture_normal = "plantoid_01_orbital_station_habitat_module_normal.dds"
+			texture_specular = "plantoid_01_orbital_station_habitat_module_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "uisok_01_military_station_large_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_military_station_large.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface599Shape"
+			index = 0
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+		meshsettings = {
+			name = "polySurface599Shape"
+			index = 1
+			texture_diffuse = "uisok_01_military_stations_diffuse.dds"
+			texture_normal = "plantoid_01_military_stations_normal.dds"
+			texture_specular = "plantoid_01_military_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_military_station_medium_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_military_station_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface606Shape"
+			index = 0
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+		meshsettings = {
+			name = "polySurface606Shape"
+			index = 1
+			texture_diffuse = "uisok_01_military_stations_diffuse.dds"
+			texture_normal = "plantoid_01_military_stations_normal.dds"
+			texture_specular = "plantoid_01_military_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_military_station_small_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_military_station_small.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "station_smallShape"
+			index = 0
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+		meshsettings = {
+			name = "station_smallShape"
+			index = 1
+			texture_diffuse = "uisok_01_military_stations_diffuse.dds"
+			texture_normal = "plantoid_01_military_stations_normal.dds"
+			texture_specular = "plantoid_01_military_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_military_station_section_heavy_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_military_station_section_heavy.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface618Shape"
+			index = 0
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+		meshsettings = {
+			name = "polySurface618Shape"
+			index = 1
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface618Shape"
+			index = 2
+			texture_diffuse = "uisok_01_military_stations_diffuse.dds"
+			texture_normal = "plantoid_01_military_stations_normal.dds"
+			texture_specular = "plantoid_01_military_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "uisok_01_military_station_section_medium_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_military_station_section_medium.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface616Shape"
+			index = 0
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+		meshsettings = {
+			name = "polySurface616Shape"
+			index = 1
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface616Shape"
+			index = 2
+			texture_diffuse = "uisok_01_military_stations_diffuse.dds"
+			texture_normal = "plantoid_01_military_stations_normal.dds"
+			texture_specular = "plantoid_01_military_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "uisok_01_military_station_section_light_mesh"
+		file = "gfx/models/ships/plantoid_01/plantoid_01_military_station_section_light.mesh"
+		scale = 1.0
+		meshsettings = {
+			name = "polySurface614Shape"
+			index = 0
+			texture_diffuse = "uisok_01_panels_diffuse.dds"
+			texture_normal = "plantoid_01_panels_normal.dds"
+			texture_specular = "plantoid_01_panels_specular.dds"
+			shader = "AlphaBlend_00"
+		}
+		meshsettings = {
+			name = "polySurface614Shape"
+			index = 1
+			texture_diffuse = "uisok_01_cruiser_diffuse.dds"
+			texture_normal = "plantoid_01_cruiser_normal.dds"
+			texture_specular = "plantoid_01_cruiser_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "polySurface614Shape"
+			index = 2
+			texture_diffuse = "uisok_01_military_stations_diffuse.dds"
+			texture_normal = "plantoid_01_military_stations_normal.dds"
+			texture_specular = "plantoid_01_military_stations_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+}

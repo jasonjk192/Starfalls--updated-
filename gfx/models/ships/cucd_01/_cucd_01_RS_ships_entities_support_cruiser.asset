@@ -1,0 +1,128 @@
+	@cruiser_scale = 10.5
+
+	##################         	 RS SUPPORT CRUISER           ########################
+	
+	#FRAME
+
+	entity = {
+		name = "cucd_01_rs_support_cruiser_entity"
+		pdxmesh = "cucd_01_cruiser_mesh"
+		scale = 2.1
+	
+		locator = { name = "part1" }
+		locator = { name = "part2" }
+		locator = { name = "part3" }
+	
+		default_state = "no_state"
+	
+		game_data = {
+			size = @cruiser_scale
+		}
+	}
+
+	# BOW
+
+	entity = {
+		name = "cucd_01_rs_support_cruiser_bow_A1S2_entity"
+		pdxmesh = "starfalls_empty_mesh"
+	
+		default_state = "idle"
+		state = { name = "idle" state_time = 5 }
+		state = { name = "moving" state_time = 5 }
+		state = { name = "death" state_time = 5 }
+	
+		attach = { large_gun_01 = "pirate_01_large_kinetic_gun_entity" }
+		attach = { medium_gun_01 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { medium_gun_02 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { medium_gun_03 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { small_gun_01 = "pirate_01_small_kinetic_gun_entity" }
+		attach = { small_gun_02 = "pirate_01_small_kinetic_gun_entity" }
+	
+		locator = { name = "large_gun_01" position = { 0.24 1.12 -1.88 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_01" position = { 0 1.05 0 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_02" position = { 0.77 1.05 -3.72 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_03" position = { -0.77 1.05 -3.72 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_01" position = { 0.3 1.19 2.18 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_02" position = { 0.58 1.19 3.28 } rotation = { 0 0 0 } }
+	}
+	
+	# MID
+
+	entity = {
+		name = "cucd_01_rs_support_cruiser_mid_S2RDB_entity"
+		pdxmesh = "starfalls_empty_mesh"
+	
+		default_state = "idle"
+		state = { name = "idle" state_time = 5 }
+		state = { name = "moving" state_time = 5 }
+		state = { name = "death" state_time = 5 }
+	
+		attach = { large_gun_01 = "pirate_01_large_kinetic_gun_entity" }
+		attach = { medium_gun_01 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { medium_gun_02 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { medium_gun_03 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { small_gun_01 = "pirate_01_small_kinetic_gun_entity" }
+		attach = { small_gun_02 = "pirate_01_small_kinetic_gun_entity" }
+	
+		locator = { name = "large_gun_01" position = { 0.24 1.12 -1.88 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_01" position = { 0 1.05 0 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_02" position = { 0.77 1.05 -3.72 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_03" position = { -0.77 1.05 -3.72 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_01" position = { 0.3 1.19 2.18 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_02" position = { 0.58 1.19 3.28 } rotation = { 0 0 0 } }
+	}
+	
+	# STERN
+
+	entity = {
+		name = "cucd_01_rs_support_cruiser_stern_M1_entity"
+		pdxmesh = "starfalls_empty_mesh"
+	
+		default_state = "idle"
+		state = { name = "idle" state_time = 5 }
+		state = { name = "moving" state_time = 5 }
+		state = { name = "death" state_time = 5 }
+	
+		attach = { large_gun_01 = "pirate_01_large_kinetic_gun_entity" }
+		attach = { medium_gun_01 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { medium_gun_02 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { medium_gun_03 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { small_gun_01 = "pirate_01_small_kinetic_gun_entity" }
+		attach = { small_gun_02 = "pirate_01_small_kinetic_gun_entity" }
+	
+		locator = { name = "large_gun_01" position = { 0.24 1.12 -1.88 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_01" position = { 0 1.05 0 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_02" position = { 0.77 1.05 -3.72 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_03" position = { -0.77 1.05 -3.72 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_01" position = { 0.3 1.19 2.18 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_02" position = { 0.58 1.19 3.28 } rotation = { 0 0 0 } }
+	}
+
+	entity = {
+		name = "cucd_01_rs_support_cruiser_stern_S2_entity"
+		pdxmesh = "starfalls_empty_mesh"
+	
+		default_state = "idle"
+		state = { name = "idle" state_time = 5 }
+		state = { name = "moving" state_time = 5 }
+		state = { name = "death" state_time = 5 }
+	
+		attach = { large_gun_01 = "pirate_01_large_kinetic_gun_entity" }
+		attach = { medium_gun_01 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { medium_gun_02 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { medium_gun_03 = "pirate_01_medium_kinetic_gun_entity" }
+		attach = { small_gun_01 = "pirate_01_small_kinetic_gun_entity" }
+		attach = { small_gun_02 = "pirate_01_small_kinetic_gun_entity" }
+	
+		locator = { name = "large_gun_01" position = { 0.24 1.12 -1.88 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_01" position = { 0 1.05 0 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_02" position = { 0.77 1.05 -3.72 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_03" position = { -0.77 1.05 -3.72 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_01" position = { 0.3 1.19 2.18 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_02" position = { 0.58 1.19 3.28 } rotation = { 0 0 0 } }
+	}
+
+	entity = {
+		name = "cucd_01_rs_nanobot_drone_bay_entity"
+		pdxmesh = "starfalls_empty_mesh"
+	}

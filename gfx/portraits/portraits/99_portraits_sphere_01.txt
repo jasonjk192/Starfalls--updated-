@@ -1,0 +1,692 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# SPHERE
+	
+			
+	blue_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Extras/Robot/sphere_robot_blue_01.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_blue_02.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_blue_03.dds"	
+			
+			}
+		}
+	
+	egypt_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Extras/Robot/sphere_robot_egypt_01.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_egypt_02.dds"	
+			
+			}
+		}
+
+	girly_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Extras/Robot/sphere_robot_girly_01.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_girly_02.dds"	
+			
+			}
+		}	
+
+	rage_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Extras/Robot/sphere_robot_rage_01.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_rage_02.dds"	
+			
+			}
+		}		
+
+	shogun_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Extras/Robot/sphere_robot_shogun_01.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_shogun_02.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_shogun_03.dds"
+			
+			}
+		}	
+	
+	soldier_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Extras/Robot/sphere_robot_soldier_01.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_soldier_02.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_soldier_03.dds"
+			
+			}
+		}
+
+	terran_01_sphere_robot = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Extras/Robot/sphere_robot_terran_01.dds"	
+					"gfx/models/portraits/Extras/Robot/sphere_robot_terran_02.dds"	
+			
+			}
+		}
+}
+
+portrait_groups = {
+	sphere_robot_blue_01 = {
+		default = blue_01_sphere_robot
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					blue_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					blue_01_sphere_robot
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					blue_01_sphere_robot
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					blue_01_sphere_robot
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					blue_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					blue_01_sphere_robot
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					blue_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					blue_01_sphere_robot
+				}
+			}
+		}
+	}
+	
+	sphere_robot_egypt_01 = {
+		default = egypt_01_sphere_robot
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					egypt_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					egypt_01_sphere_robot
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					egypt_01_sphere_robot
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					egypt_01_sphere_robot
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					egypt_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					egypt_01_sphere_robot
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					egypt_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					egypt_01_sphere_robot
+				}
+			}
+		}
+	}
+	
+	sphere_robot_girly_01 = {
+		default = girly_01_sphere_robot
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					girly_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					girly_01_sphere_robot
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					girly_01_sphere_robot
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					girly_01_sphere_robot
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					girly_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					girly_01_sphere_robot
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					girly_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					girly_01_sphere_robot
+				}
+			}
+		}
+	}
+	
+	sphere_robot_rage_01 = {
+		default = rage_01_sphere_robot
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					rage_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					rage_01_sphere_robot
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					rage_01_sphere_robot
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					rage_01_sphere_robot
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					rage_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					rage_01_sphere_robot
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					rage_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					rage_01_sphere_robot
+				}
+			}
+		}
+	}
+	
+	sphere_robot_shogun_01 = {
+		default = shogun_01_sphere_robot
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					shogun_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					shogun_01_sphere_robot
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					shogun_01_sphere_robot
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					shogun_01_sphere_robot
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					shogun_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					shogun_01_sphere_robot
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					shogun_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					shogun_01_sphere_robot
+				}
+			}
+		}
+	}
+	
+	sphere_robot_soldier_01 = {
+		default = soldier_01_sphere_robot
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					soldier_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					soldier_01_sphere_robot
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					soldier_01_sphere_robot
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					soldier_01_sphere_robot
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					soldier_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					soldier_01_sphere_robot
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					soldier_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					soldier_01_sphere_robot
+				}
+			}
+		}
+	}
+	
+	sphere_robot_terran_01 = {
+		default = terran_01_sphere_robot
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					terran_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					terran_01_sphere_robot
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					terran_01_sphere_robot
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					terran_01_sphere_robot
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					terran_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					terran_01_sphere_robot
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					terran_01_sphere_robot
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					terran_01_sphere_robot
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "cpoe_01_leviathan_frame_mesh"
+		file = "gfx/models/ships/avian_01/avian_01_battleship_frame.mesh"
+				animation = { id = "idle"			type = "avian_01_battleship_frame_idle_animation" }
+				animation = { id = "death"			type = "avian_01_battleship_frame_death_animation" }
+				animation = { id = "attack"			type = "avian_01_battleship_frame_idle_animation" }				
+		scale = 1.75
+				meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "cpoe_01_leviathan_bow_mesh"
+		file = "gfx/models/ships/avian_01/avian_01_battleship_bow_M2S4.mesh"
+		scale = 1.75
+		meshsettings = {
+			texture_diffuse = "cpoe_01_battleship_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}		
+	
+	pdxmesh = {
+		name = "cpoe_01_leviathan_mid_mesh"
+		file = "gfx/models/ships/avian_01/avian_01_battleship_mid_L3.mesh"
+		scale = 1.75
+		meshsettings = {
+			texture_diffuse = "cpoe_01_battleship_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "cpoe_01_leviathan_stern_mesh"
+		file = "gfx/models/ships/avian_01/avian_01_battleship_stern_M1S2.mesh"
+		scale = 1.75
+		meshsettings = {
+			texture_diffuse = "cpoe_01_battleship_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}		
+}

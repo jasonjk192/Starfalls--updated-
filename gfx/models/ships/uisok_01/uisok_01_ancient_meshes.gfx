@@ -1,0 +1,47 @@
+objectTypes = {	
+	
+	pdxmesh = {
+		name = "eventship_09_uisok_mesh"
+		file = "gfx/models/ships/uisok_01/eventship_09_uisok.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ancient_destroyer_uisok_mesh"
+		file = "gfx/models/ships/uisok_01/ancient_destroyer_uisok.mesh"
+		scale = 5.0
+		
+		animation = { id = "idle"			type = "molluscoid_01_corvette_frame_idle_animation" }
+		animation = { id = "death3"			type = "molluscoid_01_corvette_frame_death3_animation" }
+	}
+	
+	pdxmesh = {
+		name = "ancient_drone_uisok_mesh"
+		file = "gfx/models/ships/uisok_01/ancient_drone_uisok.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"			type = "ancient_drone_idle_animation" }
+		animation = { id = "moving"			type = "ancient_drone_moving_animation" }
+		animation = { id = "death"			type = "ancient_drone_death_animation" }
+	}
+	
+	pdxmesh = {
+		name = "ancient_drone_mining_uisok_mesh"
+		file = "gfx/models/ships/uisok_01/ancient_drone_mining_uisok.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"			type = "molluscoid_01_corvette_frame_idle_animation" }
+		animation = { id = "death"			type = "molluscoid_01_corvette_frame_death_animation" }
+	}		
+	
+	pdxmesh = {
+		name = "uisok_01_science_ancient_mesh"
+		file = "gfx/models/ships/uisok_01/event_ship_02_ancient.mesh"	
+		scale = 1.0
+		
+		animation = { id = "idle"			type = "event_ship_02_idle_animation" }
+		animation = { id = "death"			type = "event_ship_02_death_animation" }
+	}
+}
+
+

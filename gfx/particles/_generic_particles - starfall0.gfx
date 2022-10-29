@@ -1,0 +1,37 @@
+objectTypes = {
+	
+	pdxparticle = {
+		name = "uisok_01_survey_effect_particle"
+		type = "uisok_01_survey_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "aquan_01_survey_effect_particle"
+		type = "aquan_01_survey_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_survey_effect_particle"
+		type = "cpoe_01_survey_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "cucd_01_survey_effect_particle"
+		type = "cucd_01_survey_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "hannah_01_survey_effect_particle"
+		type = "hannah_01_survey_effect"
+		
+		scale = 1.0
+	}
+}

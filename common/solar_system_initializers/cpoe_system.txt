@@ -1,0 +1,239 @@
+### Starfalls - UISOK Home System
+cpoe_system = {
+	name = "Ascended System"
+	class = "sc_f"
+	#asteroids_distance = 270
+	asteroid_belt = {
+        type = rocky_asteroid_belt
+        radius = 270
+    }
+	usage = custom_empire
+	
+	planet = {
+		name = "Eternal Home"
+		class = "pc_pulsar"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 75
+		has_ring = no
+	}
+	
+	change_orbit = 50
+	
+	planet = {
+		name = "Teras'ol"
+		class = "pc_molten"
+		size = 7
+		orbit_distance = { min = 0 max = 1 }
+		orbit_angle = random
+		has_ring = no
+	}
+	
+	change_orbit = 10
+	
+	planet = {
+		name = "Namasia'ol"
+		class = "pc_molten"
+		size = 14
+		orbit_distance = { min = 0 max = 10 }
+		orbit_angle = random
+		has_ring = no
+	}
+	
+	change_orbit = 20
+	
+	planet = {
+		name = "Tero'ol"
+		class = "pc_barren"
+		size = 10
+		orbit_distance = { min = 0 max = 10 }
+		orbit_angle = random
+		has_ring = no
+	}
+	
+	change_orbit = 40
+	
+	planet = {
+		name = "Koera'ol"
+		class = "pc_gas_giant"
+		orbit_distance = { min = 0 max = 10 }
+		orbit_angle = random
+		size = 25
+		starting_planet = no
+		has_ring = no
+		entity = "gas_giant_03_entity"
+		modifiers = none
+		
+		moon = {
+			name = "Sarin'ol"
+			class = "pc_barren_cold"
+			size = 7
+			orbit_distance = 9
+			orbit_angle = random
+			has_ring = no
+		}	
+		moon = {
+			name = "Mayes'ol"
+			class = "pc_frozen"
+			size = 5
+			orbit_distance = 3
+			orbit_angle = random
+			has_ring = yes
+		}	
+		moon = {
+			name = "Ceves'ol"
+			class = "pc_barren_cold"
+			size = 3
+			orbit_distance = 5
+			orbit_angle = random
+			has_ring = no
+		}	
+		moon = {
+			name = "Caos'ol"
+			class = "pc_frozen"
+			size = 8
+			orbit_distance = 7
+			orbit_angle = random
+			has_ring = yes
+		}	
+		moon = {
+			name = "Layuna'ol"
+			class = "pc_barren_cold"
+			size = 12
+			orbit_distance = 11
+			orbit_angle = random
+			has_ring = no
+		}	
+		moon = {
+			name = "Perila'ol"
+			class = "pc_frozen"
+			size = 7
+			orbit_distance = 13
+			orbit_angle = random
+			has_ring = yes
+		}	
+	}
+	
+	change_orbit = 30
+		
+	planet = {
+		name = "Glorious Krasia"
+		class = ideal_planet_class
+		orbit_distance = 12
+		orbit_angle = random
+		size = 16
+		starting_planet = yes
+		has_ring = no
+		modifiers = none
+		
+		init_effect = {
+			prevent_anomaly = yes
+			# generate_start_buildings_and_blockers = yes
+			generate_start_buildings_and_districts = yes
+			generate_start_deposits_and_blockers = yes
+		}
+		
+		moon = {
+			orbit_distance = 5
+			class = "pc_gaia"
+			name = "God's Gift"
+			orbit_angle = random
+			size = 5
+			has_ring = yes
+			modifiers = none
+			init_effect = { 
+				prevent_anomaly = yes
+				clear_blockers = yes
+				clear_deposits = yes
+
+				add_deposit = d_lush_jungle
+				add_deposit = d_fertile_lands
+				add_deposit = d_lush_jungle
+				add_deposit = d_fertile_lands
+				add_deposit = d_underwater_vent
+				add_deposit = d_tempestous_mountain
+				add_deposit = d_submerged_ore_veins
+				add_deposit = d_rich_mountain
+			}
+		}
+	}
+	
+	change_orbit = 25
+	
+	planet = {
+		name = "Miran'ol"
+		class = "pc_gas_giant"
+		orbit_distance = { min = 0 max = 10 }
+		orbit_angle = random
+		size = 22
+		starting_planet = no
+		has_ring = yes
+		entity = "gas_giant_04_entity"
+		modifiers = none
+	}
+	
+	change_orbit = 25
+	
+	planet = {
+		name = "Miran'ol"
+		class = "pc_frozen"
+		size = 15
+		orbit_distance = { min = 0 max = 10 }
+		orbit_angle = random
+		has_ring = no
+	}
+	
+	change_orbit = 25
+	
+	planet = {
+		count = 10
+		class = random_asteroid
+		orbit_distance = { min = 0 max = 1 }
+		orbit_angle = random
+		size = { min = 2 max = 4 }
+	}
+	
+	change_orbit = 100
+	
+	planet = {
+		name = "The Judge"
+		class = "pc_black_hole"
+		orbit_angle = 0
+		size = 60
+	}
+	
+	planet = {
+		name = "The Question"
+		class = "pc_black_hole"
+		orbit_angle = 60 #Distance is added from previous object, thus each must be the same for proper spacing.
+		size = 60
+	}
+	
+	planet = {
+		name = "The Answer"
+		class = "pc_black_hole"
+		orbit_angle = 60
+		size = 60
+	}
+	
+	planet = {
+		name = "The Penitent"
+		class = "pc_black_hole"
+		orbit_angle = 60
+		size = 60
+	}
+	
+	planet = {
+		name = "The Woman"
+		class = "pc_black_hole"
+		orbit_angle = 60
+		size = 60
+	}
+	
+	planet = {
+		name = "The Wound"
+		class = "pc_black_hole"
+		orbit_angle = 60
+		size = 60
+	}
+}

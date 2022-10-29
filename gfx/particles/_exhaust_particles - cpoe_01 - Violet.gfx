@@ -1,0 +1,133 @@
+objectTypes = {
+	
+	##############
+	# AVIAVIOLET #
+	##############
+	
+	pdxparticle = {
+		name = "cpoe_01_large_ship_explosion_particle"
+		type = "cpoe_01_large_ship_explosion_particle"
+		scale = 1.0
+	}
+	
+	# SINGLE
+	
+	pdxparticle = {
+		name = "cpoe_01_1_6_exhaust_idle_particle"
+		type = "cpoe_01_ship_exhaust_idle_file"
+		scale = 1.6
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_5_0_exhaust_idle_particle"
+		type = "cpoe_01_ship_exhaust_idle_file"
+		scale = 5.0
+	}
+	
+	# OBLONG
+	
+	pdxparticle = {
+		name = "cpoe_01_1_1_exhaust_oblong_idle_particle"
+		type = "cpoe_01_ship_exhaust_idle_large_file"
+		scale = 1.1
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_1_7_exhaust_oblong_idle_particle"
+		type = "cpoe_01_ship_exhaust_idle_large_file"
+		scale = 1.7
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_2_2_exhaust_oblong_idle_particle"
+		type = "cpoe_01_ship_exhaust_idle_large_file"
+		scale = 2.2
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_3_0_exhaust_oblong_idle_particle"
+		type = "cpoe_01_ship_exhaust_idle_large_file"
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_5_0_exhaust_oblong_idle_particle"
+		type = "cpoe_01_ship_exhaust_idle_large_file"
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_6_0_exhaust_oblong_idle_particle"
+		type = "cpoe_01_ship_exhaust_idle_large_file"
+		scale = 6.0
+	}
+	
+	##############
+	# AVIAVIOLET #
+	##############
+
+	# SINGLE
+	
+	pdxparticle = {
+		name = "cpoe_01_1_7_ship_exhaust_moving_particle"
+		type = "cpoe_01_ship_exhaust_file"
+		scale = 1.7
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_2_7_ship_exhaust_moving_particle"
+		type = "cpoe_01_ship_exhaust_file"
+		scale = 2.7
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_5_0_ship_exhaust_moving_particle"
+		type = "cpoe_01_ship_exhaust_file"
+		scale = 5.0
+	}
+	
+	# OBLONG
+	
+	pdxparticle = {
+		name = "cpoe_01_1_0_ship_exhaust_oblong_moving_particle"
+		type = "cpoe_01_ship_exhaust_oblong_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_1_7_ship_exhaust_oblong_moving_particle"
+		type = "cpoe_01_ship_exhaust_oblong_file"
+		scale = 1.7
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_2_2_ship_exhaust_oblong_moving_particle"
+		type = "cpoe_01_ship_exhaust_oblong_file"
+		scale = 2.2
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_2_0_ship_exhaust_oblong_moving_particle"
+		type = "cpoe_01_ship_exhaust_oblong_file"
+		scale = 2.0
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_3_0_ship_exhaust_oblong_moving_particle"
+		type = "cpoe_01_ship_exhaust_oblong_file"
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_5_0_ship_exhaust_oblong_moving_particle"
+		type = "cpoe_01_ship_exhaust_oblong_file"
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "cpoe_01_6_0_ship_exhaust_oblong_moving_particle"
+		type = "cpoe_01_ship_exhaust_oblong_file"
+		scale = 6.0
+	}
+		
+}

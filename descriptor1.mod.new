@@ -1,0 +1,7 @@
+version="1"
+tags={
+	"Spaceships"
+	"Graphics"
+}
+name="Star Falls (3.5.* update)"
+supported_version="3.5.3"

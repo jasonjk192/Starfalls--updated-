@@ -1,0 +1,146 @@
+# Number of entries controlls amount to choose from in designer  I.E.   "mol1" "mol2" "mol3" "mol4"
+# graphical_culture is connected to the looks used for ships and cities, see "common/graphical_culture/"
+# Portraits here are one you can choose from in the character creater. For prescripted races they are grabbed straight from the .gfx file. 
+# can specify playable=no to disable people from picking specified class.
+# can specify randomized=no to filter specified class from randomization.
+
+ILIUM = {
+	randomized = no
+	#portraits = { "ilium_01" }
+	#graphical_culture = ilium_01
+	graphical_culture = avian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+
+}
+
+HANNAH = {
+	archetype = MACHINE
+	playable = { host_has_dlc = "Synthetic Dawn Story Pack" }
+	possible = { authority = { OR = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE } } }
+	possible_secondary = { always = no text = SECONDARY_SPECIES_CLASS_INVALID }
+	
+	gender = no
+	use_climate_preference = no
+	portrait_modding = yes
+	
+	leader_age_min = 2
+	leader_age_max = 10
+	
+	portraits = {
+		"hannah_01"
+		"sphere_robot_hannah_01"
+	}
+	
+	non_randomized_portraits = {
+		"hannah_01"
+		"sphere_robot_hannah_01"
+	}
+
+	graphical_culture = hannah_01
+	#graphical_culture = arthropoid_01
+	move_pop_sound_effect = "robot_pops_move"
+}
+
+UISOK = {
+	archetype = BIOLOGICAL
+
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	playable = { local_has_dlc = "Plantoids Species Pack" }
+
+	portraits = {
+		"uisok_01"
+		"sphere_robot_uisok_01"
+	}
+	
+	non_randomized_portraits = {
+		"uisok_01"
+		"sphere_robot_uisok_01"
+	}
+
+	graphical_culture = uisok_01
+	#graphical_culture = reptilian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+AQUAN = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = {
+		"aquan_01"
+		"kioden"
+		"sphere_robot_aquan_01"
+		"copon"
+		"iena"
+	}
+	
+	non_randomized_portraits = {
+		"aquan_01"
+		"kioden"
+		"sphere_robot_aquan_01"
+		"copon"
+		"iena"
+	}
+
+	graphical_culture = aquan_01
+	#graphical_culture = molluscoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+CPOE = {
+	archetype = BIOLOGICAL
+
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	portraits = {
+		"cpoe_01"
+		"sphere_robot_cpoe_01"
+	}
+	
+	non_randomized_portraits = {
+		"cpoe_01"
+		"sphere_robot_cpoe_01"
+	}
+
+	graphical_culture = cpoe_01
+	#graphical_culture = avian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+SPHERE = {
+	archetype = MACHINE
+
+	playable = { host_has_dlc = "Synthetic Dawn Story Pack" }
+	possible = { authority = { OR = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE } } }
+	possible_secondary = { always = no text = SECONDARY_SPECIES_CLASS_INVALID }
+	
+	gender = no
+	use_climate_preference = no
+	portrait_modding = yes
+	
+	leader_age_min = 2
+	leader_age_max = 10
+
+	portraits = {
+		"sphere_robot_blue_01"
+		"sphere_robot_egypt_01"
+		"sphere_robot_girly_01"
+		"sphere_robot_rage_01"
+		"sphere_robot_shogun_01"
+		"sphere_robot_soldier_01"
+		"sphere_robot_terran_01"
+	}
+	
+	non_randomized_portraits = {
+		"sphere_robot_blue_01"
+		"sphere_robot_egypt_01"
+		"sphere_robot_girly_01"
+		"sphere_robot_rage_01"
+		"sphere_robot_shogun_01"
+		"sphere_robot_soldier_01"
+		"sphere_robot_terran_01"
+	}
+
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

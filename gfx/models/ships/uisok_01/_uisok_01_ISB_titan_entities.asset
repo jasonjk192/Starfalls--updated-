@@ -1,0 +1,117 @@
+##################         	 TITAN           ########################
+
+# FRAME
+entity = {
+	name = "uisok_01_titan_entity"
+	pdxmesh = "eventship_09_uisok_mesh"
+	scale = 4.5 #3.0
+	
+	locator = { name = "part1" }
+	locator = { name = "part2" }
+	locator = { name = "part3" }
+	
+	locator = { name = "part5"	position = { 0 0 0 } rotation = { 0 0 90 } }
+	locator = { name = "part6"	position = { 0 0 0 } rotation = { 0 0 -90 } }
+	locator = { name = "part7"	position = { 0 0 0 } rotation = { 0 0 135 } }
+	locator = { name = "part8"	position = { 0 0 0 } rotation = { 0 0 -135 } }
+	attach = { part5 = "uisok_01_Flagship_attachment_entity" }
+	attach = { part6 = "uisok_01_Flagship_attachment_entity" }
+	attach = { part7 = "uisok_01_Flagship_attachment_entity" }
+	attach = { part8 = "uisok_01_Flagship_attachment_entity" }
+	
+	game_data = {
+		size = 30
+	}
+}
+
+# BOW
+entity = {
+	name = "uisok_01_titan_bow_entity"
+	pdxmesh = "uisok_01_empty_mesh"
+	
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_05" position = { 0 0 0 } rotation = { 0 0 0 } }
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+
+
+#MID
+entity = {
+	name = "uisok_01_titan_mid_entity"
+	pdxmesh = "uisok_01_empty_mesh"
+	
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = {
+		name = "strike_craft_locator_01"
+		position = { 5 0 0}
+		rotation = { -90 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_02"
+		position = { -5 0 0}
+		rotation = { 90 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_03"
+		position = { 5 0 -7}
+		rotation = { -90 0 0 }
+	}
+	locator = {
+		name = "strike_craft_locator_04"
+		position = { -5 0 -7}
+		rotation = { 90 0 0 }
+	}
+}
+
+
+# STERN
+entity = {
+	name = "uisok_01_titan_stern_entity"
+	pdxmesh = "uisok_01_empty_mesh"
+	
+	locator = { name = "large_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "large_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	
+	locator = { name = "medium_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "medium_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+	
+	locator = { name = "small_gun_01" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_02" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_03" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "small_gun_04" position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+entity = {
+	name = "uisok_01_Flagship_attachment_entity"
+	pdxmesh = "eventship_09_uisok_mesh"
+}

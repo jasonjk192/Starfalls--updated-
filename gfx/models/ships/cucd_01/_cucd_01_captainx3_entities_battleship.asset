@@ -1,0 +1,37 @@
+@corvette_scale = 6.0
+@destroyer_scale = 7.0
+@cruiser_scale = 10.0
+@battleship_scale = 15.0
+@Battlecruiser_scale = 13.0
+@LightCarrier_scale = 15.0
+@Carrier_scale = 17.0
+@military_station_large = 20.0
+@Dreadnought_scale = 20.0
+@Superdreadnought_scale = 25.0
+@Flagship_scale = 30.0
+
+
+##################         	 BATTLESHIP           ########################
+
+entity = {
+		name = "cucd_01_battleship_BOW_XL1_entity"
+		pdxmesh = "starfalls_empty_mesh"
+		
+		default_state = idle	
+		state = { name = "idle" }
+		state = { name = "moving" }
+		state = { name = "death" }
+
+		locator = { name = "xl_gun_01" position = { 0 1.5 -0.5 } rotation = { 0 0 0 } }
+		locator = { name = "large_gun_01" position = { 0 1.5 -0.5 } rotation = { 0 0 0 } }
+		locator = { name = "large_gun_02" position = { 0 1.5 -0.5 } rotation = { 0 0 0 } }
+		locator = { name = "large_gun_03" position = { 0 1.5 -0.5 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_01" position = { -0.85 0.3 -1 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_02" position = { -0.85 0.3 -1 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_03" position = { -0.85 0.3 -1 } rotation = { 0 0 0 } }
+		locator = { name = "medium_gun_04" position = { -0.85 0.3 -1 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_01" position = { 0 1.2 -6.15 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_02" position = { 0 1.2 -2.2 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_03" position = { 0 1.2 -4.75 } rotation = { 0 0 0 } }
+		locator = { name = "small_gun_04" position = { 0 1.2 -2.2 } rotation = { 0 0 0 } }
+	}

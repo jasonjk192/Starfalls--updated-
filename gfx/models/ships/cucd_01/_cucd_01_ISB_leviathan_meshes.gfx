@@ -1,0 +1,15 @@
+objectTypes = {
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "cucd_01_leviathan_mesh"
+		file = "gfx/models/ships/pirate_01/pirates_destroyer01_1l_2s.mesh"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "cucd_01_leviathan_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+	

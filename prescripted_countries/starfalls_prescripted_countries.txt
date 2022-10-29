@@ -1,0 +1,468 @@
+UISOK1 = {
+	#key="Unified Imperial States Of Krasia"
+	name="Unified Imperial States Of Krasia"
+	adjective="U.I.S.O.K"
+	spawn_enabled=yes
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	ship_prefix="Mighty"
+
+	species = {
+		class = "UISOK"
+		portrait = "uisok_01"
+		name = "Krasian"
+		plural = "Krasians"
+		adjective = "Krasian"
+		name_list = "Krasian"
+		trait="trait_industrious"
+		trait="trait_natural_engineers"
+		trait="trait_repugnant"
+		trait="trait_nonadaptive"
+		trait="trait_conformists"
+	}
+	room="personality_honorbound_warriors_room"
+	authority="auth_imperial"
+	government="gov_star_empire"
+
+	# ftl=hyperdrive
+	# weapon="tech_mass_drivers_1"
+
+	planet_name="Glorious Krasia"
+	planet_class="pc_ocean"
+	system_name="Skuldast Minor"
+	initializer="uisok_system"
+	graphical_culture="uisok_01"
+	city_graphical_culture="uisok_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_7.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors={
+			"red"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Delizia Aurelious"
+		portrait="uisok_01_female_01"
+		texture=0
+		attachment=1
+		clothes=2
+		ruler_title="Emperor"
+		ruler_title_female="Empress"
+	}
+		
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_nationalistic_zeal"
+	}
+}
+
+aquan1 = {
+	#key="Aquan Alliance of Free Systems"
+	name="Aquan Alliance of Free Systems"
+	adjective="Aquan"
+	spawn_as_fallen=no
+	spawn_enabled=yes
+	ignore_portrait_duplication=no
+	ship_prefix="LOSA"
+	species = {
+		class = "AQUAN"
+		portrait = "aquan_01"
+		name = "Aquan"
+		plural = "Aquan"
+		adjective = "Aquan"
+		name_list = "HUM1"
+		trait="trait_charismatic"
+		trait="trait_conservational"
+		trait="trait_slow_breeders"
+		trait="trait_sedentary"
+		trait="trait_agrarian"
+	}
+	room="personality_peaceful_traders_room"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	# ftl=hyperdrive
+	# weapon="tech_lasers_1"
+
+	planet_name="El Blue"
+	planet_class="pc_ocean"
+	system_name="Aquan"
+	initializer=""
+	graphical_culture="aquan_01"
+	city_graphical_culture="aquan_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"blue"
+			"pink"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Atua"
+		portrait="aquan_01_female_01"
+		texture=1
+		attachment=0
+		clothes=0
+		ruler_title="Speaker"
+		ruler_title_female="Speaker"
+	}
+	
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_free_haven"
+		"civic_efficient_bureaucracy"
+	}
+	
+}
+
+cpoe1 = {
+	name = "Colonial Principality of Eternia"
+	adjective = "CPOE"
+	spawn_enabled = yes
+	ship_prefix = "ELA"
+	species = {
+		class = "CPOE"
+		portrait = "cpoe_01"
+		name = "Eternian"
+		plural = "Eternians"
+		adjective = "Eternian"
+		name_list = "Ascended"
+		trait = "trait_venerable"
+		trait = "trait_weak"
+		trait = "trait_slow_breeders"
+		trait = "trait_natural_physicists"
+		trait = "trait_wasteful"
+	}
+	room ="personality_evangelizing_zealots_room"
+	government = "gov_military_dictatorship"
+	authority = "auth_oligarchic"
+	#ftl = hyperdrive
+	#weapon = "tech_lasers_1"
+
+	planet_name = "Eternia"
+	planet_class = "pc_arctic"
+	system_name = "Ascended"
+	initializer = "cpoe_system"
+	graphical_culture = "cpoe_01"
+	city_graphical_culture = "cpoe_01"
+	
+	empire_flag = {
+		icon = {
+			category="ornate"
+			file="flag_ornate_23.dds"
+		}
+		background = {
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors = {
+			"purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender = female
+		name = "Siriyi Ko"
+		portrait = "cpoe_01_female_01"
+		texture = 0
+		attachment = 4
+		#clothes = 9
+		ruler_title = "Voice of God"
+		ruler_title_female = "Voice of God"
+		#trait = trait_ruler_military_pioneer 
+		#trait = trait_ruler_warlike 
+	}
+	flags = { "cpoe" }
+	
+	ethic = "ethic_fanatic_spiritualist"
+	ethic = "ethic_militarist"
+	civics = { "civic_distinguished_admiralty" "civic_exalted_priesthood" }
+}
+
+hannah1 ={
+	#key="Hannah "
+	name="Hannah "
+	adjective="Hannah"
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	spawn_enabled=yes
+	ship_prefix=""
+	species = {
+		class = "HANNAH"
+		portrait = "hannah_01"
+		name = "Hannah"
+		plural = "Hannah"
+		adjective = "Hannah"
+		name_list = "Hannah"
+		trait="trait_machine_unit"
+		trait="trait_robot_efficient_processors"
+		trait="trait_robot_power_drills"
+		trait="trait_robot_superconductive"
+		trait="trait_robot_luxurious"
+	}
+	room="personality_erudite_explorers_room"
+	authority="auth_machine_intelligence"
+	government="gov_machine_empire"
+	#ftl=hyperdrive
+	#weapon="tech_lasers_1"
+	planet_name="Home Laboratory"
+	planet_class="pc_tropical"
+	system_name="01"
+	initializer=""
+	graphical_culture="hannah_01"
+	city_graphical_culture="hannah_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"yellow"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Hannah 0-000001"
+		portrait="hannah_01_female_01"
+		texture=0
+		attachment=0
+		clothes=0
+		ruler_title="First Body"
+		ruler_title_female="First Body"
+	}
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_predictive_analysis"
+		"civic_machine_factory_overclock"
+	}
+}
+
+pocon1 ={
+	#key="Confederated Pocon Stars"
+	name="Confederated Pocon Stars"
+	adjective="Pocon"
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	spawn_enabled=yes
+	ship_prefix="COCON"
+	species = {
+		class = "AQUAN"
+		portrait = "copon"
+		name = "Pocon"
+		plural = "Pocons"
+		adjective = "Pocon"
+		name_list="AVI1"
+		trait="trait_talented"
+		trait="trait_quick_learners"
+		trait="trait_fleeting"
+		trait="trait_sedentary"
+		trait="trait_conformists"
+	}
+	room="personality_migrating_flock_room"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	#ftl=hyperdrive
+	#weapon="tech_lasers_1"
+	planet_name="Poconia"
+	planet_class="pc_savannah"
+	system_name="Pocon"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="aquan_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_21.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"pink"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Eelee"
+		portrait="copon_male_01"
+		texture=4
+		attachment=0
+		clothes=0
+		ruler_title="Peaceful Ruler"
+		ruler_title_female="Peaceful Ruler"
+	}
+	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_environmentalist"
+		"civic_functional_architecture"
+	}
+}
+
+iuna1 ={
+	#key="Iuna Deberouche"
+	name="Iuna Deberouche"
+	adjective="Iunan"
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	spawn_enabled=yes
+	ship_prefix="ISS"
+	species = {
+		class = "AQUAN"
+		portrait = "iena"
+		name = "Iuna"
+		plural = "Iunan"
+		adjective = "Iunan"
+		name_list="HUM1"
+		trait="trait_deviants"
+		trait="trait_thrifty"
+		trait="trait_wasteful"
+		trait="trait_nomadic"
+		trait="trait_strong"
+	}
+	room="personality_peaceful_traders_room"
+	authority="auth_dictatorial"
+	government="gov_irenic_dictatorship"
+	#ftl=hyperdrive
+	#weapon="tech_lasers_1"
+	planet_name="Iuna Dere"
+	planet_class="pc_arid"
+	system_name="Dere"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="pirate_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_21.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"pink"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Hannakon"
+		portrait="iena_female_01"
+		texture=4
+		attachment=0
+		clothes=3
+		ruler_title="Duke of Coins"
+		ruler_title_female="Duchess of Coins"
+	}
+	ethic="ethic_xenophile"
+	ethic="ethic_egalitarian"
+	ethic="ethic_materialist"
+	civics={
+		"civic_shadow_council"
+		"civic_mining_guilds"
+	}
+}
+
+kioden1 ={
+	#key="Kioden Shogunate"
+	name="Kioden Shogunate"
+	adjective="Kioden"
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	spawn_enabled=yes
+	ship_prefix=""
+	species = {
+		class = "AQUAN"
+		portrait = "kioden"
+		name = "Kioden"
+		plural = "Kioden"
+		adjective = "Kioden"
+		name_list="REP3"
+		trait="trait_nonadaptive"
+		trait="trait_very_strong"
+		trait="trait_wasteful"
+		trait="trait_enduring"
+		trait="trait_resilient"
+	}
+	room="personality_decadent_hierarchy_room"
+	authority="auth_imperial"
+	government="gov_star_empire"
+	#ftl=hyperdrive
+	#weapon="tech_mass_drivers_1"
+	planet_name="Kioden Prime"
+	planet_class="pc_tundra"
+	system_name="Kioden Star"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_21.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"light_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Axemekat"
+		portrait="kioden_noble_female_01"
+		texture=0
+		attachment=0
+		clothes=0
+		ruler_title="Shogun"
+		ruler_title_female="Shogun"
+	}
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_xenophile"
+	civics={
+		"civic_free_haven"
+		"civic_distinguished_admiralty"
+	}
+}
