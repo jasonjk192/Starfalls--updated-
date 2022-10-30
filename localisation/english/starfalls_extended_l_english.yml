@@ -1,13 +1,22 @@
 ﻿l_english:
+# Preferably would like to convert all applicable keys into this format :(
 
+##############
 ### HANNAH ###
+##############
 
+HANNAH_ruler_title_FirstBody:0 "First Body"
 Hannah:0 "Hannah"
 HANNAH_plural:0 "Hannah"
+HANNAH_system_name_01:0 "01"
+
+#-- Diplomacy --#
 HANNAH_insult_01:0 "REPLACE_ME"
 HANNAH_insult_plural_01:0 "REPLACE_ME"
 HANNAH_compliment_01:0 "REPLACE_ME"
 HANNAH_compliment_plural_01:0 "REPLACE_ME"
+
+#-- Species --#
 HANNAH_spawn:0 "REPLACE_ME"
 HANNAH_spawn_plural:0 "REPLACE_ME"
 HANNAH_sound_01:0 "REPLACE_ME"
@@ -29,15 +38,27 @@ HANNAH_tooth_plural:0 "REPLACE_ME"
 HANNAH_fossil_plural:0 "REPLACE_ME"
 HANNAH_remnant_plural:0 "REPLACE_ME"
 
+#############
 ### UISOK ###
+#############
+
+UISOK_system_name_SkuldastMinor:0 "Skuldast Minor"
 
 Krasian:0 "Krasian"
 Krasians:0 "Krasians"
 UISOK_plural:0 "Krasians"
+
+UISOK_ship_prefix_Mighty:0 "Mighty"
+UISOK_ruler_title_Emperor:0 "Emperor"
+UISOK_ruler_title_Empress:0 "Empress"
+
+#-- Diplomacy --#
 UISOK_insult_01:0 "REPLACE_ME"
 UISOK_insult_plural_01:0 "REPLACE_ME"
 UISOK_compliment_01:0 "REPLACE_ME"
 UISOK_compliment_plural_01:0 "REPLACE_ME"
+
+#-- Species --#
 UISOK_spawn:0 "REPLACE_ME"
 UISOK_spawn_plural:0 "REPLACE_ME"
 UISOK_sound_01:0 "REPLACE_ME"
@@ -59,28 +80,33 @@ UISOK_tooth_plural:0 "REPLACE_ME"
 UISOK_fossil_plural:0 "REPLACE_ME"
 UISOK_remnant_plural:0 "REPLACE_ME"
 
-Mighty:0 "Mighty"
-Emperor:0 "Emperor"
-Empress:0 "Empress"
-
+#############
 ### AQUAN ###
+#############
 
 Aquan:0 "Aquan"
-LOSA:0 "LOSA"
 
 Atua:0 "Atua"
-Speaker:0 "Speaker"
+Aquan_ruler_title_Speaker:0 "Speaker"
+Aquan_ruler_title_PeacefulRuler:0 "Peaceful Ruler"
+Aquan_ruler_title_DukeofCoins:0 "Duke of Coins"
+Aquan_ruler_title_Shogun:0 "Shogun"
+
+Aquan_ship_prefix_LOSA:0 "LOSA"
+Aquan_ship_prefix_COCON:0 "COCON"
+Aquan_ship_prefix_ISS:0 "ISS"
+
+Aquan_system_name_Aquan:0 "Aquan"
+Aquan_system_name_Pocon:0 "Pocon"
+Aquan_system_name_Dere:0 "Dere"
+Aquan_system_name_KiodenStar:0 "Kioden Star"
 
 Pocon:0 "Pocon"
-COCON:0 "COCON"
 Pocons:0 "Pocons"
 Poconia:0 "Poconia"
 Eelee:0 "Eelee"
-
 Iunan:0 "Iunan"
-ISS:0 "ISS"
 Iuna:0 "Iuna"
-Dere:0 "Dere"
 Hannakon:0 "Hannakon"
 
 Kioden:0 "Kioden"
@@ -88,10 +114,14 @@ Axemekat:0 "Axemekat"
 Shogun:0 "Shogun"
 
 AQUAN_plural:0 "Aquan"
+
+#-- Diplomacy --#
 AQUAN_insult_01:0 "REPLACE_ME"
 AQUAN_insult_plural_01:0 "REPLACE_ME"
 AQUAN_compliment_01:0 "REPLACE_ME"
 AQUAN_compliment_plural_01:0 "REPLACE_ME"
+
+#-- Species --#
 AQUAN_spawn:0 "REPLACE_ME"
 AQUAN_spawn_plural:0 "REPLACE_ME"
 AQUAN_sound_01:0 "REPLACE_ME"
@@ -113,19 +143,38 @@ AQUAN_tooth_plural:0 "REPLACE_ME"
 AQUAN_fossil_plural:0 "REPLACE_ME"
 AQUAN_remnant_plural:0 "REPLACE_ME"
 
+############
 ### CPOE ###
+############
 
-ELA:0 "ELA"
+CPOE_ship_prefix_ELA:0 "ELA"
+CPOE_ruler_title_VoiceOfGod:0 "Voice of God"
 
 Eternian:0 "Eternian"
 Eternians:0 "Eternians"
 Eternia:0 "Eternia"
-Ascended:0 "Ascended"
-CPOE_plural:0 "REPLACE_ME"
+CPOE_system_name_Ascended:0 "Ascended"
+CPOE_plural:0 "Eternians"
+
+CPOE_Terasol:0 "Teras'ol"
+CPOE_Namasiaol:0 "Namasia'ol"
+CPOE_Terool:0 "Tero'ol"
+CPOE_Koeraol:0 "Koera'ol"
+CPOE_Sarinol:0 "Sarin'ol"
+CPOE_Mayesol:0 "Mayes'ol"
+CPOE_Cevesol:0 "Ceves'ol"
+CPOE_Caosol:0 "Caos'ol"
+CPOE_Layunaol:0 "Layuna'ol"
+CPOE_Perilaol:0 "Perila'ol"
+CPOE_Miranol:0 "Miran'ol"
+
+#-- Diplomacy --#
 CPOE_insult_01:0 "REPLACE_ME"
 CPOE_insult_plural_01:0 "REPLACE_ME"
 CPOE_compliment_01:0 "REPLACE_ME"
 CPOE_compliment_plural_01:0 "REPLACE_ME"
+
+#-- Species --#
 CPOE_spawn:0 "REPLACE_ME"
 CPOE_spawn_plural:0 "REPLACE_ME"
 CPOE_sound_01:0 "REPLACE_ME"
@@ -140,7 +189,6 @@ CPOE_ear:0 "REPLACE_ME"
 CPOE_tooth:0 "REPLACE_ME"
 CPOE_fossil:0 "REPLACE_ME"
 CPOE_remnant:0 "REPLACE_ME"
-
 CPOE_organ_plural:0 "REPLACE_ME"
 CPOE_hand_plural:0 "REPLACE_ME"
 CPOE_ear_plural:0 "REPLACE_ME"
@@ -148,25 +196,19 @@ CPOE_tooth_plural:0 "REPLACE_ME"
 CPOE_fossil_plural:0 "REPLACE_ME"
 CPOE_remnant_plural:0 "REPLACE_ME"
 
-CPOE_Terasol:0 "Teras'ol"
-CPOE_Namasiaol:0 "Namasia'ol"
-CPOE_Terool:0 "Tero'ol"
-CPOE_Koeraol:0 "Koera'ol"
-CPOE_Sarinol:0 "Sarin'ol"
-CPOE_Mayesol:0 "Mayes'ol"
-CPOE_Cevesol:0 "Ceves'ol"
-CPOE_Caosol:0 "Caos'ol"
-CPOE_Layunaol:0 "Layuna'ol"
-CPOE_Perilaol:0 "Perila'ol"
-CPOE_Miranol:0 "Miran'ol"
-
+##############
 ### SPHERE ###
+##############
 
 SPHERE_plural:0 "Spherical Androids"
+
+#-- Diplomacy --#
 SPHERE_insult_01:0 "REPLACE_ME"
 SPHERE_insult_plural_01:0 "REPLACE_ME"
 SPHERE_compliment_01:0 "REPLACE_ME"
 SPHERE_compliment_plural_01:0 "REPLACE_ME"
+
+#-- Species --#
 SPHERE_spawn:0 "REPLACE_ME"
 SPHERE_spawn_plural:0 "REPLACE_ME"
 SPHERE_sound_01:0 "REPLACE_ME"
