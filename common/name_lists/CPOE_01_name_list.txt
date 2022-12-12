@@ -12,77 +12,53 @@ Ascended = {
 
 		cruiser = { CPOE_Paladin }
 
-		#StrikeCruiser = { CPOE_Cupid }
+		StrikeCruiser = { CPOE_Cupid }
 
-		#rs_ea_cruiser = { CPOE_Prophet }
-
-		#Battlecruiser = { CPOE_Templar }
-
-		#rs_battlecruiser = { CPOE_Daughter }
+		Battlecruiser = { CPOE_Templar }
 
 		#LightCarrier = { CPOE_Children  }
 
-		#rs_support_cruiser = { CPOE_Guide }
-
 		battleship = { CPOE_Throne  }
 
-		#Carrier = { CPOE_Legion }
+		Carrier = { CPOE_Legion }
 
-		#rs_dreadnought = { CPOE_Dominions }
-
-		#rs_heavy_dreadnought_type_a = { CPOE_Dominions }
-
-		#rs_heavy_dreadnought_type_b = { CPOE_Dominions }
-
-		#rs_heavy_dreadnought_type_c = { CPOE_Dominions }
-
-		#rs_heavy_dreadnought_type_d = { CPOE_Dominions }
-
-		#rs_heavy_dreadnought_type_e = { CPOE_Dominions }
-
-		#rs_heavy_dreadnought_type_f = { CPOE_Dominions }
-
-		#rs_heavy_dreadnought_type_g = { CPOE_Dominions }
-
-		#Dreadnought = { CPOE_Dominions }
+		Dreadnought = { CPOE_Dominions }
 
 		#Superdreadnought = { CPOE_Cherubim }
 
-		#Flagship = { CPOE_HandofGod CPOE_GodsPunishment CPOE_TheSolution CPOE_Crusade  }
+		Flagship = { CPOE_HandofGod CPOE_GodsPunishment CPOE_TheSolution CPOE_Crusade  }
 
 		titan = { CPOE_Seraphim }
 		
 		#leviathan = { CPOE_Seraphim }
 				
-		#erebus = { CPOE_Worldbreaker CPOE_Worldeater CPOE_DamnatorofWorlds CPOE_Annihilator CPOE_EmperorsJugdment CPOE_Hellfire CPOE_DarkFire CPOE_Damnation CPOE_Devastator CPOE_Destructor
-		#	CPOE_Murderer CPOE_Firestorm CPOE_Eradicator CPOE_Tormentor CPOE_Legion CPOE_Reprisal CPOE_Aggressor CPOE_Assault CPOE_Eviscerator CPOE_Imperator CPOE_Excellence CPOE_Unrivalled CPOE_Warlord }
+		# erebus = { CPOE_Worldbreaker CPOE_Worldeater CPOE_DamnatorofWorlds CPOE_Annihilator CPOE_EmperorsJugdment CPOE_Hellfire CPOE_DarkFire CPOE_Damnation CPOE_Devastator CPOE_Destructor
+		# 	CPOE_Murderer CPOE_Firestorm CPOE_Eradicator CPOE_Tormentor CPOE_Legion CPOE_Reprisal CPOE_Aggressor CPOE_Assault CPOE_Eviscerator CPOE_Imperator CPOE_Excellence CPOE_Unrivalled CPOE_Warlord }
 				
-		#ragnarok = { CPOE_Worldbreaker CPOE_Worldeater CPOE_DamnatorofWorlds CPOE_Annihilator CPOE_EmperorsJugdment CPOE_Hellfire CPOE_DarkFire CPOE_Damnation CPOE_Devastator CPOE_Destructor
-		#	CPOE_Murderer CPOE_Firestorm CPOE_Eradicator CPOE_Tormentor CPOE_Legion CPOE_Reprisal CPOE_Aggressor CPOE_Assault CPOE_Eviscerator CPOE_Imperator CPOE_Excellence CPOE_Unrivalled CPOE_Warlord }
+		# ragnarok = { CPOE_Worldbreaker CPOE_Worldeater CPOE_DamnatorofWorlds CPOE_Annihilator CPOE_EmperorsJugdment CPOE_Hellfire CPOE_DarkFire CPOE_Damnation CPOE_Devastator CPOE_Destructor
+		# 	CPOE_Murderer CPOE_Firestorm CPOE_Eradicator CPOE_Tormentor CPOE_Legion CPOE_Reprisal CPOE_Aggressor CPOE_Assault CPOE_Eviscerator CPOE_Imperator CPOE_Excellence CPOE_Unrivalled CPOE_Warlord }
 				
-		#avatar = { CPOE_Seraphim }		
+		# avatar = { CPOE_Seraphim }		
 
-		#Headquarters = { CPOE_CathedraloftheGodoftheVoid }
+		# Headquarters = { CPOE_CathedraloftheGodoftheVoid }
 		
 		science = { CPOE_ResearchersShip }
 
-		#ScienceCruiser = { CPOE_ResearchersShip }
+		# ScienceCruiser = { CPOE_ResearchersShip }
 		
 		colonizer = { CPOE_ColonyTemple  }
 		
 		constructor = { CPOE_TasBuildingShip }
 
-		#ConstructionCruiser = { CPOE_TasBuildingShip }
+		# ConstructionCruiser = { CPOE_TasBuildingShip }
 		
-		#sun_crusher = { CPOE_Jugdment }
+		# sun_crusher = { CPOE_Jugdment }
 		
 		mining_station = { }
 		research_station = { }
-		#wormhole_station = { }
+		# wormhole_station = { }
 		observation_station = { }
 
-		#outpost_station = { sequential_name = CPOE_Outpostxx_SEQ }
-		
 		transport = { CPOE_Dagger CPOE_Venom CPOE_Anelace CPOE_Baselard CPOE_Mace CPOE_Celt CPOE_Akhu CPOE_Sickle CPOE_Leaf CPOE_Bolt
 		CPOE_Sabot CPOE_Flint CPOE_Needle CPOE_Dart CPOE_Sting CPOE_Limpet CPOE_Cudgel CPOE_Falcata CPOE_War-Hammer CPOE_Prasa
 		CPOE_Talwar CPOE_Xiphos CPOE_Armlet CPOE_Flanconade CPOE_Kukri CPOE_Hastarii CPOE_Petard CPOE_Spiculum CPOE_Flail
@@ -92,15 +68,12 @@ Ascended = {
 		CPOE_Thunderbolt CPOE_Monitor CPOE_Kopis CPOE_Patu CPOE_Lathi CPOE_Naginata CPOE_Rapier CPOE_Skyraider
 		CPOE_Skyrider CPOE_Annellet CPOE_Shakujo }
 
-		#SensorStation = { sequential_name = CPOE_SensorStationxx_SEQ }
 		
 		military_station_small = { sequential_name = CPOE_Outpostxx_SEQ }
 		
 		military_station_medium = { CPOE_TashuTemple CPOE_FariTemple CPOE_TeolaTemple CPOE_FakarisTemple CPOE_GlonTemple}
 		
 		military_station_large = { CPOE_LargeTemple }
-
-		#military_station_xlarge = { sequential_name = CPOE_Starbasexx_SEQ }
 	}
 
 	fleet_names = {
@@ -125,9 +98,9 @@ Ascended = {
 		
 		robotic_defense_army = { sequential_name = CPOE_xxTin-CanArmy_ORD }
 		
-		#android_army = { sequential_name = "%O% Synthetic Rangers" }
+		android_army = { sequential_name = CPOE_xxSyntheticRangers_ORD }
 
-		#android_defense_army = { sequential_name = "%O% Synthetic Sentinels" }
+		android_defense_army = { sequential_name = CPOE_xxSyntheticSentinels_ORD }
 		
 		psionic_army = { sequential_name = CPOE_xxMagesCorp_ORD }
 		

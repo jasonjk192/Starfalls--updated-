@@ -14,55 +14,25 @@ Krasian = {
 			UISOK_Guardian UISOK_Protector UISOK_Shield UISOK_Guard UISOK_Paladin UISOK_Salvator UISOK_Hero UISOK_Knight UISOK_Salvator UISOK_Hoplite UISOK_Defender UISOK_Tank UISOK_Hero UISOK_Prince UISOK_Guide UISOK_Mesiah UISOK_Father UISOK_Mother UISOK_Son UISOK_Daughter UISOK_Disruptor
 		}
 
-		# StrikeCruiser = {  Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+		StrikeCruiser = {  Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
 				
-		# rs_ea_cruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-
-		# Battlecruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+		Battlecruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
 				
-		# rs_battlecruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-
 		# LightCarrier = { "War Bringer" "Guide of War" Pathmaker Guide Legion "Many Faces" "Thousand Sons"  }
-				
-		# rs_support_cruiser = { Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
 		
 		battleship = {
 			UISOK_DamnatorofWorlds UISOK_EmperorsJugdment UISOK_DarkFire UISOK_Worldbreaker UISOK_Worldeater UISOK_Annihilator UISOK_Hellfire UISOK_Damnation UISOK_Devastator UISOK_Destructor UISOK_Murderer UISOK_Firestorm UISOK_Eradicator UISOK_Tormentor UISOK_Legion UISOK_Reprisal UISOK_Aggressor UISOK_Assault UISOK_Eviscerator UISOK_Imperator UISOK_Excellence UISOK_Unrivalled UISOK_Warlord
 		}
 
-		# Carrier = { "War Bringer" "Guide of War" Pathmaker Guide Legion "Many Faces" "Thousand Sons" }
+		Carrier = { "War Bringer" "Guide of War" Pathmaker Guide Legion "Many Faces" "Thousand Sons" }
 				
-		# rs_dreadnought = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-				
-		# rs_heavy_dreadnought_type_a = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-				
-		# rs_heavy_dreadnought_type_b = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-				
-		# rs_heavy_dreadnought_type_c = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-				
-		# rs_heavy_dreadnought_type_d = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-				
-		# rs_heavy_dreadnought_type_e = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-				
-		# rs_heavy_dreadnought_type_f = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-				
-		# rs_heavy_dreadnought_type_g = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
-
-		# Dreadnought = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
-		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
+		Dreadnought = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
+			Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
 		
 		# Superdreadnought = { Worldbreaker Worldeater "Damnator of Worlds" Annihilator "Emperor's Jugdment" Hellfire "Dark Fire" Damnation Devastator Destructor
 		# 	Murderer Firestorm Eradicator Tormentor Legion Reprisal Aggressor Assault Eviscerator Imperator Excellence Unrivalled Warlord }
 
-		# Flagship = { "The Retribution" "Empress' Wrath" "Mighty Krasia" "Will of the People" "Imperial Jugfment" "Inmortal Defiance" }
+		Flagship = { "The Retribution" "Empress' Wrath" "Mighty Krasia" "Will of the People" "Imperial Jugfment" "Inmortal Defiance" }
 		
 		titan = {
 			UISOK_DamnatorofWorlds UISOK_EmperorsJugdment UISOK_DarkFire UISOK_Worldbreaker UISOK_Worldeater UISOK_Annihilator UISOK_Hellfire UISOK_Damnation UISOK_Devastator UISOK_Destructor UISOK_Murderer UISOK_Firestorm UISOK_Eradicator UISOK_Tormentor UISOK_Legion UISOK_Reprisal UISOK_Aggressor UISOK_Assault UISOK_Eviscerator UISOK_Imperator UISOK_Excellence UISOK_Unrivalled UISOK_Warlord
@@ -98,35 +68,17 @@ Krasian = {
 		research_station = { }
 		# wormhole_station = { }
 		observation_station = { }
-
-		# outpost_station = { "Outpost 1" "Outpost 2" "Outpost 3" "Outpost 4" "Outpost 5" "Outpost 6" "Outpost 7" "Outpost 8" "Outpost 9" "Outpost 10" "Outpost 11" "Outpost 12"
-		# 		"Outpost 13" "Outpost 14" "Outpost 15" "Outpost 16" "Outpost 17" "Outpost 18" "Outpost 19" "Outpost 20" "Outpost 21" "Outpost 22" "Outpost 23"
-		# 		"Outpost 24" "Outpost 25" "Outpost 26" "Outpost 27" "Outpost 28" "Outpost 29" "Outpost 30" "Outpost 31" "Outpost 32" "Outpost 33" "Outpost 34"
-		# 		"Outpost 35" "Outpost 36" "Outpost 37" "Outpost 38" "Outpost 39" "Outpost 40" "Outpost 41" "Outpost 42" "Outpost 43" "Outpost 44" "Outpost 45"
-		# 		"Outpost 46" "Outpost 47" "Outpost 48" "Outpost 49" "Outpost 50"}
-		
+	
 		# Drydock = { "Drydock 1" "Drydock 2" "Drydock 3" "Drydock 4" "Drydock 5" "Drydock 6" "Drydock 7" "Drydock 8" "Drydock 9" "Drydock 10" "Drydock 11" "Drydock 12"
 		# 		"Drydock 13" "Drydock 14" "Drydock 15" "Drydock 16" "Drydock 17" "Drydock 18" "Drydock 19" "Drydock 20" "Drydock 21" "Drydock 22" "Drydock 23"
 		# 		"Drydock 24" "Drydock 25" "Drydock 26" "Drydock 27" "Drydock 28" "Drydock 29" "Drydock 30" "Drydock 31" "Drydock 32" "Drydock 33" "Drydock 34"
 		# 		"Drydock 35" "Drydock 36" "Drydock 37" "Drydock 38" "Drydock 39" "Drydock 40" "Drydock 41" "Drydock 42" "Drydock 43" "Drydock 44" "Drydock 45"
 		# 		"Drydock 46" "Drydock 47" "Drydock 48" "Drydock 49" "Drydock 50"}
 
-		# MiningBase = { "Mining Base 1" "Mining Base 2" "Mining Base 3" "Mining Base 4" "Mining Base 5" "Mining Base 6" "Mining Base 7" "Mining Base 8" }
-
-		# PowerStation = { "Power Station 1" "Power Station 2" "Power Station 3" "Power Station 4" "Power Station 5" "Power Station 6" "Power Station 7" "Power Station 8" }
-
 		transport = {
 			UISOK_Dagger UISOK_Venom UISOK_Anelace UISOK_Baselard UISOK_Mace UISOK_Celt UISOK_Akhu UISOK_Sickle UISOK_Leaf UISOK_Bolt UISOK_Sabot UISOK_Flint UISOK_Needle UISOK_Dart UISOK_Sting UISOK_Limpet UISOK_Cudgel UISOK_Falcata UISOK_War-Hammer UISOK_Prasa UISOK_Talwar UISOK_Xiphos UISOK_Armlet UISOK_Flanconade UISOK_Kukri UISOK_Hastarii UISOK_Petard UISOK_Spiculum UISOK_Flail UISOK_Ndziga UISOK_Tabar UISOK_Cestus UISOK_Balta UISOK_Bard UISOK_Yatagan UISOK_Lunge UISOK_Arabas UISOK_Kurini UISOK_Shail UISOK_Chamber UISOK_Bayonet UISOK_Tomahawk UISOK_Serpentine UISOK_Basilisk UISOK_Bowie UISOK_Guidon UISOK_Sten UISOK_Zaghnal UISOK_Bolo UISOK_Bangalore UISOK_Morningstar UISOK_Musket UISOK_Mause UISOK_Spitfire UISOK_Parrot UISOK_Thunderbolt UISOK_Monitor UISOK_Kopis UISOK_Patu UISOK_Lathi UISOK_Naginata UISOK_Rapier UISOK_Skyraider UISOK_Skyrider UISOK_Annellet UISOK_Shakujo
 		}
 
-		# SensorStation = { "Sensor Station 1" "Sensor Station 2" "Sensor Station 3" "Sensor Station 4" "Sensor Station 5" "Sensor Station 6" "Sensor Station 7" "Sensor Station 8" 
-		# 		"Sensor Station 9" "Sensor Station 10" "Sensor Station 11" "Sensor Station 12" "Sensor Station 13" "Sensor Station 14" "Sensor Station 15" 
-		# 		"Sensor Station 16" "Sensor Station 17" "Sensor Station 18" "Sensor Station 19" "Sensor Station 20" "Sensor Station 21" "Sensor Station 22" 
-		# 		"Sensor Station 23" "Sensor Station 24" "Sensor Station 25" "Sensor Station 26" "Sensor Station 27" "Sensor Station 28" "Sensor Station 29" 
-		# 		"Sensor Station 30" "Sensor Station 31" "Sensor Station 32" "Sensor Station 33" "Sensor Station 34" "Sensor Station 35" "Sensor Station 36" 
-		# 		"Sensor Station 37" "Sensor Station 38" "Sensor Station 39" "Sensor Station 40" "Sensor Station 41" "Sensor Station 42" "Sensor Station 43" 
-		# 		"Sensor Station 44" "Sensor Station 45" "Sensor Station 46" "Sensor Station 47" "Sensor Station 48" "Sensor Station 49" "Sensor Station 50" }
-		
 		military_station_small = { sequential_name = UISOK_Outpostxx_SEQ }
 		
 		military_station_medium = {
@@ -135,13 +87,6 @@ Krasian = {
 		
 		military_station_large = { UISOK_ImperialStation }
 
-		# military_station_xlarge = { "Starbase 1" "Starbase 2" "Starbase 3" "Starbase 4" "Starbase 5" "Starbase 6" "Starbase 7" "Starbase 8" 
-		# 		"Starbase 9" "Starbase 10" "Starbase 11" "Starbase 12" "Starbase 13" "Starbase 14" "Starbase 15" 
-		# 		"Starbase 16" "Starbase 17" "Starbase 18" "Starbase 19" "Starbase 20" "Starbase 21" "Starbase 22" 
-		# 		"Starbase 23" "Starbase 24" "Starbase 25" "Starbase 26" "Starbase 27" "Starbase 28" "Starbase 29" 
-		# 		"Starbase 30" "Starbase 31" "Starbase 32" "Starbase 33" "Starbase 34" "Starbase 35" "Starbase 36" 
-		# 		"Starbase 37" "Starbase 38" "Starbase 39" "Starbase 40" "Starbase 41" "Starbase 42" "Starbase 43" 
-		# 		"Starbase 44" "Starbase 45" "Starbase 46" "Starbase 47" "Starbase 48" "Starbase 49" "Starbase 50" }
 	}
 
 	fleet_names = {
@@ -165,9 +110,9 @@ Krasian = {
 		
 		robotic_defense_army = { sequential_name = UISOK_xxProtectiveMightyMechanizedArmy_ORD }
 		
-		# android_army = { sequential_name = "%O% Destroyer Ascended Mechanus" }
+		android_army = { sequential_name = UISOK_xxDestroyerAscendedMechanus_ORD }
 		
-		# android_defense_army = { sequential_name = "%O% Protector Ascended Mechanus" }
+		android_defense_army = { sequential_name = UISOK_xxProtectorAscendedMechanus_ORD }
 		
 		psionic_army = { sequential_name = UISOK_xxPsiCommando_ORD }
 		

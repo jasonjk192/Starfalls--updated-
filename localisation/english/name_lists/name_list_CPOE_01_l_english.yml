@@ -201,10 +201,6 @@ CPOE_AmitarCrusaderFleet:0 "Amitar Crusader Fleet"
 CPOE_MerefarCrusaderfleet:0 "Merefar Crusader fleet"
 CPOE_PoanaCrusaderFleet:0 "Poana Crusader Fleet"
 
-###  ###
-
-CPOE_%O%CrusaderFleet:0 "%O% Crusader Fleet"
-
 ### random_names ###
 
 CPOE_SARC-AGladiators:0 "SARC-A 'Gladiators'"
@@ -217,10 +213,6 @@ CPOE_SARC-GNighthawks:0 "SARC-G 'Nighthawks'"
 CPOE_SARC-HDesperados:0 "SARC-H 'Desperados'"
 CPOE_SARC-IGreyKnights:0 "SARC-I 'Grey Knights'"
 CPOE_SARC-JRoughnecks:0 "SARC-J 'Roughnecks'"
-
-###  ###
-
-CPOE_%O%Bio-EngineeredSquadron:0 "%O% Bio-Engineered Squadron"
 
 ### names ###
 
@@ -433,3 +425,5 @@ CPOE_xxTin-CanArmy_ORD:0 "%O% Tin-Can Army"
 CPOE_xxMagesCorp_ORD:0 "%O% Mages Corp"
 CPOE_xxMutantsSquadron_ORD:0 "%O% Mutants Squadron"
 CPOE_xxBio-EngineeredSquadron_ORD:0 "%O% Bio-Engineered Squadron"
+CPOE_xxSyntheticRangers_ORD:0 "%O% Synthetic Rangers"
+CPOE_xxSyntheticSentinels_ORD:0 "%O% Synthetic Sentinels"

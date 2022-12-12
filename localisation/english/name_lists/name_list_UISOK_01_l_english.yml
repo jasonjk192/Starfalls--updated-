@@ -69,7 +69,6 @@ UISOK_Firestorm:0 "Firestorm"
 
 ### # rs_dreadnought ###
 
-UISOK_#:0 "#"
 
 ### # Flagship ###
 
@@ -207,10 +206,6 @@ UISOK_TheKillerWarfleet:0 "The Killer Warfleet"
 UISOK_TheShattererWarfleet:0 "The Shatterer Warfleet"
 UISOK_TheUnbreakableWarfleet:0 "The Unbreakable Warfleet"
 
-###  ###
-
-UISOK_%O%Fleet:0 "%O% Fleet"
-
 ### random_names ###
 
 UISOK_SARC-AGladiators:0 "SARC-A 'Gladiators'"
@@ -223,10 +218,6 @@ UISOK_SARC-GNighthawks:0 "SARC-G 'Nighthawks'"
 UISOK_SARC-HDesperados:0 "SARC-H 'Desperados'"
 UISOK_SARC-IGreyKnights:0 "SARC-I 'Grey Knights'"
 UISOK_SARC-JRoughnecks:0 "SARC-J 'Roughnecks'"
-
-###  ###
-
-UISOK_%O%Bio-EngineeredSquadron:0 "%O% Bio-Engineered Squadron"
 
 ### names ###
 

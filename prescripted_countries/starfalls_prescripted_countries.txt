@@ -220,8 +220,8 @@ hannah1 ={
 		name_list = "Hannah"
 		trait="trait_machine_unit"
 		trait="trait_robot_efficient_processors"
-		trait="trait_robot_power_drills"
-		trait="trait_robot_superconductive"
+		#trait="trait_robot_power_drills"
+		#trait="trait_robot_superconductive"
 		trait="trait_robot_luxurious"
 	}
 	room="personality_erudite_explorers_room"

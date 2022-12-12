@@ -144,6 +144,13 @@ entity = {
 	name = "hannah_01_MiningBase_entity"
 	pdxmesh = "arthropoid_01_mining_station_mesh" #"arthropoid_01_MiningBase_mesh"
 
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_mining_station_signals" } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 2.0 node = "light_locator_02" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+	}
+
 	locator = { name = "part1" }
 	
 	scale = 1.2
@@ -153,6 +160,13 @@ entity = {
 entity = {
 	name = "hannah_01_MiningBase_section_entity"
 	pdxmesh = "arthropoid_01_mining_station_mesh" #"arthropoid_01_MiningBase_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_mining_station_signals" } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 2.0 node = "light_locator_02" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+	}
 
 	locator = { name = "part1" }
 	
@@ -163,6 +177,14 @@ entity = {
 entity = {
 	name = "hannah_01_MiningBase_construction_entity"
 	pdxmesh = "arthropoid_01_mining_station_mesh" #"arthropoid_01_MiningBase_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_mining_station_signals" } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 2.0 node = "light_locator_02" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+	}
+
 	scale = 1.2
 }
 
@@ -173,6 +195,13 @@ entity = {
 	name = "hannah_01_PowerStation_entity"
 	pdxmesh = "arthropoid_01_mining_station_mesh" #"arthropoid_01_PowerStation_mesh"
 	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_mining_station_signals" } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 2.0 node = "light_locator_02" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+	}
+
 	locator = { name = "part1" }
 
 	scale = 1.0
@@ -183,6 +212,13 @@ entity = {
 	name = "hannah_01_PowerStation_section_entity"
 	pdxmesh = "arthropoid_01_mining_station_mesh" #"arthropoid_01_PowerStation_mesh"
 	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_mining_station_signals" } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 2.0 node = "light_locator_02" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+	}
+
 	locator = { name = "part1" }
 	
 	scale = 1.0
@@ -192,6 +228,14 @@ entity = {
 entity = {
 	name = "hannah_01_PowerStation_construction_entity"
 	pdxmesh = "arthropoid_01_mining_station_mesh" #"arthropoid_01_PowerStation_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_mining_station_signals" } }
+		event = { time = 0.0 node = "light_locator_01" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 2.0 node = "light_locator_02" particle = "ship_light_orange_effect" keep_particle = yes trigger_once = yes }
+	}
+	
 	scale = 1.0
 }
 

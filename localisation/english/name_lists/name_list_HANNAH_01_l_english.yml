@@ -170,10 +170,6 @@ HANNAH_TransportShip:0 "Transport Ship"
 
 HANNAH_MainDefenceStation:0 "Main Defence Station"
 
-### random_names ###
-
-HANNAH_%O%Bio-AugmentedSquadron:0 "%O% Bio-Augmented Squadron"
-
 ### names ###
 
 HANNAH_Laboratory295817:0 "Laboratory 295817"

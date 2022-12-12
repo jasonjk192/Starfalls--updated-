@@ -1934,11 +1934,13 @@ entity = {
 }
 entity = {
 	name = "uisok_01_orbital_station_construction_entity"
-	pdxmesh = "uisok_01_orbital_station_mesh"	
-		default_state = "idle"
-		state = { name = "idle" state_time = 5
-			event = { trigger_once = yes sound = { soundeffect = "place_construction" } }
-		}
+	pdxmesh = "uisok_01_orbital_station_mesh"
+
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { trigger_once = yes sound = { soundeffect = "place_construction" } }
+	}
+
 	scale = 1.4
 }
 entity = {
